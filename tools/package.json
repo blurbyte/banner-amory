@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@types/jest": "23.1.0",
+    "@types/node": "10.3.3",
     "jest": "23.1.0",
     "prettier": "1.13.5",
     "rimraf": "2.6.2",

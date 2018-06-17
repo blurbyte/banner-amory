@@ -1,0 +1,6 @@
+{
+  "name": "banner-armory",
+  "private": true,
+  "license": "MIT",
+  "workspaces": ["tools", "api"]
+}

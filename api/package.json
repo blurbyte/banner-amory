@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "prestart": "yarn clean",
     "start": "tsc-watch --outDir dist --onSuccess \"node dist/index.js\"",
     "test": "jest",
     "lint": "tslint --format stylish \"src/**/*.ts\"",
-    "format": "prettier --write \"src/**/*.ts\""
+    "format": "prettier --write \"src/**/*.ts\"",
+    "clean": "rimraf dist & rimraf build"
   },
   "dependencies": {
     "tools": "1.0.0"

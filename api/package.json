@@ -1,0 +1,14 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "tsc-watch --outDir dist --onSuccess \"node dist/index.js\"",
+    "test": "jest",
+    "lint": "tslint --format stylish \"src/**/*.ts\"",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "tools": "1.0.0"
+  }
+}

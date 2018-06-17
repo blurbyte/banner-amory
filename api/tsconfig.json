@@ -1,0 +1,18 @@
+{
+  // unfortunately doesnt support modules resolution
+  // so you can't write tools/tsconfig.json
+  "extends": "../tools/tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/**/*.test.*",
+    "dist"
+  ]
+}

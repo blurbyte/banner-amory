@@ -1,15 +1,13 @@
 # Banner Armnory
 
-GraphQL API & React front-end.
+The Banner Sagas' armory.
 
 ## Monorepo structure
 
-* tools - contains base configs for jest, tslint, typescript and prettier
-* api - GraphQL API server
-* web - React frontend
+* _tools_ - contains base configs for jest, tslint, typescript and prettier
+* _api_ - GraphQL API server
+* _web_ - React frontend
 
 ### Important note
 
-Install dev dependencies only in __tools__ directory (such as utility libraries as rimraf, linters, etc.).
-
-In __api__ and __web__ add only _regular_ dependencies (like react or graphql).
+Install dev dependencies (such as utility libraries, linters, bundlers, etc.) and types definitions (@types) only in __tools__ directory. In __api__ and __web__ add only _regular_ dependencies (like react or graphql).

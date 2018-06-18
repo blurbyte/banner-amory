@@ -5,7 +5,14 @@
   "compilerOptions": {
     "module": "commonjs",
     "moduleResolution": "node",
-    "target": "es6"
+    "target": "es6",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es2016",
+      "esnext.asynciterable"
+    ]
   },
   "include": [
     "src/**/*"

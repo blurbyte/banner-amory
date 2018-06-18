@@ -2,6 +2,7 @@
 	"recommendations": [
     "formulahendry.auto-close-tag",
     "EditorConfig.editorconfig",
-    "eg2.tslint"
+    "eg2.tslint",
+    "prisma.vscode-graphql"
 	]
 }

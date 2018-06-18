@@ -11,6 +11,8 @@
     "clean": "rimraf dist & rimraf build"
   },
   "dependencies": {
+    "apollo-server": "2.0.0-rc.0",
+    "graphql": "0.13.2",
     "tools": "1.0.0"
   }
 }

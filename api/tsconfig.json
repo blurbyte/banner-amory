@@ -9,6 +9,8 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": false,
+    "removeComments": true,
     "lib": [
       "es2016",
       "esnext.asynciterable"

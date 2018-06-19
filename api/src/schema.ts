@@ -2,6 +2,7 @@
 
 import { gql, makeExecutableSchema } from 'apollo-server';
 import { getCustomRepository } from 'typeorm';
+import { merge } from 'lodash';
 
 import { ItemRepository } from './repositories/Item';
 
@@ -30,9 +31,10 @@ const typeDefs = [
 ];
 
 // merged resolvers
-const resolvers = {
-  ...rootResolvers
-}
+const resolvers = merge(
+  {},
+  rootResolvers
+);
 
 const schema = makeExecutableSchema({
   typeDefs,

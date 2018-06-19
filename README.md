@@ -1,6 +1,8 @@
-# Banner Armnory
+# Banner Armory
 
 The Banner Sagas' armory.
+
+Check [interactive Invision prototype](https://invis.io/8TL5GIH5SC4)
 
 ## Monorepo structure
 

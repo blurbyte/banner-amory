@@ -1,26 +1,20 @@
-import { ApolloServer, gql } from 'apollo-server';
+require('dotenv').config(); // take environment variables from .env file
+import 'reflect-metadata'; // required by TypeORM
+import { ApolloServer } from 'apollo-server';
+import { createConnection } from 'typeorm';
 import chalk from 'chalk';
 
-const typeDefs = gql`
-  "**Test** type"
-  type Hello {
-    message: String!
-  }
+import connectionOptions from './connectionOptions';
+import schema from './schema';
 
-  "Root query"
-  type Query {
-    hello: Hello
-  }
-`;
+// establishing connection with database
+createConnection(connectionOptions)
+  .then(() => {
+    // initializing GraphQL server with provided schema
+    const server = new ApolloServer({ schema });
 
-const resolvers = {
-  Query: {
-    hello: () => ({ message: 'Hello there!' }),
-  },
-};
-
-const server = new ApolloServer({ typeDefs, resolvers });
-
-server.listen().then(({ url }) => {
-  console.log(chalk.bgBlue(`🚀  Server ready at ${url}`));
-});
+    server.listen().then(({ url }) => {
+      console.log(chalk.bgBlue(`🚀  GraphQL server ready at ${url}`));
+    });
+  })
+  .catch(error => console.log(chalk.bgRed(`⚠️  Connection to database failed: ${error}`)));

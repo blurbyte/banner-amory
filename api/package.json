@@ -8,6 +8,7 @@
     "test": "jest --watch",
     "lint": "tslint --format stylish \"src/**/*.ts\"",
     "format": "prettier --write \"src/**/*.ts\"",
+    "typecheck": "tsc --noEmit",
     "clean": "rimraf dist & rimraf build"
   },
   "dependencies": {

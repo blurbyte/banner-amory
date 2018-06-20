@@ -4,6 +4,7 @@
   "license": "MIT",
   "workspaces": ["tools", "api", "web"],
   "scripts": {
-    "start:api": "cd api && yarn start"
+    "start:api": "cd api && yarn start",
+    "start:web": "cd web && yarn start"
   }
 }

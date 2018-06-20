@@ -13,7 +13,7 @@ const Root = gql`
   type Query {
     items: [Item]
   }
-`
+`;
 
 const rootResolvers = {
   Query: {
@@ -22,19 +22,13 @@ const rootResolvers = {
       return items;
     }
   }
-}
+};
 
 // merged types
-const typeDefs = [
-  Root,
-  Item
-];
+const typeDefs = [Root, Item];
 
 // merged resolvers
-const resolvers = merge(
-  {},
-  rootResolvers
-);
+const resolvers = merge({}, rootResolvers);
 
 const schema = makeExecutableSchema({
   typeDefs,

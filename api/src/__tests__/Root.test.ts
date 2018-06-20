@@ -7,17 +7,17 @@ import { testItem1, testItem2 } from './mocks';
 describe('Root queries', () => {
   it('should fetch list of items', async () => {
     // arrange
-    addMockFunctionsToSchema({ schema, mocks: {
-      Int: () => null,
-      Boolean: () => null,
-      String: () => null,
-      Query: () => ({
-        items: [
-          testItem1,
-          testItem2
-        ]
-      })
-    }});
+    addMockFunctionsToSchema({
+      schema,
+      mocks: {
+        Int: () => null,
+        Boolean: () => null,
+        String: () => null,
+        Query: () => ({
+          items: [testItem1, testItem2]
+        })
+      }
+    });
 
     const query = `
       {
@@ -32,12 +32,12 @@ describe('Root queries', () => {
           acquirementMarketplace
         }
       }
-    `
+    `;
 
     // act
     const result = await graphql(schema, query);
 
     // assert
     expect(result).toMatchSnapshot();
-  })
+  });
 });

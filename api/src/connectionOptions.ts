@@ -12,8 +12,8 @@ const connectionOptions: ConnectionOptions = {
   database: process.env.DB_NAME,
   entities: [Item],
   options: {
-    encrypt: true,
-  },
+    encrypt: true
+  }
 };
 
 export default connectionOptions;

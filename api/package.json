@@ -5,7 +5,7 @@
   "scripts": {
     "prestart": "yarn clean",
     "start": "tsc-watch --outDir dist --onSuccess \"node dist/index.js\"",
-    "test": "jest",
+    "test": "jest --watch",
     "lint": "tslint --format stylish \"src/**/*.ts\"",
     "format": "prettier --write \"src/**/*.ts\"",
     "clean": "rimraf dist & rimraf build"

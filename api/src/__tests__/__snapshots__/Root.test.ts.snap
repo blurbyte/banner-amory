@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Root queries should fetch list of items 1`] = `
+Object {
+  "data": Object {
+    "items": Array [
+      Object {
+        "acquirementMarketplace": null,
+        "aggro": null,
+        "description": "Lovingly made by a hunter's wife to keep her daughter safe from harm.",
+        "gamePart": 1,
+        "id": 1,
+        "name": "Alette's Bracelet",
+        "slug": "alettes-bracelet",
+        "statStrength": 1,
+      },
+      Object {
+        "acquirementMarketplace": true,
+        "aggro": -1,
+        "description": "A former skald's lightweight boots that attracted the wrong type of attention.",
+        "gamePart": 2,
+        "id": 53,
+        "name": "Atfari's Golden Boots",
+        "slug": "atfaris-golden-boots",
+        "statStrength": null,
+      },
+    ],
+  },
+}
+`;

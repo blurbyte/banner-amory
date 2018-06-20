@@ -1,0 +1,16 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node fuse.js",
+    "test": "jest --watch",
+    "lint": "tslint --format stylish \"src/**/*.{ts,tsx}\"",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "clean": "rimraf dist & rimraf build"
+  },
+  "dependencies": {
+    "react": "16.4.1",
+    "react-dom": "16.4.1"
+  }
+}

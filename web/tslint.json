@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "tslint-react",
+    "tools/tslint.json"
+  ],
+  "rules": {
+    "quotemark": [true, "single", "jsx-double"],
+    "jsx-boolean-value": false
+  }
+}

@@ -2,7 +2,7 @@
   "name": "banner-armory",
   "private": true,
   "license": "MIT",
-  "workspaces": ["tools", "api"],
+  "workspaces": ["tools", "api", "web"],
   "scripts": {
     "start:api": "cd api && yarn start"
   }

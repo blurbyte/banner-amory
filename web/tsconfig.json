@@ -8,7 +8,7 @@
     "target": "es5",
     "jsx": "react",
     "types": [
-      "node", "react", "react-dom"
+      "node", "react", "react-dom", "reach__router"
     ]
   },
   "include": [

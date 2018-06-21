@@ -11,6 +11,7 @@
     "clean": "rimraf dist & rimraf build"
   },
   "dependencies": {
+    "@reach/router": "1.1.1",
     "react": "16.4.1",
     "react-dom": "16.4.1",
     "styled-components": "3.3.3"

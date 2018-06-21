@@ -1,8 +1,11 @@
+import '../../styles/sanitize.css';
+import '../../styles/global';
+
 import * as React from 'react';
 
 class App extends React.Component {
   render() {
-    return <div>Hello there!!!</div>;
+    return <h1>Hello there!!!</h1>;
   }
 }
 

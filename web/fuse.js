@@ -1,4 +1,4 @@
-const { FuseBox, WebIndexPlugin } = require('fuse-box');
+const { FuseBox, WebIndexPlugin, CSSPlugin } = require('fuse-box');
 const { src, task, context } = require('fuse-box/sparky');
 
 // Context availible for all tasks
@@ -14,7 +14,8 @@ context(class {
         WebIndexPlugin({
           template: 'public/index.html',
           title: 'Banner Armory'
-        })
+        }),
+        CSSPlugin()
       ]
     });
   }

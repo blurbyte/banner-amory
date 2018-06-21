@@ -14,8 +14,12 @@ class Header extends React.Component {
         <Content role="banner">
           <Logo />
           <Nav>
-            <Link to="/" icon={Ring}>Items</Link>
-            <Link to="/tierlist" icon={Shield}>Tier List</Link>
+            <Link to="/" icon={Ring}>
+              Items
+            </Link>
+            <Link to="/tierlist" icon={Shield}>
+              Tier List
+            </Link>
           </Nav>
         </Content>
       </Wrapper>

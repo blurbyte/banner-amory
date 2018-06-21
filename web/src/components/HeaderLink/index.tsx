@@ -16,7 +16,11 @@ class Link extends React.Component<LinkProps> {
 
     return (
       <StyledLink to={to} {...rest}>
-        {InjectedIcon && <IconWrapper><InjectedIcon /></IconWrapper>}
+        {InjectedIcon && (
+          <IconWrapper>
+            <InjectedIcon />
+          </IconWrapper>
+        )}
         {children}
       </StyledLink>
     );

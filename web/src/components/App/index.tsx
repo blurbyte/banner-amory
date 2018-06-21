@@ -3,9 +3,11 @@ import '../../styles/global';
 
 import * as React from 'react';
 
+import Header from '../Header';
+
 class App extends React.Component {
   render() {
-    return <h1>Hello there!!!</h1>;
+    return <Header />;
   }
 }
 

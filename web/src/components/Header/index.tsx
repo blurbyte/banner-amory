@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import Search from '../Search';
 import Link from '../HeaderLink';
 import { Ring, Shield } from '../Icons';
 import Wrapper from './Wrapper';
@@ -21,6 +22,7 @@ class Header extends React.Component {
               Tier List
             </Link>
           </Nav>
+          <Search />
         </Content>
       </Wrapper>
     );

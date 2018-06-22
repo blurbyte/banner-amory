@@ -39,6 +39,9 @@ context(class {
 // Removing dist directory
 task('clean', () => src('dist').clean('dist').exec());
 
+// Moving content of /public directory to /dist
+task('copy', () => src('**/**.**', { base: 'public' }).dest('dist').exec());
+
 task('default', ['clean', 'copy'], async context => {
   const fuse = context.getConfig();
 

@@ -1,7 +1,7 @@
 const { FuseBox, WebIndexPlugin, CSSPlugin } = require('fuse-box');
 const { src, task, context } = require('fuse-box/sparky');
 
-// Context availible for all tasks
+// context availible for all tasks
 context(class {
   getConfig() {
     return FuseBox.init({
@@ -21,10 +21,10 @@ context(class {
   }
 
   createBundle(fuse) {
-    // Creates vendor libs bundle
+    // creates vendor libs bundle
     fuse.bundle('vendor').instructions('~ index.tsx');
 
-    // Project files bundle
+    // project files bundle
     const app = fuse.bundle('app');
 
     app.hmr();
@@ -36,10 +36,10 @@ context(class {
   }
 });
 
-// Removing dist directory
+// removes dist directory
 task('clean', () => src('dist').clean('dist').exec());
 
-// Moving content of /public directory to /dist
+// moves content of public directory to dist
 task('copy', () => src('**/**.**', { base: 'public' }).dest('dist').exec());
 
 task('default', ['clean', 'copy'], async context => {

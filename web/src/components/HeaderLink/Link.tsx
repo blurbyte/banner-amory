@@ -11,7 +11,7 @@ const Link = styled(BaseLink)`
   color: inherit;
   text-decoration: inherit;
   outline: none;
-  transition: all 0.15s linear;
+  transition: border-top 0.15s linear 0.15s;
 `;
 
 export default Link;

@@ -1,4 +1,6 @@
 import { injectGlobal } from 'styled-components';
+import { transparentize } from 'polished';
+
 import { Colors } from './colors';
 
 // tslint:disable-next-line
@@ -15,5 +17,15 @@ injectGlobal`
     font-size: 1.4rem;
     font-weight: 400;
     overflow-y: scroll;
+  }
+
+  ::-moz-selection {
+    background: ${transparentize(0.9, Colors.blue)};
+    color: inherit;
+  }
+
+  ::-moz-selection, ::selection {
+    background: ${transparentize(0.9, Colors.blue)};
+    color: inherit;
   }
 `;

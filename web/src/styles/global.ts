@@ -24,7 +24,7 @@ injectGlobal`
     color: inherit;
   }
 
-  ::-moz-selection, ::selection {
+  ::selection {
     background: ${transparentize(0.9, Colors.blue)};
     color: inherit;
   }

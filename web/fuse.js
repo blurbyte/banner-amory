@@ -1,4 +1,4 @@
-const { FuseBox, WebIndexPlugin, CSSPlugin } = require('fuse-box');
+const { FuseBox, WebIndexPlugin, CSSPlugin, EnvPlugin } = require('fuse-box');
 const { src, task, context } = require('fuse-box/sparky');
 
 // context availible for all tasks
@@ -11,6 +11,9 @@ context(class {
       cache: true,
       sourceMaps: true,
       plugins: [
+        EnvPlugin({
+          GRAPHQL_API_URL: 'http://localhost:4000'
+        }),
         WebIndexPlugin({
           template: 'public/index.html',
           title: 'Banner Armory'

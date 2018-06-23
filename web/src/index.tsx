@@ -9,7 +9,7 @@ import { ApolloProvider } from 'react-apollo';
 import App from './components/App';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000'
+  uri: process.env.GRAPHQL_API_URL
 });
 
 ReactDOM.render(

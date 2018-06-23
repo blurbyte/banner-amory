@@ -8,7 +8,14 @@ class Search extends React.Component {
   render() {
     return (
       <Form>
-        <Input type="text" placeholder="Search items" />
+        <Input
+          type="search"
+          autoCapitalize="off"
+          spellCheck={false}
+          autoCorrect="off"
+          autoComplete="off"
+          placeholder="Search items"
+        />
         <Button />
       </Form>
     );

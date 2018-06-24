@@ -6,7 +6,7 @@ import { merge } from 'lodash';
 
 import { ItemRepository } from './repositories/Item';
 
-// types
+// GraphQL types
 import { Item } from './types/Item';
 
 const Root = gql`

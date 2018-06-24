@@ -1,39 +1,39 @@
+// fetch items basic data with GraphQL
+// renders grid of items
+
 import * as React from 'react';
 import { gql } from 'apollo-boost';
 import { Query } from 'react-apollo';
 
-import Item from '../Item';
-import Content from './Content';
 import List from './List';
+import Content from './Content';
+
+const getItems = gql`
+  {
+    items {
+      slug
+      rank
+    }
+  }
+`;
 
 type ItemsProps = {
   path?: string;
 };
 
-const GET_ITEMS = gql`
-  {
-    items {
-      name
-      slug
-      rank
-      gamePart
-    }
-  }
-`;
-
 class Items extends React.Component<ItemsProps> {
   render() {
     return (
       <Content>
-        <Query query={GET_ITEMS}>
-          {({ loading, data }) => {
-            console.log(data);
-            return !loading && data ? <div>Success</div> : null;
+        <Query query={getItems}>
+          {({ loading, error, data }) => {
+            if (loading || error) {
+              return null;
+            }
+
+            return <List items={data.items} />;
           }}
         </Query>
-        <List>
-          <Item />
-        </List>
       </Content>
     );
   }

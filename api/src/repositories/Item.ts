@@ -7,6 +7,11 @@ import { Item } from '../entities/Item';
 @EntityRepository(Item)
 export class ItemRepository extends Repository<Item> {
   getAllItems() {
-    return this.find();
+    return this.find({
+      order: {
+        rank: 'ASC',
+        name: 'ASC'
+      }
+    });
   }
 }

@@ -11,7 +11,7 @@ export class Item {
   slug: string;
 
   @Column({ type: 'tinyint' })
-  gamePart: number;
+  gamePart: 1 | 2;
 
   @Column({ type: 'tinyint' })
   rank: number;

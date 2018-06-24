@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 import BaseContent from '../Content';
 
-const Section = BaseContent.withComponent('section');
+const Article = BaseContent.withComponent('article');
 
-const Content = styled(Section)`
+const Content = styled(Article)`
   margin-top: 5rem;
 `;
 

@@ -12,7 +12,8 @@ context(class {
       sourceMaps: true,
       plugins: [
         EnvPlugin({
-          GRAPHQL_API_URL: 'http://localhost:4000'
+          GRAPHQL_API_URL: 'http://localhost:4000',
+          STORAGE_URL: 'https://eloriel.blob.core.windows.net/banner-armory/'
         }),
         WebIndexPlugin({
           template: 'public/index.html',

@@ -5,7 +5,7 @@ import * as React from 'react';
 import { Router } from '@reach/router';
 
 import Header from '../Header';
-import ItemsList from '../ItemsList';
+import Items from '../Items';
 import TierList from '../TierList';
 
 class App extends React.Component {
@@ -14,7 +14,7 @@ class App extends React.Component {
       <>
         <Header />
         <Router>
-          <ItemsList path="/" />
+          <Items path="/" />
           <TierList path="tierlist" />
         </Router>
       </>

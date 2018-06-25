@@ -7,6 +7,7 @@ import { Router } from '@reach/router';
 import Header from '../Header';
 import Items from '../Items';
 import TierList from '../TierList';
+import SingleItem from '../SingleItem';
 
 class App extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class App extends React.Component {
         <Router>
           <Items path="/" />
           <TierList path="tierlist" />
+          <SingleItem path="item/:slug" />
         </Router>
       </>
     );

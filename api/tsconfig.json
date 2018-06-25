@@ -9,6 +9,7 @@
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "strictPropertyInitialization": false,
+    "strictFunctionTypes": false,
     "removeComments": true,
     "lib": [
       "es2016",

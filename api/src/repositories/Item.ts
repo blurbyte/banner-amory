@@ -14,4 +14,10 @@ export class ItemRepository extends Repository<Item> {
       }
     });
   }
+
+  getItemBySlug(slug: string) {
+    return this.findOne({
+      slug
+    });
+  }
 }

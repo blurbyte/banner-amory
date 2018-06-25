@@ -28,3 +28,23 @@ Object {
   },
 }
 `;
+
+exports[`Root queries should fetch single item 1`] = `
+Object {
+  "data": Object {
+    "item": Object {
+      "id": 1,
+      "name": "Alette's Bracelet",
+      "slug": "alettes-bracelet",
+    },
+  },
+}
+`;
+
+exports[`Root queries should return null if wrong slug got passed 1`] = `
+Object {
+  "data": Object {
+    "item": null,
+  },
+}
+`;

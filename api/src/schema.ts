@@ -1,34 +1,18 @@
-// root GraphQL schema
+// merged GraphQL schema
 
-import { gql, makeExecutableSchema } from 'apollo-server';
-import { getCustomRepository } from 'typeorm';
+import { makeExecutableSchema } from 'apollo-server';
 import { merge } from 'lodash';
 
-import { ItemRepository } from './repositories/Item';
-
-// GraphQL types
+import { Root } from './types/Root';
 import { Item } from './types/Item';
 
-const Root = gql`
-  type Query {
-    items: [Item]
-  }
-`;
-
-const rootResolvers = {
-  Query: {
-    items: async () => {
-      const items = await getCustomRepository(ItemRepository).getAllItems();
-      return items;
-    }
-  }
-};
+import { rootQueries } from './queries/root';
 
 // merged types
 const typeDefs = [Root, Item];
 
 // merged resolvers
-const resolvers = merge({}, rootResolvers);
+const resolvers = merge({}, rootQueries);
 
 const schema = makeExecutableSchema({
   typeDefs,

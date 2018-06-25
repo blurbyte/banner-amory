@@ -37,6 +37,6 @@ export type Item = {
   acquirementGodstone?: string;
   acquirementHero?: string;
   trivia?: string;
-}
+};
 
-export type ItemBasic = Pick<Item, 'slug' | 'rank'>
+export type ItemBasic = Pick<Item, 'slug' | 'rank'>;

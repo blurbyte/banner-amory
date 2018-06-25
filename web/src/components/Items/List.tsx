@@ -16,18 +16,14 @@ const Grid = styled.ul`
 `;
 
 type ListProps = {
-  items: [ItemBasic]
-}
+  items: [ItemBasic];
+};
 
 class List extends React.Component<ListProps> {
   render() {
-    const {items} = this.props;
+    const { items } = this.props;
 
-    return (
-      <Grid>
-        {items.map(item => <ListItem key={item.slug} {...item} />)}
-      </Grid>
-    );
+    return <Grid>{items.map(item => <ListItem key={item.slug} {...item} />)}</Grid>;
   }
 }
 

@@ -29,12 +29,10 @@ context(class {
     fuse.bundle('vendor').instructions('~ index.tsx');
 
     // project files bundle
-    const app = fuse.bundle('app');
-
-    app.hmr();
-    app.watch();
-
-    app.instructions('> [index.tsx]');
+    const app = fuse.bundle('app')
+      .instructions('> [index.tsx]')
+      .hmr()
+      .watch();
 
     return app;
   }
@@ -46,6 +44,7 @@ task('clean', () => src('dist').clean('dist').exec());
 // moves content of public directory to dist
 task('copy', () => src('**/**.**', { base: 'public' }).dest('dist').exec());
 
+// tasks
 task('default', ['clean', 'copy'], async context => {
   const fuse = context.getConfig();
 

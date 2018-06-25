@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "prestart": "yarn clean",
-    "start": "tsc-watch --outDir dist --onSuccess \"node dist/index.js\"",
+    "start": "node fuse.js",
     "test": "jest --watch",
     "lint": "tslint --format stylish \"src/**/*.ts\"",
     "format": "prettier --write \"src/**/*.ts\"",
-    "typecheck": "tsc --noEmit",
-    "clean": "rimraf dist & rimraf build"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "apollo-server": "2.0.0-rc.0",

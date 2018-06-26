@@ -6,7 +6,8 @@ import styled from 'styled-components';
 import { transparentize } from 'polished';
 
 import { Colors } from '../../styles/colors';
-import { ItemBasic } from '../../types/Item';
+import { ItemBasic as ListItemProps } from '../../types/Item';
+import Image from '../Image';
 
 const Item = styled.li`
   position: relative;
@@ -17,10 +18,6 @@ const Item = styled.li`
 
 const Link = styled(BaseLink)`
   color: ${Colors.blue};
-`;
-
-const Image = styled.img`
-  max-width: 100%;
 `;
 
 const Rank = styled.p`
@@ -39,14 +36,14 @@ const Rank = styled.p`
   font-weight: 600;
 `;
 
-class ListItem extends React.Component<ItemBasic> {
+class ListItem extends React.Component<ListItemProps> {
   render() {
     const { slug, rank } = this.props;
 
     return (
       <Item>
         <Link to={`item/${slug}`}>
-          <Image src={`${process.env.STORAGE_URL}${slug}.png`} />
+          <Image slug={slug} />
           <Rank>{rank}</Rank>
         </Link>
       </Item>

@@ -1,5 +1,4 @@
 export type Item = {
-  id: number;
   name: string;
   slug: string;
   gamePart: 1 | 2;

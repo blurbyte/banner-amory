@@ -19,13 +19,69 @@ class DetailedItem extends React.Component<ItemProps> {
       acquirementQuest,
       acquirementGodstone,
       acquirementHero,
-      trivia
+      trivia,
+      statStrength,
+      statWillpower,
+      statArmor,
+      statArmorBreak,
+      talentAllRanks,
+      talentStrength,
+      talentWillpower,
+      talentArmor,
+      talentArmorBreak,
+      talentExertion,
+      perTurnArmor,
+      perTurnWillpower,
+      onRestArmor,
+      onRestWillpower,
+      perKillWillpower,
+      aggro,
+      chanceCrit,
+      chanceDodge,
+      chanceDivert,
+      neverMiss,
+      movement,
+      resist,
+      knockback,
+      defy,
+      extraRange,
+      extraStrengthOnAttack
     } = this.props;
     return (
       <>
         <Headline>{name}</Headline>
         <Layout>
-          <Info slug={slug} />
+          <Info
+            {...{
+              slug,
+              statStrength,
+              statWillpower,
+              statArmor,
+              statArmorBreak,
+              talentAllRanks,
+              talentStrength,
+              talentWillpower,
+              talentArmor,
+              talentArmorBreak,
+              talentExertion,
+              perTurnArmor,
+              perTurnWillpower,
+              onRestArmor,
+              onRestWillpower,
+              perKillWillpower,
+              aggro,
+              chanceCrit,
+              chanceDodge,
+              chanceDivert,
+              neverMiss,
+              movement,
+              resist,
+              knockback,
+              defy,
+              extraRange,
+              extraStrengthOnAttack
+            }}
+          />
           <Details
             {...{
               description,

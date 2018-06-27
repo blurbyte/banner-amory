@@ -4,10 +4,10 @@ import * as React from 'react';
 import styled from 'styled-components';
 
 import { Item } from '../../types/Item';
-import Property from './Property';
+import Property from '../SingleItemProperty';
 
 const Wrapper = styled.div`
-  margin-left: 3rem;
+  margin-left: 2rem;
 `;
 
 const Description = styled.p`
@@ -69,8 +69,16 @@ class Details extends React.Component<DetailsProps> {
           <Property.Label>How to get</Property.Label>
           {acquirementMarketplace && <Property.Detail>Bought from market</Property.Detail>}
           {acquirementQuest && <Property.Detail>{acquirementQuest}</Property.Detail>}
-          {acquirementGodstone && <Property.Detail>{`Found at ${acquirementGodstone} godstone`}</Property.Detail>}
-          {acquirementHero && <Property.Detail>{`${acquirementHero} starts with it`}</Property.Detail>}
+          {acquirementGodstone && (
+            <Property.Detail>{`Found at ${acquirementGodstone} godstone`}</Property.Detail>
+          )}
+          {acquirementHero && (
+            <Property.Detail>{`${acquirementHero} starts with it`}</Property.Detail>
+          )}
+          {!acquirementMarketplace &&
+            !acquirementQuest &&
+            !acquirementGodstone &&
+            !acquirementHero && <Property.Detail>Unknown</Property.Detail>}
         </Property>
         {/* trivia */}
         {trivia && (

@@ -6,6 +6,11 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "jsx": "react",
+    "lib": [
+      "dom",
+      "es2016",
+      "esnext.asynciterable"
+    ],
     "types": [
       "node", "react", "react-dom", "reach__router"
     ]

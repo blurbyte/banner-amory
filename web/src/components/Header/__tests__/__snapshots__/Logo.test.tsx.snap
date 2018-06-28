@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c0 {
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  left: 2rem;
+}
+
+<BaseLogo
+  className="c0"
+/>
+`;

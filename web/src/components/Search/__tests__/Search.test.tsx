@@ -5,7 +5,7 @@ import Search from '../index';
 
 jest.mock('../../Icons', () => ({
   Magnifier: 'svg'
-}))
+}));
 
 test('renders correctly', () => {
   const { container } = render(<Search />);

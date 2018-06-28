@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <h1
+    className="sc-bdVaJa euRrBj"
+  >
+    Alette's Bracelet
+  </h1>,
+  <div
+    className="sc-bwzfXH kMfaZi"
+  >
+    <div
+      className="sc-htoDjs ilsOVI"
+    >
+      <img
+        className="sc-htpNat fpGAr"
+        src="undefinedalettes-bracelet.png"
+      />
+      <div
+        className="sc-dnqmqq ceIUGX"
+      >
+        <svg
+          viewBox="0 0 50 90"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M50.005 90L25.003 67.452 0 90V0h50.005v90z"
+            fill="currentColor"
+          />
+        </svg>
+        <div
+          className="sc-iwsKbI fjnSSv"
+        >
+          <dl
+            className="sc-bxivhb bIRpqt"
+          >
+            <dt
+              className="sc-ifAKCX jxnoTK"
+            >
+              Strength
+            </dt>
+            <dd
+              className="sc-EHOje cqWYEZ"
+            >
+              <span
+                className="sc-gzVnrw bgAQOf"
+              >
+                +
+                1
+              </span>
+            </dd>
+          </dl>
+          <dl
+            className="sc-bxivhb bIRpqt"
+          >
+            <dt
+              className="sc-ifAKCX jxnoTK"
+            >
+              Willpower
+            </dt>
+            <dd
+              className="sc-EHOje cqWYEZ"
+            >
+              <span
+                className="sc-gzVnrw bgAQOf"
+              >
+                +
+                1
+              </span>
+            </dd>
+          </dl>
+          <dl
+            className="sc-bxivhb bIRpqt"
+          >
+            <dt
+              className="sc-ifAKCX jxnoTK"
+            >
+              Armor
+            </dt>
+            <dd
+              className="sc-EHOje cqWYEZ"
+            >
+              <span
+                className="sc-gzVnrw bgAQOf"
+              >
+                +
+                1
+              </span>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-gqjmRU iiKgsQ"
+    >
+      <p
+        className="sc-VigVT hjnxja"
+      >
+        Lovingly made by a hunter's wife to keep her daughter safe from harm.
+      </p>
+      <dl
+        className="sc-bxivhb hbPgPS"
+      >
+        <dt
+          className="sc-ifAKCX uLMVP"
+        >
+          Part
+        </dt>
+        <dd
+          className="sc-EHOje cwMrIf"
+        >
+          The Banner Saga 1
+        </dd>
+      </dl>
+      <dl
+        className="sc-bxivhb hbPgPS"
+      >
+        <dt
+          className="sc-ifAKCX uLMVP"
+        >
+          Rank
+        </dt>
+        <dd
+          className="sc-EHOje eIoeax"
+        >
+          1
+        </dd>
+      </dl>
+      <dl
+        className="sc-bxivhb hbPgPS"
+      >
+        <dt
+          className="sc-ifAKCX uLMVP"
+        >
+          How to get
+        </dt>
+        <dd
+          className="sc-EHOje cwMrIf"
+        >
+          Alette starts with it
+        </dd>
+      </dl>
+    </div>
+  </div>,
+]
+`;

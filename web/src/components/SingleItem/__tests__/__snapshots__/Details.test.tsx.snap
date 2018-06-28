@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c2 {
+  margin: 1rem 0;
+}
+
+.c3 {
+  font-size: 1.2rem;
+  color: rgba(61,38,218,0.5);
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  line-height: inherit;
+}
+
+.c4 {
+  color: #3d26da;
+  line-height: inherit;
+  font-size: 1.4rem;
+  font-weight: inherit;
+  margin: 0;
+}
+
+.c5 {
+  color: #3d26da;
+  line-height: 1;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.c0 {
+  margin-left: 2rem;
+}
+
+.c1 {
+  margin: 0;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  font-style: italic;
+}
+
+<div
+  className="c0"
+>
+  <p
+    className="c1"
+  >
+    Lovingly made by a hunter's wife to keep her daughter safe from harm.
+  </p>
+  <dl
+    className="c2"
+  >
+    <dt
+      className="c3"
+    >
+      Part
+    </dt>
+    <dd
+      className="c4"
+    >
+      The Banner Saga 1
+    </dd>
+  </dl>
+  <dl
+    className="c2"
+  >
+    <dt
+      className="c3"
+    >
+      Rank
+    </dt>
+    <dd
+      className="c5"
+    >
+      1
+    </dd>
+  </dl>
+  <dl
+    className="c2"
+  >
+    <dt
+      className="c3"
+    >
+      How to get
+    </dt>
+    <dd
+      className="c4"
+    >
+      Alette starts with it
+    </dd>
+  </dl>
+</div>
+`;

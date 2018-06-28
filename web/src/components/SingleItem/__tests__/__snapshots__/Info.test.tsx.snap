@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c1 {
+  max-width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c4 {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c5 {
+  font-size: 1.2rem;
+  color: rgba(61,38,218,0.5);
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  text-align: right;
+  line-height: 1.2;
+}
+
+.c6 {
+  color: #3d26da;
+  line-height: 1;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0;
+  text-align: right;
+}
+
+.c7 {
+  color: #3d26da;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 {
+  width: 100%;
+  color: rgba(61,38,218,0.1);
+  position: relative;
+  z-index: 999;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
+  padding-right: 1.4rem;
+}
+
+<div
+  className="c0"
+>
+  <img
+    className="c1"
+    src="undefinedalettes-bracelet.png"
+  />
+  <div
+    className="c2"
+  >
+    <svg
+      viewBox="0 0 50 90"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M50.005 90L25.003 67.452 0 90V0h50.005v90z"
+        fill="currentColor"
+      />
+    </svg>
+    <div
+      className="c3"
+    >
+      <dl
+        className="c4"
+      >
+        <dt
+          className="c5"
+        >
+          Strength
+        </dt>
+        <dd
+          className="c6"
+        >
+          <span
+            className="c7"
+          >
+            +
+            1
+          </span>
+        </dd>
+      </dl>
+      <dl
+        className="c4"
+      >
+        <dt
+          className="c5"
+        >
+          Willpower
+        </dt>
+        <dd
+          className="c6"
+        >
+          <span
+            className="c7"
+          >
+            +
+            1
+          </span>
+        </dd>
+      </dl>
+      <dl
+        className="c4"
+      >
+        <dt
+          className="c5"
+        >
+          Armor
+        </dt>
+        <dd
+          className="c6"
+        >
+          <span
+            className="c7"
+          >
+            +
+            1
+          </span>
+        </dd>
+      </dl>
+    </div>
+  </div>
+</div>
+`;

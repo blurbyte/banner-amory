@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly (with percent) 1`] = `
+.c0 {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c1 {
+  font-size: 1.2rem;
+  color: rgba(61,38,218,0.5);
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  text-align: right;
+  line-height: 1.2;
+}
+
+.c3 {
+  color: #3d26da;
+  line-height: 1;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0;
+  text-align: right;
+}
+
+.c2 {
+  font-size: 1rem;
+}
+
+.c4 {
+  color: #3d26da;
+}
+
+<dl
+  className="c0"
+>
+  <dt
+    className="c1"
+  >
+    taylor
+    <br />
+    <small
+      className="c2"
+    >
+      swift
+    </small>
+  </dt>
+  <dd
+    className="c3"
+  >
+    <span
+      className="c4"
+    >
+      10
+      %
+    </span>
+  </dd>
+</dl>
+`;
+
+exports[`renders correctly with negative stat 1`] = `
+.c0 {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c1 {
+  font-size: 1.2rem;
+  color: rgba(61,38,218,0.5);
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  text-align: right;
+  line-height: 1.2;
+}
+
+.c3 {
+  color: #3d26da;
+  line-height: 1;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0;
+  text-align: right;
+}
+
+.c2 {
+  font-size: 1rem;
+}
+
+.c4 {
+  color: #d92f29;
+}
+
+<dl
+  className="c0"
+>
+  <dt
+    className="c1"
+  >
+    ariana
+    <br />
+    <small
+      className="c2"
+    >
+      grande
+    </small>
+  </dt>
+  <dd
+    className="c3"
+  >
+    <span
+      className="c4"
+    >
+      -10
+    </span>
+  </dd>
+</dl>
+`;

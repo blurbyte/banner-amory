@@ -1,27 +1,20 @@
 import * as React from 'react';
-import { render, waitForElement, cleanup } from 'react-testing-library';
+import { render, cleanup } from 'react-testing-library';
 import { MockedProvider } from 'react-apollo/test-utils';
 import * as delay from 'delay';
 
-import { Items, getItems } from '../index';
+import { SingleItem, getSingleItem } from '../index';
+import { testItem } from './mocks';
 
 const mocks = [
   {
     request: {
-      query: getItems
+      query: getSingleItem,
+      variables: { slug: 'alettes-bracelet' }
     },
     result: {
       data: {
-        items: [
-          {
-            slug: 'test-slug',
-            rank: 10
-          },
-          {
-            slug: 'taylor-swift',
-            rank: 1
-          }
-        ]
+        item: {...testItem}
       }
     }
   }
@@ -32,16 +25,16 @@ beforeEach(cleanup);
 test('renders loading state initially', () => {
   const { container } = render(
     <MockedProvider mocks={mocks} addTypename={false}>
-      <Items />
+      <SingleItem slug="alettes-bracelet"/>
     </MockedProvider>
   );
   expect(container.firstChild).toMatchSnapshot();
 });
 
-test('renders loaded list of items', async () => {
-  const { container } = render(
+test('renders loaded item', async () => {
+  const { container, getByTestId } = render(
     <MockedProvider mocks={mocks} addTypename={false}>
-      <Items />
+      <SingleItem slug="alettes-bracelet"/>
     </MockedProvider>
   );
 

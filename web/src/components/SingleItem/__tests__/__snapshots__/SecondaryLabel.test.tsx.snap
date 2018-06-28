@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <br />,
+  .c0 {
+  font-size: 1rem;
+}
+
+<small
+    className="c0"
+  >
+    taylor swift
+  </small>,
+]
+`;

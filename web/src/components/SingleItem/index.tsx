@@ -8,7 +8,7 @@ import { Item } from '../../types/Item';
 import Content from './Content';
 import DetailedItem from './DetailedItem';
 
-const getSingleItem = gql`
+export const getSingleItem = gql`
   query getSingleItem($slug: String!) {
     item(slug: $slug) {
       name
@@ -54,10 +54,10 @@ const getSingleItem = gql`
 
 type SingleItemProps = {
   path?: string;
-  slug?: Item['slug'];
+  slug: Item['slug'];
 };
 
-class SingleItem extends React.Component<SingleItemProps> {
+export class SingleItem extends React.Component<SingleItemProps> {
   render() {
     const { slug } = this.props;
     return (

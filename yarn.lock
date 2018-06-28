@@ -105,6 +105,10 @@
   dependencies:
     "@types/express" "*"
 
+"@types/delay@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@types/delay/-/delay-2.0.1.tgz#61bcf318a74b61e79d1658fbf054f984c90ef901"
+
 "@types/events@*":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@types/events/-/events-1.2.0.tgz#81a6731ce4df43619e5c8c945383b3e62a89ea86"
@@ -1475,6 +1479,10 @@ define-property@^2.0.2:
   dependencies:
     is-descriptor "^1.0.2"
     isobject "^3.0.1"
+
+delay@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/delay/-/delay-3.0.0.tgz#97fc5c21028e20616e822ab11838c648808534eb"
 
 delayed-stream@~1.0.0:
   version "1.0.0"

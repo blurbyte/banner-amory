@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders loaded item 1`] = `
+<article
+  class="sc-htpNat eroWgC sc-bwzfXH ezMGVG"
+>
+  <h1
+    class="sc-bxivhb cNIvMM"
+  />
+  <div
+    class="sc-ifAKCX gwKRoc"
+  >
+    <div
+      class="sc-gZMcBi crAViM"
+    >
+      <img
+        class="sc-EHOje dPoLsW"
+        src="undefinedundefined.png"
+      />
+      <div
+        class="sc-gqjmRU gcZhru"
+      >
+        <svg
+          viewBox="0 0 50 90"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M50.005 90L25.003 67.452 0 90V0h50.005v90z"
+            fill="currentColor"
+          />
+        </svg>
+        <div
+          class="sc-VigVT iEHYVi"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-fjdhpX duxcbW"
+    >
+      <dl
+        class="sc-bZQynM hthShY"
+      >
+        <dt
+          class="sc-gzVnrw kiLclw"
+        >
+          Part
+        </dt>
+        <dd
+          class="sc-htoDjs hoHbUn"
+        >
+          The Banner Saga undefined
+        </dd>
+      </dl>
+      <dl
+        class="sc-bZQynM hthShY"
+      >
+        <dt
+          class="sc-gzVnrw kiLclw"
+        >
+          Rank
+        </dt>
+        <dd
+          class="sc-htoDjs gBjpyW"
+        />
+      </dl>
+      <dl
+        class="sc-bZQynM hthShY"
+      >
+        <dt
+          class="sc-gzVnrw kiLclw"
+        >
+          How to get
+        </dt>
+        <dd
+          class="sc-htoDjs hoHbUn"
+        >
+          Unknown
+        </dd>
+      </dl>
+    </div>
+  </div>
+</article>
+`;
+
+exports[`renders loading state initially 1`] = `
+<article
+  class="sc-htpNat eroWgC sc-bwzfXH ezMGVG"
+/>
+`;

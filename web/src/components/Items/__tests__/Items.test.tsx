@@ -3,35 +3,14 @@ import { render, waitForElement, cleanup } from 'react-testing-library';
 import { MockedProvider } from 'react-apollo/test-utils';
 import * as delay from 'delay';
 
-import { Items, getItems } from '../index';
-
-const mocks = [
-  {
-    request: {
-      query: getItems
-    },
-    result: {
-      data: {
-        items: [
-          {
-            slug: 'test-slug',
-            rank: 10
-          },
-          {
-            slug: 'taylor-swift',
-            rank: 1
-          }
-        ]
-      }
-    }
-  }
-];
+import { Items } from '../index';
+import { itemsMock } from './mocks';
 
 beforeEach(cleanup);
 
 test('renders loading state initially', () => {
   const { container } = render(
-    <MockedProvider mocks={mocks} addTypename={false}>
+    <MockedProvider mocks={itemsMock} addTypename={false}>
       <Items />
     </MockedProvider>
   );
@@ -40,7 +19,7 @@ test('renders loading state initially', () => {
 
 test('renders loaded list of items', async () => {
   const { container } = render(
-    <MockedProvider mocks={mocks} addTypename={false}>
+    <MockedProvider mocks={itemsMock} addTypename={false}>
       <Items />
     </MockedProvider>
   );

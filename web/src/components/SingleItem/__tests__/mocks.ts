@@ -1,4 +1,5 @@
 import { Item } from '../../../types/Item';
+import { getSingleItem } from '../index';
 
 export const testItem: Item = {
   name: "Alette's Bracelet",
@@ -11,3 +12,17 @@ export const testItem: Item = {
   statArmor: 1,
   acquirementHero: 'Alette'
 };
+
+export const singleItemMock = [
+  {
+    request: {
+      query: getSingleItem,
+      variables: { slug: 'alettes-bracelet' }
+    },
+    result: {
+      data: {
+        item: { ...testItem }
+      }
+    }
+  }
+];

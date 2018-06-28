@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<dl
+  class="sc-bdVaJa icGVfW"
+>
+  <dt
+    class="sc-bwzfXH ECOeH"
+  >
+    Taylor
+  </dt>
+  <dd
+    class="sc-htpNat jnispY"
+  >
+    Swift
+  </dd>
+</dl>
+`;
+
+exports[`statLine is passed correctly to children 1`] = `
+<dl
+  class="sc-bdVaJa lfQhji"
+>
+  <dt
+    class="sc-bwzfXH gTCDtI"
+  >
+    Taylor
+  </dt>
+  <dd
+    class="sc-htpNat bULLTM"
+  >
+    Swift
+  </dd>
+</dl>
+`;

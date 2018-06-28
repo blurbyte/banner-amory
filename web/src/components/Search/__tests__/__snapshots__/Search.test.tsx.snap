@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<form
+  class="sc-bdVaJa tikzt"
+>
+  <input
+    autocapitalize="off"
+    autocomplete="off"
+    autocorrect="off"
+    class="sc-bwzfXH gRqsFw"
+    placeholder="Search items"
+    spellcheck="false"
+    type="search"
+  />
+  <button
+    class="sc-htpNat cFCNXP"
+    type="submit"
+  >
+    <svg />
+  </button>
+</form>
+`;

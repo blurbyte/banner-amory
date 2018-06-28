@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c0 {
+  border: none;
+  background: transparent;
+  position: absolute;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+  top: 0.8rem;
+  right: 0.8rem;
+}
+
+<button
+  className="c0"
+  type="submit"
+>
+  <Magnifier />
+</button>
+`;

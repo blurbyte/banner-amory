@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  z-index: 9999;
+  width: 12rem;
+  height: 5rem;
+  background: rgba(61,38,218,0.1);
+  color: #3d26da;
+  font-size: 1.8rem;
+  font-weight: 700;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-right: 3rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+.c0 > .sc-bdVaJa:focus {
+  border-top: 4px solid #3d26da;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`renders correctly when isActive 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  z-index: 9999;
+  width: 12rem;
+  height: 5rem;
+  background: #d92f29;
+  color: #222222;
+  font-size: 1.8rem;
+  font-weight: 700;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-right: 3rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+.c0 > .sc-bdVaJa:focus {
+  border-top: 4px solid #222222;
+}
+
+<div
+  className="c0"
+/>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 0.4rem 1rem;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  outline: none;
+  border-top: 4px solid transparent;
+  -webkit-transition: border-top 0.15s linear 0.15s;
+  transition: border-top 0.15s linear 0.15s;
+}
+
+<BaseLink
+  className="c0"
+/>
+`;

@@ -7,7 +7,7 @@ import { Colors } from '../../styles/colors';
 import Link from './Link';
 
 type WrapperProps = {
-  isActive: boolean;
+  isActive?: boolean;
 };
 
 const Wrapper = styled.div<WrapperProps>`

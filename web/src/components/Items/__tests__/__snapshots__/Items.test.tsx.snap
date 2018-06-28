@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders loaded list of items 1`] = `
+<article
+  class="sc-gzVnrw dRzWCS sc-bZQynM fYeycu"
+>
+  <ul
+    class="sc-ifAKCX hEkxEp"
+  >
+    <li
+      class="sc-bwzfXH bEhcJL"
+    >
+      <a
+        class="sc-htpNat kCADRD"
+        href="/item/test-slug"
+      >
+        <img
+          class="sc-bdVaJa hpZUqN"
+          src="undefinedtest-slug.png"
+        />
+        <p
+          class="sc-bxivhb dhKWxo"
+        >
+          10
+        </p>
+      </a>
+    </li>
+    <li
+      class="sc-bwzfXH bEhcJL"
+    >
+      <a
+        class="sc-htpNat kCADRD"
+        href="/item/taylor-swift"
+      >
+        <img
+          class="sc-bdVaJa hpZUqN"
+          src="undefinedtaylor-swift.png"
+        />
+        <p
+          class="sc-bxivhb dhKWxo"
+        >
+          1
+        </p>
+      </a>
+    </li>
+  </ul>
+</article>
+`;
+
+exports[`renders loading state initially 1`] = `
+<article
+  class="sc-gzVnrw dRzWCS sc-bZQynM fYeycu"
+/>
+`;

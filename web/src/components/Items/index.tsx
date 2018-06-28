@@ -8,7 +8,7 @@ import { Query } from 'react-apollo';
 import List from './List';
 import Content from './Content';
 
-const getItems = gql`
+export const getItems = gql`
   query getItems {
     items {
       slug
@@ -21,7 +21,7 @@ type ItemsProps = {
   path?: string;
 };
 
-class Items extends React.Component<ItemsProps> {
+export class Items extends React.Component<ItemsProps> {
   render() {
     return (
       <Content>

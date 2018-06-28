@@ -6,6 +6,6 @@ import Header from '../index';
 beforeEach(cleanup);
 
 test('renders correctly', () => {
-  const {container} = render(<Header />);
+  const { container } = render(<Header />);
   expect(container.firstChild).toMatchSnapshot();
 });

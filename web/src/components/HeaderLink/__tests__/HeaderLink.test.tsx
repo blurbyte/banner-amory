@@ -7,6 +7,10 @@ beforeEach(cleanup);
 
 test('renders correctly', () => {
   const Icon = () => <>Icon</>;
-  const {container} = render(<HeaderLink icon={Icon} to="/test">Test</HeaderLink>);
+  const { container } = render(
+    <HeaderLink icon={Icon} to="/test">
+      Test
+    </HeaderLink>
+  );
   expect(container.firstChild).toMatchSnapshot();
 });

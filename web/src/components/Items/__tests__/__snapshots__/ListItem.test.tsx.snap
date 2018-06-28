@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c2 {
+  max-width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 {
+  position: relative;
+  background: rgba(61,38,218,0.1);
+  z-index: 99;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c1 {
+  color: #3d26da;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+  width: 2rem;
+  height: 2rem;
+  font-weight: 600;
+}
+
+<li
+  className="c0"
+>
+  <a
+    className="c1"
+    href="/item/test-slug"
+    onClick={[Function]}
+  >
+    <img
+      className="c2"
+      src="undefinedtest-slug.png"
+    />
+    <p
+      className="c3"
+    >
+      10
+    </p>
+  </a>
+</li>
+`;

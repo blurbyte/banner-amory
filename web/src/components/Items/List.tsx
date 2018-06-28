@@ -16,7 +16,7 @@ const Grid = styled.ul`
 `;
 
 type ListProps = {
-  items: [ItemBasic];
+  items: ItemBasic[];
 };
 
 class List extends React.Component<ListProps> {

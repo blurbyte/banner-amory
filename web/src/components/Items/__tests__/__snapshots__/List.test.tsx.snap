@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<ul
+  className="sc-ifAKCX hEkxEp"
+>
+  <li
+    className="sc-bwzfXH bEhcJL"
+  >
+    <a
+      className="sc-htpNat kCADRD"
+      href="/item/test-slug"
+      onClick={[Function]}
+    >
+      <img
+        className="sc-bdVaJa hpZUqN"
+        src="undefinedtest-slug.png"
+      />
+      <p
+        className="sc-bxivhb dhKWxo"
+      >
+        10
+      </p>
+    </a>
+  </li>
+  <li
+    className="sc-bwzfXH bEhcJL"
+  >
+    <a
+      className="sc-htpNat kCADRD"
+      href="/item/taylor-swift"
+      onClick={[Function]}
+    >
+      <img
+        className="sc-bdVaJa hpZUqN"
+        src="undefinedtaylor-swift.png"
+      />
+      <p
+        className="sc-bxivhb dhKWxo"
+      >
+        1
+      </p>
+    </a>
+  </li>
+</ul>
+`;

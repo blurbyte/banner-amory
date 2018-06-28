@@ -6,7 +6,7 @@ import Logo from '../Logo';
 
 jest.mock('../../Icons', () => ({
   Logo: 'BaseLogo'
-}))
+}));
 
 test('renders correctly', () => {
   const component = renderer.create(<Logo />);

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c1 {
+  max-width: 100rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+.c0 {
+  margin-top: 5rem;
+}
+
+<article
+  className="c0 c1"
+/>
+`;

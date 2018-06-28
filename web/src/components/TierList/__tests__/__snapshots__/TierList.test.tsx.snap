@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<article
+  className="sc-bxivhb iCfgNF sc-htpNat hClEhO"
+>
+  <h1
+    className="sc-bdVaJa euRrBj"
+  >
+    Tier List
+  </h1>
+</article>
+`;

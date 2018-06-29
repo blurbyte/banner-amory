@@ -23,7 +23,13 @@ export class ItemRepository extends Repository<Item> {
 
   searchForItemsByName(query: string) {
     return this.find({
-      name: Like(`%${query}%`)
+      where: {
+        name: Like(`%${query}%`)
+      },
+      order: {
+        rank: 'ASC',
+        name: 'ASC'
+      }
     });
   }
 }

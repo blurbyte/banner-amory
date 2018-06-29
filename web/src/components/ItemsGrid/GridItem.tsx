@@ -6,8 +6,9 @@ import styled from 'styled-components';
 import { transparentize } from 'polished';
 
 import { Colors } from '@styles/colors';
-import { ItemBasic as ListItemProps } from '@sharedTypes/Item';
+import { ItemBasic as GridItemProps } from '@sharedTypes/Item';
 import Image from '../Image';
+import Rank from './Rank';
 
 const Item = styled.li`
   position: relative;
@@ -20,23 +21,7 @@ const Link = styled(BaseLink)`
   color: ${Colors.blue};
 `;
 
-const Rank = styled.p`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 99;
-  background: ${Colors.white};
-  margin: 0;
-  padding: 0;
-  width: 2rem;
-  height: 2rem;
-  font-weight: 600;
-`;
-
-class ListItem extends React.Component<ListItemProps> {
+class GridItem extends React.Component<GridItemProps> {
   render() {
     const { slug, rank } = this.props;
 
@@ -51,4 +36,4 @@ class ListItem extends React.Component<ListItemProps> {
   }
 }
 
-export default ListItem;
+export default GridItem;

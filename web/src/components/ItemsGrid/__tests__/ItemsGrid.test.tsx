@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as renderer from 'react-test-renderer';
 
-import List from '../List';
+import ItemsGrid from '../index';
 
 test('renders correctly', () => {
   const items = [
@@ -14,6 +14,6 @@ test('renders correctly', () => {
       rank: 1
     }
   ];
-  const component = renderer.create(<List items={items} />);
+  const component = renderer.create(<ItemsGrid items={items} />);
   expect(component.toJSON()).toMatchSnapshot();
 });

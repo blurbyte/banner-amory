@@ -5,7 +5,7 @@ import * as React from 'react';
 import { gql } from 'apollo-boost';
 import { Query } from 'react-apollo';
 
-import List from './List';
+import ItemsGrid from '../ItemsGrid';
 import Content from './Content';
 
 export const getItems = gql`
@@ -31,7 +31,7 @@ export class Items extends React.Component<ItemsProps> {
               return null;
             }
 
-            return <List items={data.items} />;
+            return <ItemsGrid items={data.items} />;
           }}
         </Query>
       </Content>

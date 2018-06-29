@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Root queries should fetch list of items 1`] = `
+exports[`Root queries should get list of items 1`] = `
 Object {
   "data": Object {
     "items": Array [
@@ -29,7 +29,21 @@ Object {
 }
 `;
 
-exports[`Root queries should fetch single item 1`] = `
+exports[`Root queries should get list of items based on search query 1`] = `
+Object {
+  "data": Object {
+    "search": Array [
+      Object {
+        "id": 1,
+        "name": "Alette's Bracelet",
+        "slug": "alettes-bracelet",
+      },
+    ],
+  },
+}
+`;
+
+exports[`Root queries should get single item 1`] = `
 Object {
   "data": Object {
     "item": Object {
@@ -37,6 +51,14 @@ Object {
       "name": "Alette's Bracelet",
       "slug": "alettes-bracelet",
     },
+  },
+}
+`;
+
+exports[`Root queries should return empty array if search query doesn't match 1`] = `
+Object {
+  "data": Object {
+    "search": Array [],
   },
 }
 `;

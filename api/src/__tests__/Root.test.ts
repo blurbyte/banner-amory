@@ -1,6 +1,6 @@
 import { graphql } from 'graphql';
 import { addMockFunctionsToSchema } from 'apollo-server';
-import { find } from 'lodash';
+import { find, filter } from 'lodash';
 
 import schema from '../schema';
 import { testItem1, testItem2 } from './mocks';
@@ -18,6 +18,11 @@ addMockFunctionsToSchema({
         const items = [testItem1, testItem2];
         const item = find(items, item => item.slug === slug);
         return item;
+      },
+      search: (_root, { query }) => {
+        const items = [testItem1, testItem2];
+        const result = filter(items, item => item.name.toLowerCase().includes(query));
+        return result;
       }
     })
   }
@@ -48,8 +53,18 @@ const getSingleItem = `
   }
 `;
 
+const searchItems = `
+  query searchItems($query: String!) {
+    search(query: $query) {
+      id
+      name
+      slug
+    }
+  }
+`;
+
 describe('Root queries', () => {
-  it('should fetch list of items', async () => {
+  it('should get list of items', async () => {
     // act
     const result = await graphql(schema, getAllItems);
 
@@ -57,7 +72,7 @@ describe('Root queries', () => {
     expect(result).toMatchSnapshot();
   });
 
-  it('should fetch single item', async () => {
+  it('should get single item', async () => {
     // act
     let params = { slug: 'alettes-bracelet' };
     let result = await graphql(schema, getSingleItem, null, null, params);
@@ -70,6 +85,24 @@ describe('Root queries', () => {
     // act
     let params = { slug: 'wrong-one' };
     let result = await graphql(schema, getSingleItem, null, null, params);
+
+    // assert
+    expect(result).toMatchSnapshot();
+  });
+
+  it('should get list of items based on search query', async () => {
+    // act
+    let params = { query: 'ale' };
+    let result = await graphql(schema, searchItems, null, null, params);
+
+    // assert
+    expect(result).toMatchSnapshot();
+  });
+
+  it("should return empty array if search query doesn't match", async () => {
+    // act
+    let params = { query: 'ariana grande' };
+    let result = await graphql(schema, searchItems, null, null, params);
 
     // assert
     expect(result).toMatchSnapshot();

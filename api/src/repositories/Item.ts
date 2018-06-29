@@ -1,6 +1,6 @@
 // Item query methods exposed as repository
 
-import { EntityRepository, Repository } from 'typeorm';
+import { EntityRepository, Repository, Like } from 'typeorm';
 
 import { Item } from '../entities/Item';
 
@@ -18,6 +18,12 @@ export class ItemRepository extends Repository<Item> {
   getItemBySlug(slug: string) {
     return this.findOne({
       slug
+    });
+  }
+
+  searchForItemsByName(query: string) {
+    return this.find({
+      name: Like(`%${query}%`)
     });
   }
 }

@@ -8,6 +8,10 @@ type ItemQueryArgs = {
   slug: ItemEntity['slug'];
 };
 
+type SearchQueryArgs = {
+  query: string;
+};
+
 export const rootQueries = {
   Query: {
     items: async () => {
@@ -22,6 +26,10 @@ export const rootQueries = {
       }
 
       return item;
+    },
+    search: async (_root: any, { query }: SearchQueryArgs) => {
+      const items = await getCustomRepository(ItemRepository).searchForItemsByName(query);
+      return items;
     }
   }
 };

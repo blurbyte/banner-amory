@@ -8,5 +8,8 @@ export const Root = gql`
 
     "Single item fetched by providing slug"
     item(slug: String!): Item
+
+    "Search for items based on provided name"
+    search(query: String!): [Item]
   }
 `;

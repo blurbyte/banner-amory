@@ -32,6 +32,10 @@ exports[`renders correctly 1`] = `
   margin: 0;
 }
 
+.c6 {
+  font-weight: 600;
+}
+
 .c0 {
   margin-left: 2rem;
 }
@@ -91,7 +95,12 @@ exports[`renders correctly 1`] = `
     <dd
       className="c4"
     >
-      Alette starts with it
+      <strong
+        className="c6"
+      >
+        Alette
+      </strong>
+       starts with it
     </dd>
   </dl>
 </div>

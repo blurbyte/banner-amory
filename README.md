@@ -1,4 +1,4 @@
-# Banner Armory
+# Banner Armory [WIP]
 
 The Banner Sagas' armory.
 

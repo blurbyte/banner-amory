@@ -5,6 +5,7 @@ import styled from 'styled-components';
 
 import { Item } from '@sharedTypes/Item';
 import Property from '../SingleItemProperty';
+import Strong from '../Strong';
 
 const Wrapper = styled.div`
   margin-left: 2rem;
@@ -70,10 +71,17 @@ class Details extends React.Component<DetailsProps> {
           {acquirementMarketplace && <Property.Detail>Bought from market</Property.Detail>}
           {acquirementQuest && <Property.Detail>{acquirementQuest}</Property.Detail>}
           {acquirementGodstone && (
-            <Property.Detail>{`Found at ${acquirementGodstone} godstone`}</Property.Detail>
+            <Property.Detail>
+              {'Found at '}
+              <Strong>{acquirementGodstone}</Strong>
+              {' godstone'}
+            </Property.Detail>
           )}
           {acquirementHero && (
-            <Property.Detail>{`${acquirementHero} starts with it`}</Property.Detail>
+            <Property.Detail>
+              <Strong>{acquirementHero}</Strong>
+              {' starts with it'}
+            </Property.Detail>
           )}
           {!acquirementMarketplace &&
             !acquirementQuest &&

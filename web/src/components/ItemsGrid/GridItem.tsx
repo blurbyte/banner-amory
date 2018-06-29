@@ -27,7 +27,7 @@ class GridItem extends React.Component<GridItemProps> {
 
     return (
       <Item>
-        <Link to={`item/${slug}`}>
+        <Link to={`/item/${slug}`}>
           <Image slug={slug} />
           <Rank>{rank}</Rank>
         </Link>

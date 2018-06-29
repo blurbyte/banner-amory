@@ -4,7 +4,6 @@ exports[`renders correctly 1`] = `
 .c0 {
   display: grid;
   grid-template-columns: 15rem 1fr;
-  margin-top: 1.2rem;
 }
 
 <div

@@ -19,7 +19,7 @@ exports[`renders loaded list of items 1`] = `
           src="undefinedtest-slug.png"
         />
         <p
-          class="sc-bwzfXH iRfJrL"
+          class="sc-bwzfXH fMjatQ"
         >
           10
         </p>
@@ -37,7 +37,7 @@ exports[`renders loaded list of items 1`] = `
           src="undefinedtaylor-swift.png"
         />
         <p
-          class="sc-bwzfXH iRfJrL"
+          class="sc-bwzfXH fMjatQ"
         >
           1
         </p>

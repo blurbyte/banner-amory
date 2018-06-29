@@ -3,12 +3,12 @@
 exports[`renders correctly 1`] = `
 Array [
   <h1
-    className="sc-bdVaJa euRrBj"
+    className="sc-bdVaJa krEtey"
   >
     Alette's Bracelet
   </h1>,
   <div
-    className="sc-bwzfXH kMfaZi"
+    className="sc-bwzfXH idYqgJ"
   >
     <div
       className="sc-htoDjs ilsOVI"
@@ -93,10 +93,10 @@ Array [
       </div>
     </div>
     <div
-      className="sc-gqjmRU iiKgsQ"
+      className="sc-VigVT iEzLSU"
     >
       <p
-        className="sc-VigVT hjnxja"
+        className="sc-jTzLTM koqDTN"
       >
         Lovingly made by a hunter's wife to keep her daughter safe from harm.
       </p>
@@ -139,7 +139,12 @@ Array [
         <dd
           className="sc-EHOje cwMrIf"
         >
-          Alette starts with it
+          <strong
+            className="sc-gqjmRU gyUJSx"
+          >
+            Alette
+          </strong>
+           starts with it
         </dd>
       </dl>
     </div>

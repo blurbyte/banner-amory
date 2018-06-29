@@ -8,6 +8,7 @@ import Header from '../Header';
 import Items from '../Items';
 import TierList from '../TierList';
 import SingleItem from '../SingleItem';
+import SearchResult from '../SearchResult';
 
 class App extends React.Component {
   render() {
@@ -18,6 +19,7 @@ class App extends React.Component {
           <Items path="/" />
           <TierList path="tierlist" />
           <SingleItem path="item/:slug" />
+          <SearchResult path="search/:searchQuery" />
         </Router>
       </>
     );

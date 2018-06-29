@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Item as ItemProps } from '../../types/Item';
+import { Item as ItemProps } from '@sharedTypes/Item';
 import Headline from '../Headline';
 import Layout from './Layout';
 import Info from './Info';

@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-import { Colors } from '../../styles/colors';
+import { Colors } from '@styles/colors';
 
 type DetailProps = {
   big?: boolean;

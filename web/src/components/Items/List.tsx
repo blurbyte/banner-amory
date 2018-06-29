@@ -3,7 +3,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 
-import { ItemBasic } from '../../types/Item';
+import { ItemBasic } from '@sharedTypes/Item';
 import ListItem from './ListItem';
 
 const Grid = styled.ul`

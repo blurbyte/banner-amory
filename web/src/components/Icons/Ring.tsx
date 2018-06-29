@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Colors } from '../../styles/colors';
+import { Colors } from '@styles/colors';
 
 type RingProps = {
   alternative?: boolean;

@@ -6,5 +6,9 @@ module.exports = {
   globals: {
     GRAPHQL_API_URL: '',
     STORAGE_URL: ''
+  },
+  moduleNameMapper: {
+    '^@styles/(.*)': '<rootDir>/src/styles/$1',
+    '^@sharedTypes/(.*)': '<rootDir>/src/types/$1'
   }
 }

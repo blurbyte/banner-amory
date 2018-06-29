@@ -3,7 +3,7 @@
 import styled from 'styled-components';
 import { transparentize } from 'polished';
 
-import { Colors } from '../../styles/colors';
+import { Colors } from '@styles/colors';
 import Link from './Link';
 
 type WrapperProps = {

@@ -4,8 +4,8 @@ import * as React from 'react';
 import styled from 'styled-components';
 import { transparentize } from 'polished';
 
-import { Item } from '../../types/Item';
-import { Colors } from '../../styles/colors';
+import { Item } from '@sharedTypes/Item';
+import { Colors } from '@styles/colors';
 import { Banner } from '../Icons';
 import Image from '../Image';
 import Stat from './Stat';

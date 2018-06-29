@@ -10,6 +10,10 @@ context(class {
       output: 'dist/$name.js',
       cache: true,
       sourceMaps: true,
+      alias: {
+        "@styles": "~/styles",
+        "@sharedTypes": "~/types"
+      },
       plugins: [
         EnvPlugin({
           GRAPHQL_API_URL: 'http://localhost:4000',

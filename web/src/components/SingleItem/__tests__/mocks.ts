@@ -1,4 +1,4 @@
-import { Item } from '../../../types/Item';
+import { Item } from '@sharedTypes/Item';
 import { getSingleItem } from '../index';
 
 export const testItem: Item = {

@@ -1,5 +1,5 @@
-import '../../styles/sanitize.css';
-import '../../styles/global';
+import '@styles/sanitize.css';
+import '@styles/global';
 
 import * as React from 'react';
 import { Router } from '@reach/router';

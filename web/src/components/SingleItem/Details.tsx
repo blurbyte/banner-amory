@@ -3,7 +3,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 
-import { Item } from '../../types/Item';
+import { Item } from '@sharedTypes/Item';
 import Property from '../SingleItemProperty';
 
 const Wrapper = styled.div`

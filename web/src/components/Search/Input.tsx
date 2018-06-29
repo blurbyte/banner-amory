@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { transparentize } from 'polished';
 
-import { Colors } from '../../styles/colors';
+import { Colors } from '@styles/colors';
 
 const Input = styled.input`
   line-height: 1;

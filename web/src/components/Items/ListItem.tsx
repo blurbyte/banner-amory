@@ -5,8 +5,8 @@ import { Link as BaseLink } from '@reach/router';
 import styled from 'styled-components';
 import { transparentize } from 'polished';
 
-import { Colors } from '../../styles/colors';
-import { ItemBasic as ListItemProps } from '../../types/Item';
+import { Colors } from '@styles/colors';
+import { ItemBasic as ListItemProps } from '@sharedTypes/Item';
 import Image from '../Image';
 
 const Item = styled.li`

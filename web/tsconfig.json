@@ -13,7 +13,16 @@
     ],
     "types": [
       "node", "react", "react-dom", "reach__router"
-    ]
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@styles/*": [
+        "src/styles/*"
+      ],
+      "@sharedTypes/*": [
+        "src/types/*"
+      ]
+    }
   },
   "include": [
     "src/**/*"

@@ -3,7 +3,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 
-import { Colors } from '../../styles/colors';
+import { Colors } from '@styles/colors';
 import Property from '../SingleItemProperty';
 import SecondaryLabel from './SecondaryLabel';
 

@@ -4,7 +4,7 @@ import * as React from 'react';
 import { gql } from 'apollo-boost';
 import { Query } from 'react-apollo';
 
-import { Item } from '../../types/Item';
+import { Item } from '@sharedTypes/Item';
 import Content from './Content';
 import DetailedItem from './DetailedItem';
 
@@ -54,7 +54,7 @@ export const getSingleItem = gql`
 
 type SingleItemProps = {
   path?: string;
-  slug: Item['slug'];
+  slug?: Item['slug'];
 };
 
 export class SingleItem extends React.Component<SingleItemProps> {

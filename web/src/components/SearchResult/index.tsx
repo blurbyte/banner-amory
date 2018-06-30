@@ -13,7 +13,9 @@ import Headline from './Headline';
 export const searchItems = gql`
   query searchItems($query: String!) {
     search(query: $query) {
+      name
       slug
+      gamePart
       rank
     }
   }

@@ -2,22 +2,18 @@
 
 exports[`renders correctly 1`] = `
 <li
-  className="sc-bwzfXH bEhcJL"
+  className="sc-bxivhb hjuVSK"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
 >
-  <a
-    className="sc-htpNat kCADRD"
-    href="/item/test-slug"
-    onClick={[Function]}
+  <img
+    className="sc-bdVaJa hpZUqN"
+    src="undefinedariana-grande.png"
+  />
+  <p
+    className="sc-EHOje RRuYV"
   >
-    <img
-      className="sc-bdVaJa hpZUqN"
-      src="undefinedtest-slug.png"
-    />
-    <p
-      className="sc-bxivhb dhKWxo"
-    >
-      10
-    </p>
-  </a>
+    10
+  </p>
 </li>
 `;

@@ -5,7 +5,9 @@ import ItemsGridItem from '../index';
 
 test('renders correctly', () => {
   const props = {
-    slug: 'test-slug',
+    name: 'Ariana Grande',
+    slug: 'ariana-grande',
+    gamePart: 2,
     rank: 10
   };
   const component = renderer.create(<ItemsGridItem {...props} />);

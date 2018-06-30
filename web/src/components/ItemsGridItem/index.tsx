@@ -2,25 +2,53 @@
 
 import * as React from 'react';
 
-import { ItemBasic as GridItemProps } from '@sharedTypes/Item';
+import { ItemBasic as ItemsGridItemProps } from '@sharedTypes/Item';
 import Image from '../Image';
 import Item from './Item';
 import Link from './Link';
+import Overlay from './Overlay';
+import Info from './Info';
 import Rank from './Rank';
 
-class ItemsGridItem extends React.Component<GridItemProps> {
+const initialState = {
+  overlayIsVisible: false
+};
+
+type ItemsGridItemState = Readonly<typeof initialState>;
+
+class ItemsGridItem extends React.Component<ItemsGridItemProps, ItemsGridItemState> {
+  readonly state = initialState;
+
   render() {
-    const { slug, rank } = this.props;
+    const { name, slug, gamePart, rank } = this.props;
+    const { overlayIsVisible } = this.state;
 
     return (
-      <Item>
-        <Link to={`/item/${slug}`}>
-          <Image slug={slug} />
-          <Rank>{rank}</Rank>
-        </Link>
+      <Item onMouseEnter={this.showOverlay} onMouseLeave={this.hideOverlay}>
+        {overlayIsVisible && (
+          <Overlay>
+            <Link to={`/item/${slug}`}>
+              <Info name={name} gamePart={gamePart} rank={rank} />
+            </Link>
+          </Overlay>
+        )}
+        <Image slug={slug} />
+        {!overlayIsVisible && <Rank>{rank}</Rank>}
       </Item>
     );
   }
+
+  private showOverlay = () => {
+    this.setState({
+      overlayIsVisible: true
+    });
+  };
+
+  private hideOverlay = () => {
+    this.setState({
+      overlayIsVisible: false
+    });
+  };
 }
 
 export default ItemsGridItem;

@@ -4,11 +4,24 @@ exports[`renders correctly 1`] = `
 .c0 {
   position: relative;
   background: rgba(61,38,218,0.1);
-  z-index: 99;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.c0:nth-child(10n) .sc-bdVaJa,
+.c0:last-child:not(:first-child) .sc-bdVaJa {
+  left: auto;
+  right: 0;
+}
+
+.c0:nth-child(10n) .sc-bwzfXH,
+.c0:last-child:not(:first-child) .sc-bwzfXH {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 <li

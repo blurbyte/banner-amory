@@ -16,6 +16,7 @@ const Rank = styled.p`
   width: 2rem;
   height: 2rem;
   font-weight: 600;
+  padding-bottom: 0.2rem;
 `;
 
 export default Rank;

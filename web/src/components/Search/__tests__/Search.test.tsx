@@ -11,7 +11,7 @@ jest.mock('../../Icons', () => ({
 // spy on navigate
 jest.mock('@reach/router', () => ({
   navigate: jest.fn()
-}))
+}));
 
 beforeEach(cleanup);
 

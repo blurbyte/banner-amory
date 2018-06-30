@@ -21,6 +21,7 @@
     "chalk": "2.4.1",
     "delay": "3.0.0",
     "dotenv": "6.0.0",
+    "express": "4.16.3",
     "fuse-box": "3.3.0",
     "jest": "23.1.0",
     "jest-styled-components": "5.0.1",

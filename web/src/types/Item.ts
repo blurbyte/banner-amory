@@ -38,4 +38,4 @@ export type Item = {
   trivia?: string;
 };
 
-export type ItemBasic = Pick<Item, 'slug' | 'rank'>;
+export type ItemBasic = Pick<Item, 'name' | 'slug' | 'gamePart' | 'rank'>;

@@ -1,22 +1,29 @@
+import { ItemBasic } from '@sharedTypes/Item';
 import { getItems } from '../index';
+import { MockedResponse } from 'react-apollo/test-utils';
 
-export const itemsMock = [
+const testItem1: ItemBasic = {
+  name: 'Ariana Grande',
+  slug: 'ariana-grande',
+  gamePart: 1,
+  rank: 10
+};
+
+const testItem2: ItemBasic = {
+  name: 'Taylor Swift',
+  slug: 'taylor-swift',
+  gamePart: 2,
+  rank: 1
+};
+
+export const itemsMock: MockedResponse[] = [
   {
     request: {
       query: getItems
     },
     result: {
       data: {
-        items: [
-          {
-            slug: 'test-slug',
-            rank: 10
-          },
-          {
-            slug: 'taylor-swift',
-            rank: 1
-          }
-        ]
+        items: [testItem1, testItem2]
       }
     }
   }

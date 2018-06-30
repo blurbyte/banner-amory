@@ -12,7 +12,7 @@
       "esnext.asynciterable"
     ],
     "types": [
-      "node", "react", "react-dom", "reach__router"
+      "node", "react", "react-dom", "reach__router", "jest"
     ],
     "baseUrl": ".",
     "paths": {
@@ -29,7 +29,6 @@
   ],
   "exclude": [
     "node_modules",
-    "src/**/*.test.*",
     "dist",
     "build"
   ]

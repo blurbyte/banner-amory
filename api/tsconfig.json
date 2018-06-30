@@ -16,7 +16,7 @@
       "esnext.asynciterable"
     ],
     "types": [
-      "node", "lodash", "body-parser", "express", "graphql", "cors", "node-fetch", "ws"
+      "node", "lodash", "body-parser", "express", "graphql", "cors", "node-fetch", "ws", "jest"
     ]
   },
   "include": [
@@ -24,7 +24,6 @@
   ],
   "exclude": [
     "node_modules",
-    "src/**/*.test.*",
     "dist",
     "build"
   ]

@@ -2,45 +2,37 @@
 
 exports[`renders correctly 1`] = `
 <ul
-  className="sc-ifAKCX hEkxEp"
+  className="sc-iwsKbI igizDg"
 >
   <li
-    className="sc-bwzfXH bEhcJL"
+    className="sc-bxivhb hjuVSK"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
   >
-    <a
-      className="sc-htpNat kCADRD"
-      href="/item/test-slug"
-      onClick={[Function]}
+    <img
+      className="sc-bdVaJa hpZUqN"
+      src="undefinedtest-slug.png"
+    />
+    <p
+      className="sc-EHOje RRuYV"
     >
-      <img
-        className="sc-bdVaJa hpZUqN"
-        src="undefinedtest-slug.png"
-      />
-      <p
-        className="sc-bxivhb dhKWxo"
-      >
-        10
-      </p>
-    </a>
+      10
+    </p>
   </li>
   <li
-    className="sc-bwzfXH bEhcJL"
+    className="sc-bxivhb hjuVSK"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
   >
-    <a
-      className="sc-htpNat kCADRD"
-      href="/item/taylor-swift"
-      onClick={[Function]}
+    <img
+      className="sc-bdVaJa hpZUqN"
+      src="undefinedtaylor-swift.png"
+    />
+    <p
+      className="sc-EHOje RRuYV"
     >
-      <img
-        className="sc-bdVaJa hpZUqN"
-        src="undefinedtaylor-swift.png"
-      />
-      <p
-        className="sc-bxivhb dhKWxo"
-      >
-        1
-      </p>
-    </a>
+      1
+    </p>
   </li>
 </ul>
 `;

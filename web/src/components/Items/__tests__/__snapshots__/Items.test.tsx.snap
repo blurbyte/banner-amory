@@ -2,46 +2,36 @@
 
 exports[`renders loaded list of items 1`] = `
 <article
-  class="sc-gzVnrw dRzWCS sc-bZQynM fYeycu"
+  class="sc-VigVT bJrctR sc-gqjmRU dtOdvt"
 >
   <ul
-    class="sc-ifAKCX hEkxEp"
+    class="sc-iwsKbI igizDg"
   >
     <li
-      class="sc-bwzfXH bEhcJL"
+      class="sc-bxivhb hjuVSK"
     >
-      <a
-        class="sc-htpNat kCADRD"
-        href="/item/test-slug"
+      <img
+        class="sc-bdVaJa hpZUqN"
+        src="undefinedariana-grande.png"
+      />
+      <p
+        class="sc-EHOje RRuYV"
       >
-        <img
-          class="sc-bdVaJa hpZUqN"
-          src="undefinedtest-slug.png"
-        />
-        <p
-          class="sc-bxivhb dhKWxo"
-        >
-          10
-        </p>
-      </a>
+        10
+      </p>
     </li>
     <li
-      class="sc-bwzfXH bEhcJL"
+      class="sc-bxivhb hjuVSK"
     >
-      <a
-        class="sc-htpNat kCADRD"
-        href="/item/taylor-swift"
+      <img
+        class="sc-bdVaJa hpZUqN"
+        src="undefinedtaylor-swift.png"
+      />
+      <p
+        class="sc-EHOje RRuYV"
       >
-        <img
-          class="sc-bdVaJa hpZUqN"
-          src="undefinedtaylor-swift.png"
-        />
-        <p
-          class="sc-bxivhb dhKWxo"
-        >
-          1
-        </p>
-      </a>
+        1
+      </p>
     </li>
   </ul>
 </article>
@@ -49,6 +39,6 @@ exports[`renders loaded list of items 1`] = `
 
 exports[`renders loading state initially 1`] = `
 <article
-  class="sc-gzVnrw dRzWCS sc-bZQynM fYeycu"
+  class="sc-VigVT bJrctR sc-gqjmRU dtOdvt"
 />
 `;

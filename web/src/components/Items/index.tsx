@@ -11,7 +11,9 @@ import Content from './Content';
 export const getItems = gql`
   query getItems {
     items {
+      name
       slug
+      gamePart
       rank
     }
   }

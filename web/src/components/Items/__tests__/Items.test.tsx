@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { render, waitForElement, cleanup } from 'react-testing-library';
+import { render, cleanup } from 'react-testing-library';
 import { MockedProvider } from 'react-apollo/test-utils';
 import * as delay from 'delay';
 

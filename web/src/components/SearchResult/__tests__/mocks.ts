@@ -1,6 +1,7 @@
+import { MockedResponse } from 'react-apollo/test-utils';
+
 import { ItemBasic } from '@sharedTypes/Item';
 import { searchItems } from '../index';
-import { MockedResponse } from 'react-apollo/test-utils';
 
 export const testItem1: ItemBasic = {
   name: "Alette's Bracelet",

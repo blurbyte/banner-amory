@@ -1,6 +1,7 @@
+import { MockedResponse } from 'react-apollo/test-utils';
+
 import { ItemBasic } from '@sharedTypes/Item';
 import { getItems } from '../index';
-import { MockedResponse } from 'react-apollo/test-utils';
 
 const testItem1: ItemBasic = {
   name: 'Ariana Grande',

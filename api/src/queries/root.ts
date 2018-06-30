@@ -4,11 +4,11 @@ import { getCustomRepository } from 'typeorm';
 import { ItemRepository } from '../repositories/Item';
 import { Item as ItemEntity } from '../entities/Item';
 
-type ItemQueryArgs = {
+export type ItemQueryArgs = {
   slug: ItemEntity['slug'];
 };
 
-type SearchQueryArgs = {
+export type SearchQueryArgs = {
   query: string;
 };
 

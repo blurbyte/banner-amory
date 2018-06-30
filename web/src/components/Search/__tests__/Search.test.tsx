@@ -24,7 +24,7 @@ test('submits search correctly', () => {
   // for controlled component change event have to be fired manually
   fireEvent.change(searchInput);
 
-  const submitButton = container.querySelector('button');
+  const submitButton = container.querySelector('button') as HTMLButtonElement;
 
   // act
   fireEvent.click(submitButton);

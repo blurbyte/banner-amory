@@ -1,3 +1,5 @@
+import { MockedResponse } from 'react-apollo/test-utils';
+
 import { Item } from '@sharedTypes/Item';
 import { getSingleItem } from '../index';
 
@@ -13,7 +15,7 @@ export const testItem: Item = {
   acquirementHero: 'Alette'
 };
 
-export const singleItemMock = [
+export const singleItemMock: MockedResponse[] = [
   {
     request: {
       query: getSingleItem,

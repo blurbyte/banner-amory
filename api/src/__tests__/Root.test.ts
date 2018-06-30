@@ -4,6 +4,7 @@ import { find, filter } from 'lodash';
 
 import schema from '../schema';
 import { testItem1, testItem2 } from './mocks';
+import { ItemQueryArgs, SearchQueryArgs } from '../queries/root';
 
 // arrange
 addMockFunctionsToSchema({
@@ -14,12 +15,12 @@ addMockFunctionsToSchema({
     String: () => null,
     Query: () => ({
       items: () => [testItem1, testItem2],
-      item: (_root, { slug }) => {
+      item: (_root: any, { slug }: ItemQueryArgs) => {
         const items = [testItem1, testItem2];
         const item = find(items, item => item.slug === slug);
         return item;
       },
-      search: (_root, { query }) => {
+      search: (_root: any, { query }: SearchQueryArgs) => {
         const items = [testItem1, testItem2];
         const result = filter(items, item => item.name.toLowerCase().includes(query));
         return result;

@@ -5,10 +5,10 @@ exports[`renders correctly 1`] = `
   className="sc-ifAKCX hEkxEp"
 >
   <li
-    className="sc-htpNat cDJghx"
+    className="sc-bwzfXH bEhcJL"
   >
     <a
-      className="sc-bxivhb kPYQCs"
+      className="sc-htpNat kCADRD"
       href="/item/test-slug"
       onClick={[Function]}
     >
@@ -17,17 +17,17 @@ exports[`renders correctly 1`] = `
         src="undefinedtest-slug.png"
       />
       <p
-        className="sc-bwzfXH fMjatQ"
+        className="sc-bxivhb dhKWxo"
       >
         10
       </p>
     </a>
   </li>
   <li
-    className="sc-htpNat cDJghx"
+    className="sc-bwzfXH bEhcJL"
   >
     <a
-      className="sc-bxivhb kPYQCs"
+      className="sc-htpNat kCADRD"
       href="/item/taylor-swift"
       onClick={[Function]}
     >
@@ -36,7 +36,7 @@ exports[`renders correctly 1`] = `
         src="undefinedtaylor-swift.png"
       />
       <p
-        className="sc-bwzfXH fMjatQ"
+        className="sc-bxivhb dhKWxo"
       >
         1
       </p>

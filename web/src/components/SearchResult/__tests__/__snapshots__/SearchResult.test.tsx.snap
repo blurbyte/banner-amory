@@ -35,10 +35,10 @@ exports[`renders loaded item 1`] = `
     class="sc-ifAKCX hEkxEp"
   >
     <li
-      class="sc-htpNat cDJghx"
+      class="sc-bwzfXH bEhcJL"
     >
       <a
-        class="sc-bxivhb kPYQCs"
+        class="sc-htpNat kCADRD"
         href="/item/alettes-bracelet"
       >
         <img
@@ -46,17 +46,17 @@ exports[`renders loaded item 1`] = `
           src="undefinedalettes-bracelet.png"
         />
         <p
-          class="sc-bwzfXH fMjatQ"
+          class="sc-bxivhb dhKWxo"
         >
           1
         </p>
       </a>
     </li>
     <li
-      class="sc-htpNat cDJghx"
+      class="sc-bwzfXH bEhcJL"
     >
       <a
-        class="sc-bxivhb kPYQCs"
+        class="sc-htpNat kCADRD"
         href="/item/whalebone-needle"
       >
         <img
@@ -64,7 +64,7 @@ exports[`renders loaded item 1`] = `
           src="undefinedwhalebone-needle.png"
         />
         <p
-          class="sc-bwzfXH fMjatQ"
+          class="sc-bxivhb dhKWxo"
         >
           1
         </p>

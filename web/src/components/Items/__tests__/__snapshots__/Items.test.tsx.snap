@@ -8,10 +8,10 @@ exports[`renders loaded list of items 1`] = `
     class="sc-ifAKCX hEkxEp"
   >
     <li
-      class="sc-htpNat cDJghx"
+      class="sc-bwzfXH bEhcJL"
     >
       <a
-        class="sc-bxivhb kPYQCs"
+        class="sc-htpNat kCADRD"
         href="/item/test-slug"
       >
         <img
@@ -19,17 +19,17 @@ exports[`renders loaded list of items 1`] = `
           src="undefinedtest-slug.png"
         />
         <p
-          class="sc-bwzfXH fMjatQ"
+          class="sc-bxivhb dhKWxo"
         >
           10
         </p>
       </a>
     </li>
     <li
-      class="sc-htpNat cDJghx"
+      class="sc-bwzfXH bEhcJL"
     >
       <a
-        class="sc-bxivhb kPYQCs"
+        class="sc-htpNat kCADRD"
         href="/item/taylor-swift"
       >
         <img
@@ -37,7 +37,7 @@ exports[`renders loaded list of items 1`] = `
           src="undefinedtaylor-swift.png"
         />
         <p
-          class="sc-bwzfXH fMjatQ"
+          class="sc-bxivhb dhKWxo"
         >
           1
         </p>

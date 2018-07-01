@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <ul
-  className="sc-iwsKbI igizDg"
+  className="sc-gZMcBi PuPZl"
 >
   <li
     className="sc-bxivhb hjuVSK"
@@ -14,7 +14,7 @@ exports[`renders correctly 1`] = `
       src="undefinedtest-slug.png"
     />
     <p
-      className="sc-EHOje RRuYV"
+      className="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
     >
       10
     </p>
@@ -29,7 +29,7 @@ exports[`renders correctly 1`] = `
       src="undefinedtaylor-swift.png"
     />
     <p
-      className="sc-EHOje RRuYV"
+      className="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
     >
       1
     </p>

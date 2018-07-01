@@ -12,7 +12,7 @@ exports[`hides and shows overlay based on mouse entering and leaving Item wrappe
       href="/item/ariana-grande"
     >
       <section
-        class="sc-htoDjs fAXrMf"
+        class="sc-htoDjs cjfxrJ"
       >
         <h3
           class="sc-ifAKCX cWwXgL"
@@ -49,6 +49,11 @@ exports[`hides and shows overlay based on mouse entering and leaving Item wrappe
     class="sc-bdVaJa hpZUqN"
     src="undefinedariana-grande.png"
   />
+  <p
+    class="sc-iwsKbI jrVOTo sc-EHOje RRuYV fade-out-exit fade-out-exit-active"
+  >
+    10
+  </p>
 </li>
 `;
 
@@ -61,7 +66,7 @@ exports[`hides and shows overlay based on mouse entering and leaving Item wrappe
     src="undefinedariana-grande.png"
   />
   <p
-    class="sc-EHOje RRuYV"
+    class="sc-iwsKbI jrVOTo sc-EHOje RRuYV fade-out-enter fade-out-enter-active"
   >
     10
   </p>

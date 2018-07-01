@@ -58,8 +58,8 @@ exports[`renders correctly 1`] = `
   height: 100%;
   background: #3d26da;
   opacity: 0;
-  -webkit-animation: hNmyzT 0.2s ease-in forwards 0.2s;
-  animation: hNmyzT 0.2s ease-in forwards 0.2s;
+  -webkit-animation: hNmyzT 0.25s ease-in forwards 0.15s;
+  animation: hNmyzT 0.25s ease-in forwards 0.15s;
 }
 
 .c2 {

@@ -9,6 +9,7 @@ import Link from './Link';
 import Overlay from './Overlay';
 import Info from './Info';
 import Rank from './Rank';
+import FadeOut from './FadeOut';
 
 const initialState = {
   overlayIsVisible: false
@@ -33,7 +34,9 @@ class ItemsGridItem extends React.Component<ItemsGridItemProps, ItemsGridItemSta
           </Overlay>
         )}
         <Image slug={slug} />
-        {!overlayIsVisible && <Rank>{rank}</Rank>}
+        <FadeOut isVisible={!overlayIsVisible}>
+          <Rank>{rank}</Rank>
+        </FadeOut>
       </Item>
     );
   }

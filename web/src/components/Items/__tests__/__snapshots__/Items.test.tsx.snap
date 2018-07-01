@@ -2,10 +2,10 @@
 
 exports[`renders loaded list of items 1`] = `
 <article
-  class="sc-VigVT bJrctR sc-gqjmRU dtOdvt"
+  class="sc-jTzLTM fwmeDQ sc-VigVT jMIXiq"
 >
   <ul
-    class="sc-iwsKbI igizDg"
+    class="sc-gZMcBi PuPZl"
   >
     <li
       class="sc-bxivhb hjuVSK"
@@ -15,7 +15,7 @@ exports[`renders loaded list of items 1`] = `
         src="undefinedariana-grande.png"
       />
       <p
-        class="sc-EHOje RRuYV"
+        class="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
       >
         10
       </p>
@@ -28,7 +28,7 @@ exports[`renders loaded list of items 1`] = `
         src="undefinedtaylor-swift.png"
       />
       <p
-        class="sc-EHOje RRuYV"
+        class="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
       >
         1
       </p>
@@ -39,6 +39,6 @@ exports[`renders loaded list of items 1`] = `
 
 exports[`renders loading state initially 1`] = `
 <article
-  class="sc-VigVT bJrctR sc-gqjmRU dtOdvt"
+  class="sc-jTzLTM fwmeDQ sc-VigVT jMIXiq"
 />
 `;

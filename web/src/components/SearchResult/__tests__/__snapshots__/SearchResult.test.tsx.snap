@@ -2,14 +2,14 @@
 
 exports[`renders info message when no items match search 1`] = `
 <article
-  class="sc-jTzLTM rEHqS sc-VigVT jMIXiq"
+  class="sc-fjdhpX hpJXzn sc-jTzLTM jufxiL"
 >
   <h1
-    class="sc-jzJRlG iRtNhh sc-fjdhpX dFoqyJ"
+    class="sc-cSHVUG iOMKIM sc-jzJRlG dGTYFu"
   >
     Bolverk failed to find items for 
     <strong
-      class="sc-gZMcBi dQOhQy"
+      class="sc-gqjmRU gyUJSx"
     >
       xxx
     </strong>
@@ -19,20 +19,20 @@ exports[`renders info message when no items match search 1`] = `
 
 exports[`renders loaded item 1`] = `
 <article
-  class="sc-jTzLTM rEHqS sc-VigVT jMIXiq"
+  class="sc-fjdhpX hpJXzn sc-jTzLTM jufxiL"
 >
   <h1
-    class="sc-jzJRlG iRtNhh sc-fjdhpX dFoqyJ"
+    class="sc-cSHVUG iOMKIM sc-jzJRlG dGTYFu"
   >
     Items found for 
     <strong
-      class="sc-gZMcBi dQOhQy"
+      class="sc-gqjmRU gyUJSx"
     >
       ale
     </strong>
   </h1>
   <ul
-    class="sc-iwsKbI igizDg"
+    class="sc-gZMcBi PuPZl"
   >
     <li
       class="sc-bxivhb hjuVSK"
@@ -42,7 +42,7 @@ exports[`renders loaded item 1`] = `
         src="undefinedalettes-bracelet.png"
       />
       <p
-        class="sc-EHOje RRuYV"
+        class="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
       >
         1
       </p>
@@ -55,7 +55,7 @@ exports[`renders loaded item 1`] = `
         src="undefinedwhalebone-needle.png"
       />
       <p
-        class="sc-EHOje RRuYV"
+        class="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
       >
         1
       </p>
@@ -66,6 +66,6 @@ exports[`renders loaded item 1`] = `
 
 exports[`renders loading state initially 1`] = `
 <article
-  class="sc-jTzLTM rEHqS sc-VigVT jMIXiq"
+  class="sc-fjdhpX hpJXzn sc-jTzLTM jufxiL"
 />
 `;

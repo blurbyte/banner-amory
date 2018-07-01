@@ -1,17 +1,67 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`hides and shows overlay based on mouse entering and leaving Item wrapper 1`] = `
 <li
-  className="sc-bxivhb hjuVSK"
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
+  class="sc-bxivhb hjuVSK"
+>
+  <div
+    class="sc-bwzfXH cenJvv"
+  >
+    <a
+      class="sc-htpNat hNLLf"
+      href="/item/ariana-grande"
+    >
+      <section
+        class="sc-htoDjs djzTMS"
+      >
+        <h3
+          class="sc-ifAKCX cWwXgL"
+        >
+          Ariana Grande
+        </h3>
+        <p
+          class="sc-dnqmqq dAPyYY sc-EHOje RRuYV"
+        >
+          10
+        </p>
+        <div
+          class="sc-bZQynM chyZNK"
+        >
+          <p
+            class="sc-gzVnrw izdpJq sc-EHOje RRuYV"
+          >
+            2
+          </p>
+          <svg
+            viewBox="0 0 50 90"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M50.005 90L25.003 67.452 0 90V0h50.005v90z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </section>
+    </a>
+  </div>
+  <img
+    class="sc-bdVaJa hpZUqN"
+    src="undefinedariana-grande.png"
+  />
+</li>
+`;
+
+exports[`hides and shows overlay based on mouse entering and leaving Item wrapper 2`] = `
+<li
+  class="sc-bxivhb hjuVSK"
 >
   <img
-    className="sc-bdVaJa hpZUqN"
+    class="sc-bdVaJa hpZUqN"
     src="undefinedariana-grande.png"
   />
   <p
-    className="sc-EHOje RRuYV"
+    class="sc-EHOje RRuYV"
   >
     10
   </p>

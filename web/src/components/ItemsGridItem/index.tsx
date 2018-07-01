@@ -10,6 +10,7 @@ import Overlay from './Overlay';
 import Info from './Info';
 import Rank from './Rank';
 import FadeOut from './FadeOut';
+import ImageOverlay from './ImageOverlay';
 
 const initialState = {
   overlayIsVisible: false
@@ -25,18 +26,25 @@ class ItemsGridItem extends React.Component<ItemsGridItemProps, ItemsGridItemSta
     const { overlayIsVisible } = this.state;
 
     return (
-      <Item onMouseEnter={this.showOverlay} onMouseLeave={this.hideOverlay}>
-        {overlayIsVisible && (
-          <Overlay>
-            <Link to={`/item/${slug}`}>
+      <Item>
+        <Link
+          onMouseEnter={this.showOverlay}
+          onMouseLeave={this.hideOverlay}
+          onFocus={this.showOverlay}
+          onBlur={this.hideOverlay}
+          to={`/item/${slug}`}
+        >
+          {overlayIsVisible && (
+            <Overlay>
               <Info name={name} gamePart={gamePart} rank={rank} />
-            </Link>
-          </Overlay>
-        )}
-        <Image slug={slug} />
-        <FadeOut isVisible={!overlayIsVisible}>
-          <Rank>{rank}</Rank>
-        </FadeOut>
+            </Overlay>
+          )}
+          {overlayIsVisible && <ImageOverlay />}
+          <Image slug={slug} />
+          <FadeOut isVisible={!overlayIsVisible}>
+            <Rank>{rank}</Rank>
+          </FadeOut>
+        </Link>
       </Item>
     );
   }

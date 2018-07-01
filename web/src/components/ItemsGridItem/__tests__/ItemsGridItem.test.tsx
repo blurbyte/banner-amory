@@ -18,19 +18,19 @@ test('hides and shows overlay based on mouse entering and leaving Item wrapper',
 
   const { container } = render(<ItemsGridItem {...props} />);
 
-  const itemWrapper = container.querySelector('li') as HTMLElement;
+  const itemWrapper = container.querySelector('a') as HTMLElement;
 
   // test onMouseEnter
   // act
   fireEvent.mouseEnter(itemWrapper);
   // assert
-  expect(container.querySelector('a')).toBeInTheDOM();
+  expect(container.querySelector('h3')).toBeInTheDOM();
   expect(container.firstChild).toMatchSnapshot();
 
   // test onMouseLeave
   // act
   fireEvent.mouseLeave(itemWrapper);
   // assert
-  expect(container.querySelector('a')).not.toBeInTheDOM();
+  expect(container.querySelector('h3')).not.toBeInTheDOM();
   expect(container.firstChild).toMatchSnapshot();
 });

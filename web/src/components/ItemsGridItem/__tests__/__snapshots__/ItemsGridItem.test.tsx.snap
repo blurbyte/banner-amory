@@ -2,14 +2,14 @@
 
 exports[`hides and shows overlay based on mouse entering and leaving Item wrapper 1`] = `
 <li
-  class="sc-bxivhb hjuVSK"
+  class="sc-htpNat hkrMkj"
 >
-  <div
-    class="sc-bwzfXH cenJvv"
+  <a
+    class="sc-bxivhb jgmcrE"
+    href="/item/ariana-grande"
   >
-    <a
-      class="sc-htpNat hNLLf"
-      href="/item/ariana-grande"
+    <div
+      class="sc-bwzfXH iGzFrz"
     >
       <section
         class="sc-htoDjs cjfxrJ"
@@ -43,32 +43,40 @@ exports[`hides and shows overlay based on mouse entering and leaving Item wrappe
           </svg>
         </div>
       </section>
-    </a>
-  </div>
-  <img
-    class="sc-bdVaJa hpZUqN"
-    src="undefinedariana-grande.png"
-  />
-  <p
-    class="sc-iwsKbI jrVOTo sc-EHOje RRuYV fade-out-exit fade-out-exit-active"
-  >
-    10
-  </p>
+    </div>
+    <div
+      class="sc-gZMcBi fFNkhP"
+    />
+    <img
+      class="sc-bdVaJa hpZUqN"
+      src="undefinedariana-grande.png"
+    />
+    <p
+      class="sc-iwsKbI jrVOTo sc-EHOje RRuYV fade-out-exit fade-out-exit-active"
+    >
+      10
+    </p>
+  </a>
 </li>
 `;
 
 exports[`hides and shows overlay based on mouse entering and leaving Item wrapper 2`] = `
 <li
-  class="sc-bxivhb hjuVSK"
+  class="sc-htpNat hkrMkj"
 >
-  <img
-    class="sc-bdVaJa hpZUqN"
-    src="undefinedariana-grande.png"
-  />
-  <p
-    class="sc-iwsKbI jrVOTo sc-EHOje RRuYV fade-out-enter fade-out-enter-active"
+  <a
+    class="sc-bxivhb jgmcrE"
+    href="/item/ariana-grande"
   >
-    10
-  </p>
+    <img
+      class="sc-bdVaJa hpZUqN"
+      src="undefinedariana-grande.png"
+    />
+    <p
+      class="sc-iwsKbI jrVOTo sc-EHOje RRuYV fade-out-enter fade-out-enter-active"
+    >
+      10
+    </p>
+  </a>
 </li>
 `;

@@ -2,14 +2,14 @@
 
 exports[`renders info message when no items match search 1`] = `
 <article
-  class="sc-fjdhpX hpJXzn sc-jTzLTM jufxiL"
+  class="sc-jzJRlG gJWoAr sc-fjdhpX imnhIn"
 >
   <h1
-    class="sc-cSHVUG iOMKIM sc-jzJRlG dGTYFu"
+    class="sc-kAzzGY eWiINP sc-cSHVUG hOouba"
   >
     Bolverk failed to find items for 
     <strong
-      class="sc-gqjmRU gyUJSx"
+      class="sc-VigVT cSVrEB"
     >
       xxx
     </strong>
@@ -19,46 +19,56 @@ exports[`renders info message when no items match search 1`] = `
 
 exports[`renders loaded item 1`] = `
 <article
-  class="sc-fjdhpX hpJXzn sc-jTzLTM jufxiL"
+  class="sc-jzJRlG gJWoAr sc-fjdhpX imnhIn"
 >
   <h1
-    class="sc-cSHVUG iOMKIM sc-jzJRlG dGTYFu"
+    class="sc-kAzzGY eWiINP sc-cSHVUG hOouba"
   >
     Items found for 
     <strong
-      class="sc-gqjmRU gyUJSx"
+      class="sc-VigVT cSVrEB"
     >
       ale
     </strong>
   </h1>
   <ul
-    class="sc-gZMcBi PuPZl"
+    class="sc-gqjmRU exHRLl"
   >
     <li
-      class="sc-bxivhb hjuVSK"
+      class="sc-htpNat hkrMkj"
     >
-      <img
-        class="sc-bdVaJa hpZUqN"
-        src="undefinedalettes-bracelet.png"
-      />
-      <p
-        class="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
+      <a
+        class="sc-bxivhb jgmcrE"
+        href="/item/alettes-bracelet"
       >
-        1
-      </p>
+        <img
+          class="sc-bdVaJa hpZUqN"
+          src="undefinedalettes-bracelet.png"
+        />
+        <p
+          class="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
+        >
+          1
+        </p>
+      </a>
     </li>
     <li
-      class="sc-bxivhb hjuVSK"
+      class="sc-htpNat hkrMkj"
     >
-      <img
-        class="sc-bdVaJa hpZUqN"
-        src="undefinedwhalebone-needle.png"
-      />
-      <p
-        class="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
+      <a
+        class="sc-bxivhb jgmcrE"
+        href="/item/whalebone-needle"
       >
-        1
-      </p>
+        <img
+          class="sc-bdVaJa hpZUqN"
+          src="undefinedwhalebone-needle.png"
+        />
+        <p
+          class="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
+        >
+          1
+        </p>
+      </a>
     </li>
   </ul>
 </article>
@@ -66,6 +76,6 @@ exports[`renders loaded item 1`] = `
 
 exports[`renders loading state initially 1`] = `
 <article
-  class="sc-fjdhpX hpJXzn sc-jTzLTM jufxiL"
+  class="sc-jzJRlG gJWoAr sc-fjdhpX imnhIn"
 />
 `;

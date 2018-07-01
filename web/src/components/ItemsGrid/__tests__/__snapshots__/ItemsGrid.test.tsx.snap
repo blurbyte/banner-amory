@@ -2,37 +2,53 @@
 
 exports[`renders correctly 1`] = `
 <ul
-  className="sc-gZMcBi PuPZl"
+  className="sc-gqjmRU exHRLl"
 >
   <li
-    className="sc-bxivhb hjuVSK"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
+    className="sc-htpNat hkrMkj"
   >
-    <img
-      className="sc-bdVaJa hpZUqN"
-      src="undefinedtest-slug.png"
-    />
-    <p
-      className="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
+    <a
+      className="sc-bxivhb jgmcrE"
+      href="/item/test-slug"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
     >
-      10
-    </p>
+      <img
+        className="sc-bdVaJa hpZUqN"
+        src="undefinedtest-slug.png"
+      />
+      <p
+        className="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
+      >
+        10
+      </p>
+    </a>
   </li>
   <li
-    className="sc-bxivhb hjuVSK"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
+    className="sc-htpNat hkrMkj"
   >
-    <img
-      className="sc-bdVaJa hpZUqN"
-      src="undefinedtaylor-swift.png"
-    />
-    <p
-      className="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
+    <a
+      className="sc-bxivhb jgmcrE"
+      href="/item/taylor-swift"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
     >
-      1
-    </p>
+      <img
+        className="sc-bdVaJa hpZUqN"
+        src="undefinedtaylor-swift.png"
+      />
+      <p
+        className="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
+      >
+        1
+      </p>
+    </a>
   </li>
 </ul>
 `;

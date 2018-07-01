@@ -4,11 +4,14 @@ import styled from 'styled-components';
 import { Colors } from '@styles/colors';
 
 const Link = styled(BaseLink)`
-  display: flex;
-  justify-content: flex-end;
-  color: ${Colors.blue};
+  position: relative;
+  display: block;
   width: 100%;
   height: 100%;
+  color: ${Colors.blue};
+  padding: 0;
+  margin: 0;
+  outline: none;
 `;
 
 export default Link;

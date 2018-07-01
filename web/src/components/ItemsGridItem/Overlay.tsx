@@ -7,6 +7,8 @@ const Overlay = styled.div`
   z-index: 999;
   width: calc(200% + 1rem);
   height: 100%;
+  display: flex;
+  justify-content: flex-end;
 `;
 
 export default Overlay;

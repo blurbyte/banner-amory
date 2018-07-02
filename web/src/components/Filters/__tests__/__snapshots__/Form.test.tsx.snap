@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c0 {
+  overflow: hidden;
+  height: 0;
+  -webkit-transition: height 0.25s ease-in-out;
+  transition: height 0.25s ease-in-out;
+}
+
+<form
+  className="c0"
+/>
+`;
+
+exports[`renders correctly when it is expanded 1`] = `
+.c0 {
+  overflow: hidden;
+  height: 12rem;
+  -webkit-transition: height 0.25s ease-in-out;
+  transition: height 0.25s ease-in-out;
+}
+
+<form
+  className="c0"
+/>
+`;

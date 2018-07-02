@@ -1,49 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders loaded list of items 1`] = `
-<div
-  class="sc-bdVaJa fOUWbH"
->
-  <section
-    class="sc-bxivhb fzKfKx sc-htpNat hClEhO"
-  >
-    <h2
-      class="sc-ifAKCX cBxAoP"
-    >
-      Filter & Sort
-    </h2>
-    <form
-      class="sc-gzVnrw haqrBf"
-    />
-    <div
-      class="sc-bZQynM inSVjB"
-    >
-      <button
-        aria-label="Toggle filters"
-        class="sc-EHOje hKPpqy"
-        type="button"
-      >
-        <svg
-          height="12"
-          viewBox="0 0 24 12"
-          width="24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M0 0h24L12 12 0 0z"
-            fill="currentColor"
-          />
-          <path
-            d="M6 0h12l-6 6-6-6z"
-            fill="#3d26da"
-          />
-        </svg>
-      </button>
-    </div>
-  </section>
-</div>
-`;
-
 exports[`renders loading state initially 1`] = `
 <div
   class="sc-bdVaJa fOUWbH"

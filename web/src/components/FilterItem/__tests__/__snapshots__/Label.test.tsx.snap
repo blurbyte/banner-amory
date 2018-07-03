@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 2rem;
+  line-height: 2rem;
+  min-width: 2rem;
+  background: rgba(61,38,218,0.2);
+  color: #ffffff;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 0 0.6rem;
+  margin-right: 1px;
+  text-transform: capitalize;
+}
+
+<label
+  className="c0"
+/>
+`;
+
+exports[`renders correctly when checked 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 2rem;
+  line-height: 2rem;
+  min-width: 2rem;
+  background: #d92f29;
+  color: #ffffff;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 0 0.6rem;
+  margin-right: 1px;
+  text-transform: capitalize;
+}
+
+<label
+  checked={true}
+  className="c0"
+/>
+`;

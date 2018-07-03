@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-htpNat jeiAyX"
+>
+  <p
+    className="sc-EHOje cBOUfW sc-ifAKCX bVJDvB"
+  >
+    test
+  </p>
+  <label
+    className="sc-bdVaJa itLDWB"
+  >
+    1
+    <input
+      className="sc-bwzfXH kxRMuH"
+      name="test"
+      type="radio"
+      value="1"
+    />
+  </label>
+  <label
+    className="sc-bdVaJa itLDWB"
+  >
+    2
+    <input
+      className="sc-bwzfXH kxRMuH"
+      name="test"
+      type="radio"
+      value="2"
+    />
+  </label>
+</div>
+`;

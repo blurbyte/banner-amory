@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c1 {
+  font-size: 1.2rem;
+  color: rgba(61,38,218,0.5);
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+}
+
+.c0 {
+  margin: 0;
+  margin-right: 1rem;
+  line-height: 2rem;
+}
+
+<p
+  className="c0 c1"
+/>
+`;

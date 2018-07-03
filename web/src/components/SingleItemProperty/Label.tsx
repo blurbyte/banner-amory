@@ -1,17 +1,13 @@
 import styled from 'styled-components';
-import { transparentize } from 'polished';
+import BaseLabel from '../Label';
 
-import { Colors } from '@styles/colors';
+const Term = BaseLabel.withComponent('dt');
 
 type LabelProps = {
   statLine?: boolean;
 };
 
-const Label = styled.dt<LabelProps>`
-  font-size: 1.2rem;
-  color: ${transparentize(0.5, Colors.blue)};
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+const Label = styled(Term)<LabelProps>`
   text-align: ${props => props.statLine && 'right'};
   line-height: ${props => (props.statLine ? 1.2 : 'inherit')};
 `;

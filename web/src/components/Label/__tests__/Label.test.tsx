@@ -2,14 +2,9 @@ import * as React from 'react';
 import * as renderer from 'react-test-renderer';
 import 'jest-styled-components';
 
-import Label from '../Label';
+import Label from '../index';
 
 test('renders correctly', () => {
   const component = renderer.create(<Label />);
-  expect(component.toJSON()).toMatchSnapshot();
-});
-
-test('renders correctly when statLine prop is passed', () => {
-  const component = renderer.create(<Label statLine />);
   expect(component.toJSON()).toMatchSnapshot();
 });

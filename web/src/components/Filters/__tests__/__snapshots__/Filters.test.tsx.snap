@@ -2,25 +2,295 @@
 
 exports[`renders loading state initially 1`] = `
 <div
-  class="sc-bdVaJa fOUWbH"
+  class="sc-bZQynM gtverK"
 >
   <section
-    class="sc-bxivhb fzKfKx sc-htpNat hClEhO"
+    class="sc-dnqmqq dNBZnQ sc-htoDjs bzhlwg"
   >
     <h2
-      class="sc-ifAKCX cBxAoP"
+      class="sc-iwsKbI fhhlCv"
     >
       Filter & Sort
     </h2>
     <form
-      class="sc-gzVnrw haqrBf"
-    />
+      class="sc-VigVT fTVFoL"
+    >
+      <div
+        class="sc-htpNat jeiAyX"
+      >
+        <p
+          class="sc-EHOje cBOUfW sc-ifAKCX bVJDvB"
+        >
+          part
+        </p>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          all
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="part"
+            type="radio"
+            value="all"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          1
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="part"
+            type="radio"
+            value="1"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          2
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="part"
+            type="radio"
+            value="2"
+          />
+        </label>
+      </div>
+      <div
+        class="sc-htpNat jeiAyX"
+      >
+        <p
+          class="sc-EHOje cBOUfW sc-ifAKCX bVJDvB"
+        >
+          rank
+        </p>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          all
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="rank"
+            type="radio"
+            value="all"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          1
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="rank"
+            type="radio"
+            value="1"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          2
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="rank"
+            type="radio"
+            value="2"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          3
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="rank"
+            type="radio"
+            value="3"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          4
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="rank"
+            type="radio"
+            value="4"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          5
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="rank"
+            type="radio"
+            value="5"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          6
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="rank"
+            type="radio"
+            value="6"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          7
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="rank"
+            type="radio"
+            value="7"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          8
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="rank"
+            type="radio"
+            value="8"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          9
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="rank"
+            type="radio"
+            value="9"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          10
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="rank"
+            type="radio"
+            value="10"
+          />
+        </label>
+      </div>
+      <div
+        class="sc-htpNat jeiAyX"
+      >
+        <p
+          class="sc-EHOje cBOUfW sc-ifAKCX bVJDvB"
+        >
+          bonus
+        </p>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          any
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="bonus"
+            type="radio"
+            value="any"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          main stat
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="bonus"
+            type="radio"
+            value="main stat"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          talent
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="bonus"
+            type="radio"
+            value="talent"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          per turn
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="bonus"
+            type="radio"
+            value="per turn"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          on rest
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="bonus"
+            type="radio"
+            value="on rest"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          chance
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="bonus"
+            type="radio"
+            value="chance"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          from market
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="bonus"
+            type="radio"
+            value="from market"
+          />
+        </label>
+        <label
+          class="sc-bdVaJa itLDWB"
+        >
+          movement
+          <input
+            class="sc-bwzfXH kxRMuH"
+            name="bonus"
+            type="radio"
+            value="movement"
+          />
+        </label>
+      </div>
+    </form>
     <div
-      class="sc-bZQynM inSVjB"
+      class="sc-gqjmRU UBzWq"
     >
       <button
         aria-label="Toggle filters"
-        class="sc-EHOje hKPpqy"
+        class="sc-gZMcBi diFJBW"
         type="button"
       >
         <svg

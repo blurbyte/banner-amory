@@ -5,12 +5,12 @@ exports[`renders correctly 1`] = `
   class="sc-bdVaJa icGVfW"
 >
   <dt
-    class="sc-bwzfXH ECOeH"
+    class="sc-bxivhb cTGsno sc-htpNat gPRtVk"
   >
     Taylor
   </dt>
   <dd
-    class="sc-htpNat jnispY"
+    class="sc-ifAKCX jjAkxp"
   >
     Swift
   </dd>
@@ -22,12 +22,12 @@ exports[`statLine is passed correctly to children 1`] = `
   class="sc-bdVaJa lfQhji"
 >
   <dt
-    class="sc-bwzfXH gTCDtI"
+    class="sc-bxivhb laDCst sc-htpNat gPRtVk"
   >
     Taylor
   </dt>
   <dd
-    class="sc-htpNat bULLTM"
+    class="sc-ifAKCX imMJrI"
   >
     Swift
   </dd>

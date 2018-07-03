@@ -5,7 +5,7 @@ exports[`renders correctly 1`] = `
   margin: 1rem 0;
 }
 
-.c3 {
+.c4 {
   font-size: 1.2rem;
   color: rgba(61,38,218,0.5);
   text-transform: uppercase;
@@ -13,10 +13,13 @@ exports[`renders correctly 1`] = `
   -moz-letter-spacing: 0.5px;
   -ms-letter-spacing: 0.5px;
   letter-spacing: 0.5px;
+}
+
+.c3 {
   line-height: inherit;
 }
 
-.c4 {
+.c5 {
   color: #3d26da;
   line-height: inherit;
   font-size: 1.4rem;
@@ -24,7 +27,7 @@ exports[`renders correctly 1`] = `
   margin: 0;
 }
 
-.c5 {
+.c6 {
   color: #3d26da;
   line-height: 1;
   font-size: 1.8rem;
@@ -32,7 +35,7 @@ exports[`renders correctly 1`] = `
   margin: 0;
 }
 
-.c6 {
+.c7 {
   font-weight: 600;
 }
 
@@ -60,12 +63,12 @@ exports[`renders correctly 1`] = `
     className="c2"
   >
     <dt
-      className="c3"
+      className="c3 c4"
     >
       Part
     </dt>
     <dd
-      className="c4"
+      className="c5"
     >
       The Banner Saga 1
     </dd>
@@ -74,12 +77,12 @@ exports[`renders correctly 1`] = `
     className="c2"
   >
     <dt
-      className="c3"
+      className="c3 c4"
     >
       Rank
     </dt>
     <dd
-      className="c5"
+      className="c6"
     >
       1
     </dd>
@@ -88,15 +91,15 @@ exports[`renders correctly 1`] = `
     className="c2"
   >
     <dt
-      className="c3"
+      className="c3 c4"
     >
       How to get
     </dt>
     <dd
-      className="c4"
+      className="c5"
     >
       <strong
-        className="c6"
+        className="c7"
       >
         Alette
       </strong>

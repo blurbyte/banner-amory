@@ -6,6 +6,17 @@ exports[`renders correctly 1`] = `
   height: 0;
   -webkit-transition: height 0.25s ease-in-out;
   transition: height 0.25s ease-in-out;
+  padding-left: 10rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
 }
 
 <form
@@ -19,6 +30,17 @@ exports[`renders correctly when it is expanded 1`] = `
   height: 12rem;
   -webkit-transition: height 0.25s ease-in-out;
   transition: height 0.25s ease-in-out;
+  padding-left: 10rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
 }
 
 <form

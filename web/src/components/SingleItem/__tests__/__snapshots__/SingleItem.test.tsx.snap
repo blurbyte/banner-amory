@@ -11,14 +11,14 @@ exports[`renders loaded item 1`] = `
     class="sc-ifAKCX eMgKLG"
   >
     <div
-      class="sc-gZMcBi crAViM"
+      class="sc-VigVT iIEVIh"
     >
       <img
         class="sc-EHOje dPoLsW"
         src="undefinedundefined.png"
       />
       <div
-        class="sc-gqjmRU gcZhru"
+        class="sc-jTzLTM keEysV"
       >
         <svg
           viewBox="0 0 50 90"
@@ -30,23 +30,23 @@ exports[`renders loaded item 1`] = `
           />
         </svg>
         <div
-          class="sc-VigVT iEHYVi"
+          class="sc-fjdhpX gicDWd"
         />
       </div>
     </div>
     <div
-      class="sc-jzJRlG eAtAcy"
+      class="sc-kAzzGY iCCnRv"
     >
       <dl
         class="sc-bZQynM hthShY"
       >
         <dt
-          class="sc-gzVnrw kiLclw"
+          class="sc-dnqmqq fnHENU sc-htoDjs keabGb"
         >
           Part
         </dt>
         <dd
-          class="sc-htoDjs hoHbUn"
+          class="sc-iwsKbI eABNGt"
         >
           The Banner Saga undefined
         </dd>
@@ -55,24 +55,24 @@ exports[`renders loaded item 1`] = `
         class="sc-bZQynM hthShY"
       >
         <dt
-          class="sc-gzVnrw kiLclw"
+          class="sc-dnqmqq fnHENU sc-htoDjs keabGb"
         >
           Rank
         </dt>
         <dd
-          class="sc-htoDjs gBjpyW"
+          class="sc-iwsKbI iDWMOg"
         />
       </dl>
       <dl
         class="sc-bZQynM hthShY"
       >
         <dt
-          class="sc-gzVnrw kiLclw"
+          class="sc-dnqmqq fnHENU sc-htoDjs keabGb"
         >
           How to get
         </dt>
         <dd
-          class="sc-htoDjs hoHbUn"
+          class="sc-iwsKbI eABNGt"
         >
           Unknown
         </dd>

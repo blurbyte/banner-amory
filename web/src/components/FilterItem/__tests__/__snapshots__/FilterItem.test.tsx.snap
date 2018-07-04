@@ -2,14 +2,17 @@
 
 exports[`renders correctly 1`] = `
 <label
-  className="sc-bdVaJa bJrhxk"
+  checked={true}
+  className="sc-bdVaJa gsvaU"
 >
-  test
+  realName
   <input
+    checked={true}
     className="sc-bwzfXH kxRMuH"
+    name="part"
     onChange={[MockFunction]}
     type="radio"
-    value="test"
+    value="all"
   />
 </label>
 `;

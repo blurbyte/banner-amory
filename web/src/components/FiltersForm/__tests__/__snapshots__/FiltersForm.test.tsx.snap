@@ -342,7 +342,7 @@ exports[`renders correctly 1`] = `
       checked={false}
       className="c6"
     >
-      mainStat
+      main stat
       <input
         checked={false}
         className="c5"
@@ -370,7 +370,7 @@ exports[`renders correctly 1`] = `
       checked={false}
       className="c6"
     >
-      perTurn
+      per turn
       <input
         checked={false}
         className="c5"
@@ -384,7 +384,7 @@ exports[`renders correctly 1`] = `
       checked={false}
       className="c6"
     >
-      onRest
+      on rest
       <input
         checked={false}
         className="c5"
@@ -412,7 +412,7 @@ exports[`renders correctly 1`] = `
       checked={false}
       className="c6"
     >
-      fromMarket
+      from market
       <input
         checked={false}
         className="c5"

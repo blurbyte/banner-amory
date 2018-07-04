@@ -7,27 +7,31 @@ exports[`renders correctly 1`] = `
   <p
     className="sc-EHOje euXMrm sc-ifAKCX bVJDvB"
   >
-    test
+    rank
   </p>
   <label
+    checked={false}
     className="sc-bdVaJa bJrhxk"
   >
     1
     <input
+      checked={false}
       className="sc-bwzfXH kxRMuH"
-      name="test"
+      name="rank"
       onChange={[MockFunction]}
       type="radio"
       value="1"
     />
   </label>
   <label
+    checked={false}
     className="sc-bdVaJa bJrhxk"
   >
     2
     <input
+      checked={false}
       className="sc-bwzfXH kxRMuH"
-      name="test"
+      name="rank"
       onChange={[MockFunction]}
       type="radio"
       value="2"

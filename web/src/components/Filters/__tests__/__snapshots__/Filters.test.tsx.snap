@@ -209,7 +209,7 @@ exports[`renders loading state initially 1`] = `
         <label
           class="sc-bdVaJa bJrhxk"
         >
-          mainStat
+          main stat
           <input
             class="sc-bwzfXH kxRMuH"
             name="bonus"
@@ -231,7 +231,7 @@ exports[`renders loading state initially 1`] = `
         <label
           class="sc-bdVaJa bJrhxk"
         >
-          perTurn
+          per turn
           <input
             class="sc-bwzfXH kxRMuH"
             name="bonus"
@@ -242,7 +242,7 @@ exports[`renders loading state initially 1`] = `
         <label
           class="sc-bdVaJa bJrhxk"
         >
-          onRest
+          on rest
           <input
             class="sc-bwzfXH kxRMuH"
             name="bonus"
@@ -264,7 +264,7 @@ exports[`renders loading state initially 1`] = `
         <label
           class="sc-bdVaJa bJrhxk"
         >
-          fromMarket
+          from market
           <input
             class="sc-bwzfXH kxRMuH"
             name="bonus"

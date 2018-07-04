@@ -1,25 +1,30 @@
 // group of filter items
-// with automatic name applied to each child
+// with automatic name, onChange and checkedValue applied to each child
 
 import * as React from 'react';
 
+import { Filter as FilterType } from '@sharedTypes/Filter';
 import FilterItem from '../FilterItem';
 import Wrapper from './Wrapper';
 import Legend from './Legend';
 
-type FilterProps = {
+export type FilterProps = {
   children: React.ReactNode;
-  name: string;
+  name: keyof FilterType;
+  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  checkedValues: FilterType;
 };
 
 class Filter extends React.Component<FilterProps> {
   static Item = FilterItem;
 
   renderChildren = () => {
-    const { children, name } = this.props;
+    const { children, name, onChange, checkedValues } = this.props;
+    let checkedValue = checkedValues[name];
+
     // pass name prop to all Item children
     return React.Children.map(children, child => {
-      return React.cloneElement(child as React.ReactElement<any>, { name });
+      return React.cloneElement(child as React.ReactElement<any>, { name, onChange, checkedValue });
     });
   };
 

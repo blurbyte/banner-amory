@@ -14,7 +14,7 @@ export class Item {
   gamePart: 1 | 2;
 
   @Column({ type: 'tinyint' })
-  rank: number;
+  rank: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10;
 
   @Column({ type: 'nvarchar', length: 500, nullable: true })
   description?: string;

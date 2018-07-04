@@ -2,7 +2,7 @@ export type Item = {
   name: string;
   slug: string;
   gamePart: 1 | 2;
-  rank: number;
+  rank: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10;
   description?: string;
   price?: number;
   statStrength?: number;

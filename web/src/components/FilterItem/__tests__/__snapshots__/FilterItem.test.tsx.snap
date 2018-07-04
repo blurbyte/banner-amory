@@ -2,11 +2,12 @@
 
 exports[`renders correctly 1`] = `
 <label
-  className="sc-bdVaJa itLDWB"
+  className="sc-bdVaJa bJrhxk"
 >
   test
   <input
     className="sc-bwzfXH kxRMuH"
+    onChange={[MockFunction]}
     type="radio"
     value="test"
   />

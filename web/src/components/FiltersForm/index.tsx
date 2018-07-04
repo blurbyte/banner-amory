@@ -13,9 +13,7 @@ const initialState = {
   bonus: 'any'
 };
 
-type FiltersFormState = Readonly<{
-  [T in keyof typeof initialState]?: string
-}>;
+type FiltersFormState = Readonly<{ [T in keyof typeof initialState]?: string }>;
 
 class FiltersForm extends React.Component<FiltersFormProps, FiltersFormState> {
   readonly state = initialState;

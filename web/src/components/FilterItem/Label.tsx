@@ -11,9 +11,9 @@ const Label = styled.label<LabelProps>`
   position: relative;
   display: inline-flex;
   justify-content: center;
-  height: 2rem;
-  line-height: 2rem;
-  min-width: 2rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  min-width: 2.4rem;
   background: ${props => (props.checked ? Colors.red : transparentize(0.8, Colors.blue))};
   color: ${Colors.white};
   font-weight: 400;
@@ -21,6 +21,7 @@ const Label = styled.label<LabelProps>`
   padding: 0 0.6rem;
   margin-right: 1px;
   text-transform: capitalize;
+  transition: background 0.15s linear;
 `;
 
 export default Label;

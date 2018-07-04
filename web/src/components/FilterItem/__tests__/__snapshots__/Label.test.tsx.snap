@@ -11,9 +11,9 @@ exports[`renders correctly 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 2rem;
-  line-height: 2rem;
-  min-width: 2rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  min-width: 2.4rem;
   background: rgba(61,38,218,0.2);
   color: #ffffff;
   font-weight: 400;
@@ -21,6 +21,8 @@ exports[`renders correctly 1`] = `
   padding: 0 0.6rem;
   margin-right: 1px;
   text-transform: capitalize;
+  -webkit-transition: background 0.15s linear;
+  transition: background 0.15s linear;
 }
 
 <label
@@ -39,9 +41,9 @@ exports[`renders correctly when checked 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 2rem;
-  line-height: 2rem;
-  min-width: 2rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  min-width: 2.4rem;
   background: #d92f29;
   color: #ffffff;
   font-weight: 400;
@@ -49,6 +51,8 @@ exports[`renders correctly when checked 1`] = `
   padding: 0 0.6rem;
   margin-right: 1px;
   text-transform: capitalize;
+  -webkit-transition: background 0.15s linear;
+  transition: background 0.15s linear;
 }
 
 <label

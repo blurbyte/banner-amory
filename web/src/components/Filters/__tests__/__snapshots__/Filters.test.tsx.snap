@@ -203,7 +203,7 @@ exports[`renders loading state initially 1`] = `
             class="sc-bwzfXH kxRMuH"
             name="bonus"
             type="radio"
-            value="any"
+            value="ANY"
           />
         </label>
         <label
@@ -214,7 +214,7 @@ exports[`renders loading state initially 1`] = `
             class="sc-bwzfXH kxRMuH"
             name="bonus"
             type="radio"
-            value="mainStat"
+            value="MAIN_STAT"
           />
         </label>
         <label
@@ -225,7 +225,7 @@ exports[`renders loading state initially 1`] = `
             class="sc-bwzfXH kxRMuH"
             name="bonus"
             type="radio"
-            value="talent"
+            value="TALENT"
           />
         </label>
         <label
@@ -236,7 +236,7 @@ exports[`renders loading state initially 1`] = `
             class="sc-bwzfXH kxRMuH"
             name="bonus"
             type="radio"
-            value="perTurn"
+            value="PEWR_TURN"
           />
         </label>
         <label
@@ -247,7 +247,7 @@ exports[`renders loading state initially 1`] = `
             class="sc-bwzfXH kxRMuH"
             name="bonus"
             type="radio"
-            value="onRest"
+            value="ON_REST"
           />
         </label>
         <label
@@ -258,7 +258,7 @@ exports[`renders loading state initially 1`] = `
             class="sc-bwzfXH kxRMuH"
             name="bonus"
             type="radio"
-            value="chance"
+            value="CHANCE"
           />
         </label>
         <label
@@ -269,7 +269,7 @@ exports[`renders loading state initially 1`] = `
             class="sc-bwzfXH kxRMuH"
             name="bonus"
             type="radio"
-            value="fromMarket"
+            value="FROM_MARKET"
           />
         </label>
         <label
@@ -280,7 +280,7 @@ exports[`renders loading state initially 1`] = `
             class="sc-bwzfXH kxRMuH"
             name="bonus"
             type="radio"
-            value="movement"
+            value="MOVEMENT"
           />
         </label>
       </div>

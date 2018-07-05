@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/color';
 
 type DetailProps = {
   big?: boolean;
@@ -8,7 +8,7 @@ type DetailProps = {
 };
 
 const Detail = styled.dd<DetailProps>`
-  color: ${Colors.blue};
+  color: ${Color.Blue};
   line-height: ${props => (props.big ? 1 : 'inherit')};
   font-size: ${props => (props.big ? '1.8rem' : '1.4rem')};
   font-weight: ${props => (props.big ? 600 : 'inherit')};

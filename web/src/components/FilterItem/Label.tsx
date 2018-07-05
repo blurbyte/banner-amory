@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { transparentize } from 'polished';
 
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/color';
 
 type LabelProps = {
   checked?: boolean;
@@ -14,8 +14,8 @@ const Label = styled.label<LabelProps>`
   height: 2.4rem;
   line-height: 2.4rem;
   min-width: 2.4rem;
-  background: ${props => (props.checked ? Colors.red : transparentize(0.8, Colors.blue))};
-  color: ${Colors.white};
+  background: ${props => (props.checked ? Color.Red : transparentize(0.8, Color.Blue))};
+  color: ${Color.White};
   font-weight: 400;
   cursor: pointer;
   padding: 0 0.6rem;

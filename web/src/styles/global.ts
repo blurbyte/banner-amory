@@ -1,7 +1,7 @@
 import { injectGlobal } from 'styled-components';
 import { transparentize } from 'polished';
 
-import { Colors } from './colors';
+import { Color } from './color';
 
 // tslint:disable-next-line
 injectGlobal`
@@ -10,8 +10,8 @@ injectGlobal`
   }
 
   body {
-    background: ${Colors.white};
-    color: ${Colors.blue};
+    background: ${Color.White};
+    color: ${Color.Blue};
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.4;
     font-size: 1.4rem;
@@ -20,12 +20,12 @@ injectGlobal`
   }
 
   ::-moz-selection {
-    background: ${transparentize(0.9, Colors.blue)};
+    background: ${transparentize(0.9, Color.Blue)};
     color: inherit;
   }
 
   ::selection {
-    background: ${transparentize(0.9, Colors.blue)};
+    background: ${transparentize(0.9, Color.Blue)};
     color: inherit;
   }
 `;

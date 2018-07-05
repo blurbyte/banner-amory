@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 import { transparentize } from 'polished';
 
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/color';
 
 type ButtonProps = {
   isExpanded?: boolean;
 };
 
 const Button = styled.button<ButtonProps>`
-  color: ${props => (props.isExpanded ? Colors.white : transparentize(0.9, Colors.blue))};
+  color: ${props => (props.isExpanded ? Color.White : transparentize(0.9, Color.Blue))};
   padding: 0;
   padding-bottom: 0.8rem;
   display: flex;

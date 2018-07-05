@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 import { transparentize } from 'polished';
 
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/color';
 
 const Wrapper = styled.div`
-  background: ${transparentize(0.9, Colors.blue)};
+  background: ${transparentize(0.9, Color.Blue)};
 `;
 
 export default Wrapper;

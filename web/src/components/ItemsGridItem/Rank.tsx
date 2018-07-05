@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/color';
 
 const Rank = styled.p`
   display: flex;
@@ -10,7 +10,7 @@ const Rank = styled.p`
   right: 0;
   bottom: 0;
   z-index: 99;
-  background: ${Colors.white};
+  background: ${Color.White};
   margin: 0;
   padding: 0;
   width: 2rem;

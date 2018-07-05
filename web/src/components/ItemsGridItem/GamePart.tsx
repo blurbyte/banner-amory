@@ -4,13 +4,13 @@ import * as React from 'react';
 import styled from 'styled-components';
 
 import { Item } from '@sharedTypes/Item';
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/color';
 import { Banner } from '../Icons';
 import Rank from './Rank';
 
 const Wrapper = styled.div`
   width: 2rem;
-  color: ${Colors.red};
+  color: ${Color.Red};
   position: absolute;
   z-index: 9;
   top: 0;
@@ -20,7 +20,7 @@ const Wrapper = styled.div`
 const Part = styled(Rank)`
   top: 0.4rem;
   background: transparent;
-  color: ${Colors.white};
+  color: ${Color.White};
   padding-bottom: 0;
 `;
 

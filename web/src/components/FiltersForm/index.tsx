@@ -14,7 +14,7 @@ class FiltersForm extends React.Component<FiltersFormProps, FiltersFormState> {
   readonly state: FiltersFormState = {
     part: 'all',
     rank: 'all',
-    bonus: FilterBonus.any
+    bonus: FilterBonus.Any
   };
 
   render() {
@@ -41,14 +41,14 @@ class FiltersForm extends React.Component<FiltersFormProps, FiltersFormState> {
           <Filter.Item value="10" />
         </Filter>
         <Filter name="bonus" onChange={this.handleChange} checkedValues={this.state}>
-          <Filter.Item value={FilterBonus.any} label="any" />
-          <Filter.Item value={FilterBonus.mainStat} label="main stat" />
-          <Filter.Item value={FilterBonus.talent} label="talent" />
-          <Filter.Item value={FilterBonus.perTurn} label="per turn" />
-          <Filter.Item value={FilterBonus.onRest} label="on rest" />
-          <Filter.Item value={FilterBonus.chance} label="chance"/>
-          <Filter.Item value={FilterBonus.fromMarket} label="from market"/>
-          <Filter.Item value={FilterBonus.movement} label="movement"/>
+          <Filter.Item value={FilterBonus.Any} label="any" />
+          <Filter.Item value={FilterBonus.MainStat} label="main stat" />
+          <Filter.Item value={FilterBonus.Talent} label="talent" />
+          <Filter.Item value={FilterBonus.PerTurn} label="per turn" />
+          <Filter.Item value={FilterBonus.OnRest} label="on rest" />
+          <Filter.Item value={FilterBonus.Chance} label="chance" />
+          <Filter.Item value={FilterBonus.FromMarket} label="from market" />
+          <Filter.Item value={FilterBonus.Movement} label="movement" />
         </Filter>
       </Form>
     );

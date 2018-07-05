@@ -3,7 +3,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/color';
 import Property from '../SingleItemProperty';
 import SecondaryLabel from './SecondaryLabel';
 
@@ -16,7 +16,7 @@ type ColorizerProps = {
 };
 
 const Colorizer = styled.span<ColorizerProps>`
-  color: ${props => (props.isNegative ? Colors.red : Colors.blue)};
+  color: ${props => (props.isNegative ? Color.Red : Color.Blue)};
 `;
 
 type StatProps = {

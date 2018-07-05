@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import { transparentize } from 'polished';
 
 import { Item } from '@sharedTypes/Item';
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/color';
 import { Banner } from '../Icons';
 import Image from '../Image';
 import Stat from './Stat';
@@ -17,7 +17,7 @@ const Wrapper = styled.div`
 
 const Stats = styled.div`
   width: 100%;
-  color: ${transparentize(0.9, Colors.blue)};
+  color: ${transparentize(0.9, Color.Blue)};
   position: relative;
   z-index: 999;
 `;
@@ -36,7 +36,7 @@ const DetailOnly = styled.p`
   margin: 1rem 0;
   text-align: right;
   text-transform: uppercase;
-  color: ${Colors.blue};
+  color: ${Color.Blue};
   font-weight: 600;
 `;
 

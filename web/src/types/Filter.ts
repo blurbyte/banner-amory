@@ -7,12 +7,12 @@ export type Filter = {
 };
 
 export enum FilterBonus {
-  any = 'any',
-  mainStat = 'mainStat',
-  talent = 'talent',
-  perTurn = 'perTurn',
-  onRest = 'onRest',
-  chance = 'chance',
-  fromMarket = 'fromMarket',
-  movement = 'movement'
+  Any = 'ANY',
+  MainStat = 'MAIN_STAT',
+  Talent = 'TALENT',
+  PerTurn = 'PEWR_TURN',
+  OnRest = 'ON_REST',
+  Chance = 'CHANCE',
+  FromMarket = 'FROM_MARKET',
+  Movement = 'MOVEMENT'
 }

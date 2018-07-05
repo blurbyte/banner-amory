@@ -6,10 +6,10 @@ import Filter from '../index';
 
 test('renders correctly', () => {
   const checkedValues: FilterType = {
-      part: 'all',
-      rank: 'all',
-      bonus: FilterBonus.any
-    }
+    part: 'all',
+    rank: 'all',
+    bonus: FilterBonus.Any
+  };
 
   const component = renderer.create(
     <Filter name="rank" checkedValues={checkedValues} onChange={jest.fn()}>

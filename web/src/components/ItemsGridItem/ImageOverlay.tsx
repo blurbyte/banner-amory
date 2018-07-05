@@ -1,7 +1,7 @@
 import styled, { keyframes } from 'styled-components';
 import { transparentize } from 'polished';
 
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/color';
 
 const fadeIn = keyframes`
   from {
@@ -19,7 +19,7 @@ const ImageOverlay = styled.div`
   width: 100%;
   height: 100%;
   opacity: 0;
-  background: ${transparentize(0.6, Colors.blue)};
+  background: ${transparentize(0.6, Color.Blue)};
   animation: ${fadeIn} 0.2s ease-in forwards 0.2s;
 `;
 

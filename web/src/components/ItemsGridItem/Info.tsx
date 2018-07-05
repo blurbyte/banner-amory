@@ -2,7 +2,7 @@ import * as React from 'react';
 import styled, { keyframes } from 'styled-components';
 
 import { Item } from '@sharedTypes/Item';
-import { Colors } from '@styles/colors';
+import { Color } from '@styles/color';
 import ItemName from './ItemName';
 import BaseRank from './Rank';
 import GamePart from './GamePart';
@@ -22,14 +22,14 @@ const Wrapper = styled.section`
   position: relative;
   width: 75%;
   height: 100%;
-  background: ${Colors.blue};
+  background: ${Color.Blue};
   opacity: 0;
   animation: ${slideIn} 0.25s ease-in forwards 0.15s;
 `;
 
 const Rank = styled(BaseRank)`
   background: transparent;
-  color: ${Colors.white};
+  color: ${Color.White};
 `;
 
 type InfoProps = Pick<Item, 'name' | 'gamePart' | 'rank'>;

@@ -25,7 +25,13 @@ class FilterItem extends React.Component<FilterItemProps> {
     return (
       <Label checked={checkedValue === value}>
         {label ? label : value}
-        <Input type="radio" name={name} checked={checkedValue === value} value={value} onChange={onChange} />
+        <Input
+          type="radio"
+          name={name}
+          checked={checkedValue === value}
+          value={value}
+          onChange={onChange}
+        />
       </Label>
     );
   }

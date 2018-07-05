@@ -5,7 +5,7 @@ import FilterItem from '../index';
 
 test('renders correctly', () => {
   const component = renderer.create(
-    <FilterItem name="part" value="all" onChange={jest.fn()} label="realName" checkedValue="all" />
+    <FilterItem name="part" value={0} onChange={jest.fn()} label="realName" checkedValue={0} />
   );
   expect(component.toJSON()).toMatchSnapshot();
 });

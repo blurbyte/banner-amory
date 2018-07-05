@@ -12,7 +12,7 @@ exports[`renders correctly 1`] = `
     name="part"
     onChange={[MockFunction]}
     type="radio"
-    value="all"
+    value={0}
   />
 </label>
 `;

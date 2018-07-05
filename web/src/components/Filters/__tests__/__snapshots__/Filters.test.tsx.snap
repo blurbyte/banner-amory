@@ -31,7 +31,7 @@ exports[`renders loading state initially 1`] = `
             class="sc-bwzfXH kxRMuH"
             name="part"
             type="radio"
-            value="all"
+            value="0"
           />
         </label>
         <label
@@ -73,7 +73,7 @@ exports[`renders loading state initially 1`] = `
             class="sc-bwzfXH kxRMuH"
             name="rank"
             type="radio"
-            value="all"
+            value="0"
           />
         </label>
         <label
@@ -236,7 +236,7 @@ exports[`renders loading state initially 1`] = `
             class="sc-bwzfXH kxRMuH"
             name="bonus"
             type="radio"
-            value="PEWR_TURN"
+            value="PER_TURN"
           />
         </label>
         <label

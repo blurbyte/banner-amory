@@ -1,8 +1,6 @@
-// for sake of simplicity and compability with GraphQL part and rank are integers
-// 0 means ALL parts and ranks
-
 import { Item } from './Item';
 
+// 0 means ALL parts and ranks
 export type Filter = {
   part: 0 | Item['gamePart']
   rank: 0 | Item['rank']

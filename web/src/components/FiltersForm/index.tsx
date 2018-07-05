@@ -12,8 +12,8 @@ type FiltersFormState = Readonly<FilterType>;
 
 class FiltersForm extends React.Component<FiltersFormProps, FiltersFormState> {
   readonly state: FiltersFormState = {
-    part: 'all',
-    rank: 'all',
+    part: 0,
+    rank: 0,
     bonus: FilterBonus.Any
   };
 
@@ -23,22 +23,22 @@ class FiltersForm extends React.Component<FiltersFormProps, FiltersFormState> {
     return (
       <Form isExpanded={isExpanded}>
         <Filter name="part" onChange={this.handleChange} checkedValues={this.state}>
-          <Filter.Item value="all" />
-          <Filter.Item value="1" />
-          <Filter.Item value="2" />
+          <Filter.Item value={0} label="all" />
+          <Filter.Item value={1} />
+          <Filter.Item value={2} />
         </Filter>
         <Filter name="rank" onChange={this.handleChange} checkedValues={this.state}>
-          <Filter.Item value="all" />
-          <Filter.Item value="1" />
-          <Filter.Item value="2" />
-          <Filter.Item value="3" />
-          <Filter.Item value="4" />
-          <Filter.Item value="5" />
-          <Filter.Item value="6" />
-          <Filter.Item value="7" />
-          <Filter.Item value="8" />
-          <Filter.Item value="9" />
-          <Filter.Item value="10" />
+          <Filter.Item value={0} label="all" />
+          <Filter.Item value={1} />
+          <Filter.Item value={2} />
+          <Filter.Item value={3} />
+          <Filter.Item value={4} />
+          <Filter.Item value={5} />
+          <Filter.Item value={6} />
+          <Filter.Item value={7} />
+          <Filter.Item value={8} />
+          <Filter.Item value={9} />
+          <Filter.Item value={10} />
         </Filter>
         <Filter name="bonus" onChange={this.handleChange} checkedValues={this.state}>
           <Filter.Item value={FilterBonus.Any} label="any" />
@@ -57,8 +57,9 @@ class FiltersForm extends React.Component<FiltersFormProps, FiltersFormState> {
   private handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
 
+    // parse input value to int for part and rank
     this.setState({
-      [name]: value
+      [name]: name !== 'bonus' ? parseInt(value, 10) : value
     } as FiltersFormState);
   };
 }

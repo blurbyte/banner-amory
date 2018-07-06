@@ -13,6 +13,7 @@ export const Item = gql`
     "Banner Saga 1 or 2"
     gamePart: Int!
 
+    "Item rank from 1 to 10"
     rank: Int!
 
     description: String

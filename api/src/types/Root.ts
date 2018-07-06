@@ -13,19 +13,19 @@ export const Root = gql`
     search(query: String!): [Item]
   }
 
-  "Optional items filter"
+  "Optional items filter, where 0 means ALL"
   input ItemsFilter {
-    "Filter by game part (all, 1, 2)"
-    part: String!
+    "Filter by game part (0, 1, 2)"
+    part: Int!
 
-    "Filter by item rank (all, 1...10)"
-    rank: String!
+    "Filter by item rank (0...10)"
+    rank: Int!
 
     "Filter by item stat bonus"
-    bonus: Bonus!
+    bonus: FilterBonus!
   }
 
-  enum Bonus {
+  enum FilterBonus {
     ANY
     MAIN_STAT
     TALENT

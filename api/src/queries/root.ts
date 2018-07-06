@@ -21,9 +21,8 @@ export const rootQueries = {
   Query: {
     items: async (_root: any, { filter }: ItemsFilterArgs) => {
       let items;
-
-      // if filters are not provided or only all / any values are provided then get all items
-      if (!filter || (filter.part === 'all' && filter.rank === 'all' && filter.bonus === FilterBonus.Any)) {
+      // if filters are not provided or only all / any values are passed (alias with 0) then get all items
+      if (!filter || (filter.part === 0 && filter.rank === 0 && filter.bonus === FilterBonus.Any)) {
         items = await getCustomRepository(ItemRepository).getAllItems();
       } else {
         items = await getCustomRepository(ItemRepository).getFilteredItems(filter);

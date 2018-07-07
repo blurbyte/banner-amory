@@ -9,6 +9,7 @@ import { Filter, FilterBonus } from '@sharedTypes/Filter';
 import Filters from '../Filters';
 import ItemsGrid from '../ItemsGrid';
 import Content from './Content';
+import Headline from './Headline';
 
 export const getItems = gql`
   query getItems($filter: ItemsFilter) {
@@ -54,6 +55,10 @@ export class Items extends React.Component<ItemsProps, ItemsState> {
             {({ loading, error, data }) => {
               if (loading || error) {
                 return null;
+              }
+
+              if (data && !data.items.length) {
+                return <Headline>Iver failed to find matching items</Headline>
               }
 
               return <ItemsGrid items={data.items} />;

@@ -10,6 +10,20 @@ exports[`renders correctly 1`] = `
     rank
   </p>
   <label
+    checked={true}
+    className="sc-bdVaJa gsvaU"
+  >
+    0
+    <input
+      checked={true}
+      className="sc-bwzfXH kxRMuH"
+      name="rank"
+      onChange={[MockFunction]}
+      type="radio"
+      value={0}
+    />
+  </label>
+  <label
     checked={false}
     className="sc-bdVaJa bJrhxk"
   >
@@ -20,21 +34,7 @@ exports[`renders correctly 1`] = `
       name="rank"
       onChange={[MockFunction]}
       type="radio"
-      value="1"
-    />
-  </label>
-  <label
-    checked={false}
-    className="sc-bdVaJa bJrhxk"
-  >
-    2
-    <input
-      checked={false}
-      className="sc-bwzfXH kxRMuH"
-      name="rank"
-      onChange={[MockFunction]}
-      type="radio"
-      value="2"
+      value={1}
     />
   </label>
 </div>

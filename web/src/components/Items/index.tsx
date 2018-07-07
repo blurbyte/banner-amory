@@ -46,19 +46,14 @@ export class Items extends React.Component<ItemsProps, ItemsState> {
       <>
         <Filters changeFilter={this.changeFilter} checkedValues={filter} />
         <Content>
-          <Query
-            query={getItems}
-            variables={{
-              filter
-            }}
-          >
+          <Query query={getItems} variables={{ filter }}>
             {({ loading, error, data }) => {
               if (loading || error) {
                 return null;
               }
 
               if (data && !data.items.length) {
-                return <Headline>Iver failed to find matching items</Headline>
+                return <Headline>Iver failed to find matching items</Headline>;
               }
 
               return <ItemsGrid items={data.items} />;
@@ -70,13 +65,16 @@ export class Items extends React.Component<ItemsProps, ItemsState> {
   }
 
   private changeFilter = (name: string, value: string | number) => {
-    this.setState(state => ({
-      ...state,
-      filter: {
-        ...state.filter,
-        [name]: value
-      }
-    }) as ItemsState);
+    this.setState(
+      state =>
+        ({
+          ...state,
+          filter: {
+            ...state.filter,
+            [name]: value
+          }
+        } as ItemsState)
+    );
   };
 }
 

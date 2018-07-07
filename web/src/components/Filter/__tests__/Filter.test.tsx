@@ -6,15 +6,15 @@ import Filter from '../index';
 
 test('renders correctly', () => {
   const checkedValues: FilterType = {
-    part: 'all',
-    rank: 'all',
+    part: 0,
+    rank: 0,
     bonus: FilterBonus.Any
   };
 
   const component = renderer.create(
     <Filter name="rank" checkedValues={checkedValues} onChange={jest.fn()}>
-      <Filter.Item value="1" />
-      <Filter.Item value="2" />
+      <Filter.Item value={0} />
+      <Filter.Item value={1} />
     </Filter>
   );
   expect(component.toJSON()).toMatchSnapshot();

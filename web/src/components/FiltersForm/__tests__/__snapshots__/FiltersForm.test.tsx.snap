@@ -14,7 +14,7 @@ exports[`renders correctly 1`] = `
   height: 2.4rem;
   line-height: 2.4rem;
   min-width: 2.4rem;
-  background: #d92f29;
+  background: rgba(61,38,218,0.2);
   color: #ffffff;
   font-weight: 400;
   cursor: pointer;
@@ -38,7 +38,7 @@ exports[`renders correctly 1`] = `
   height: 2.4rem;
   line-height: 2.4rem;
   min-width: 2.4rem;
-  background: rgba(61,38,218,0.2);
+  background: #d92f29;
   color: #ffffff;
   font-weight: 400;
   cursor: pointer;
@@ -111,12 +111,12 @@ exports[`renders correctly 1`] = `
       part
     </p>
     <label
-      checked={true}
+      checked={false}
       className="c4"
     >
       all
       <input
-        checked={true}
+        checked={false}
         className="c5"
         name="part"
         onChange={[Function]}
@@ -125,12 +125,12 @@ exports[`renders correctly 1`] = `
       />
     </label>
     <label
-      checked={false}
+      checked={true}
       className="c6"
     >
       1
       <input
-        checked={false}
+        checked={true}
         className="c5"
         name="part"
         onChange={[Function]}
@@ -140,7 +140,7 @@ exports[`renders correctly 1`] = `
     </label>
     <label
       checked={false}
-      className="c6"
+      className="c4"
     >
       2
       <input
@@ -162,12 +162,12 @@ exports[`renders correctly 1`] = `
       rank
     </p>
     <label
-      checked={true}
+      checked={false}
       className="c4"
     >
       all
       <input
-        checked={true}
+        checked={false}
         className="c5"
         name="rank"
         onChange={[Function]}
@@ -176,12 +176,12 @@ exports[`renders correctly 1`] = `
       />
     </label>
     <label
-      checked={false}
+      checked={true}
       className="c6"
     >
       1
       <input
-        checked={false}
+        checked={true}
         className="c5"
         name="rank"
         onChange={[Function]}
@@ -191,7 +191,7 @@ exports[`renders correctly 1`] = `
     </label>
     <label
       checked={false}
-      className="c6"
+      className="c4"
     >
       2
       <input
@@ -205,7 +205,7 @@ exports[`renders correctly 1`] = `
     </label>
     <label
       checked={false}
-      className="c6"
+      className="c4"
     >
       3
       <input
@@ -219,7 +219,7 @@ exports[`renders correctly 1`] = `
     </label>
     <label
       checked={false}
-      className="c6"
+      className="c4"
     >
       4
       <input
@@ -233,7 +233,7 @@ exports[`renders correctly 1`] = `
     </label>
     <label
       checked={false}
-      className="c6"
+      className="c4"
     >
       5
       <input
@@ -247,7 +247,7 @@ exports[`renders correctly 1`] = `
     </label>
     <label
       checked={false}
-      className="c6"
+      className="c4"
     >
       6
       <input
@@ -261,7 +261,7 @@ exports[`renders correctly 1`] = `
     </label>
     <label
       checked={false}
-      className="c6"
+      className="c4"
     >
       7
       <input
@@ -275,7 +275,7 @@ exports[`renders correctly 1`] = `
     </label>
     <label
       checked={false}
-      className="c6"
+      className="c4"
     >
       8
       <input
@@ -289,7 +289,7 @@ exports[`renders correctly 1`] = `
     </label>
     <label
       checked={false}
-      className="c6"
+      className="c4"
     >
       9
       <input
@@ -303,7 +303,7 @@ exports[`renders correctly 1`] = `
     </label>
     <label
       checked={false}
-      className="c6"
+      className="c4"
     >
       10
       <input
@@ -326,7 +326,7 @@ exports[`renders correctly 1`] = `
     </p>
     <label
       checked={true}
-      className="c4"
+      className="c6"
     >
       any
       <input
@@ -340,7 +340,7 @@ exports[`renders correctly 1`] = `
     </label>
     <label
       checked={false}
-      className="c6"
+      className="c4"
     >
       main stat
       <input
@@ -354,7 +354,7 @@ exports[`renders correctly 1`] = `
     </label>
     <label
       checked={false}
-      className="c6"
+      className="c4"
     >
       talent
       <input
@@ -368,7 +368,7 @@ exports[`renders correctly 1`] = `
     </label>
     <label
       checked={false}
-      className="c6"
+      className="c4"
     >
       per turn
       <input
@@ -382,7 +382,7 @@ exports[`renders correctly 1`] = `
     </label>
     <label
       checked={false}
-      className="c6"
+      className="c4"
     >
       on rest
       <input
@@ -396,7 +396,7 @@ exports[`renders correctly 1`] = `
     </label>
     <label
       checked={false}
-      className="c6"
+      className="c4"
     >
       chance
       <input
@@ -410,7 +410,7 @@ exports[`renders correctly 1`] = `
     </label>
     <label
       checked={false}
-      className="c6"
+      className="c4"
     >
       from market
       <input
@@ -424,7 +424,7 @@ exports[`renders correctly 1`] = `
     </label>
     <label
       checked={false}
-      className="c6"
+      className="c4"
     >
       movement
       <input

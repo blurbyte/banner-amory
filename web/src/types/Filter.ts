@@ -4,8 +4,8 @@
 import { Item } from './Item';
 
 export type Filter = {
-  part: 0 | Item['gamePart']
-  rank: 0 | Item['rank']
+  part: 0 | Item['gamePart'];
+  rank: 0 | Item['rank'];
   bonus: FilterBonus;
 };
 

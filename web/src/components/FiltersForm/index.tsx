@@ -5,29 +5,23 @@ import Filter from '../Filter';
 import Form from './Form';
 
 type FiltersFormProps = {
+  checkedValues: FilterType;
+  changeFilter: (name: string, value: string | number) => void;
   isExpanded?: boolean;
 };
 
-type FiltersFormState = Readonly<FilterType>;
-
-class FiltersForm extends React.Component<FiltersFormProps, FiltersFormState> {
-  readonly state: FiltersFormState = {
-    part: 0,
-    rank: 0,
-    bonus: FilterBonus.Any
-  };
-
+class FiltersForm extends React.Component<FiltersFormProps> {
   render() {
-    const { isExpanded } = this.props;
+    const { checkedValues, isExpanded } = this.props;
 
     return (
       <Form isExpanded={isExpanded}>
-        <Filter name="part" onChange={this.handleChange} checkedValues={this.state}>
+        <Filter name="part" onChange={this.handleChange} checkedValues={checkedValues}>
           <Filter.Item value={0} label="all" />
           <Filter.Item value={1} />
           <Filter.Item value={2} />
         </Filter>
-        <Filter name="rank" onChange={this.handleChange} checkedValues={this.state}>
+        <Filter name="rank" onChange={this.handleChange} checkedValues={checkedValues}>
           <Filter.Item value={0} label="all" />
           <Filter.Item value={1} />
           <Filter.Item value={2} />
@@ -40,7 +34,7 @@ class FiltersForm extends React.Component<FiltersFormProps, FiltersFormState> {
           <Filter.Item value={9} />
           <Filter.Item value={10} />
         </Filter>
-        <Filter name="bonus" onChange={this.handleChange} checkedValues={this.state}>
+        <Filter name="bonus" onChange={this.handleChange} checkedValues={checkedValues}>
           <Filter.Item value={FilterBonus.Any} label="any" />
           <Filter.Item value={FilterBonus.MainStat} label="main stat" />
           <Filter.Item value={FilterBonus.Talent} label="talent" />
@@ -58,9 +52,8 @@ class FiltersForm extends React.Component<FiltersFormProps, FiltersFormState> {
     const { name, value } = event.target;
 
     // parse input value to int for part and rank
-    this.setState({
-      [name]: name !== 'bonus' ? parseInt(value, 10) : value
-    } as FiltersFormState);
+    const parsedValue = name !== 'bonus' ? parseInt(value, 10) : value;
+    this.props.changeFilter(name, parsedValue);
   };
 }
 

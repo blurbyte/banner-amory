@@ -1,16 +1,16 @@
-// items grid
+// items grid ordered by rank
 
 import * as React from 'react';
 
 import { ItemBasic } from '@sharedTypes/Item';
 import GridItem from '../ItemsGridItem';
-import Grid from './Grid';
+import Grid from '../Grid';
 
-type ListProps = {
+type RanksGridProps = {
   items: ItemBasic[];
 };
 
-class List extends React.Component<ListProps> {
+class RanksGrid extends React.Component<RanksGridProps> {
   render() {
     const { items } = this.props;
 
@@ -18,4 +18,4 @@ class List extends React.Component<ListProps> {
   }
 }
 
-export default List;
+export default RanksGrid;

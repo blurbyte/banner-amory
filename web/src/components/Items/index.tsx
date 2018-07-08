@@ -7,7 +7,7 @@ import { Query } from 'react-apollo';
 
 import { Filter, FilterBonus } from '@sharedTypes/Filter';
 import Filters from '../Filters';
-import ItemsGrid from '../ItemsGrid';
+import RanksGrid from '../RanksGrid';
 import Content from './Content';
 import Headline from './Headline';
 
@@ -56,7 +56,7 @@ export class Items extends React.Component<ItemsProps, ItemsState> {
                 return <Headline>Iver failed to find matching items</Headline>;
               }
 
-              return <ItemsGrid items={data.items} />;
+              return <RanksGrid items={data.items} />;
             }}
           </Query>
         </Content>

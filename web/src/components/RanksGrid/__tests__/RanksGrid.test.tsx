@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as renderer from 'react-test-renderer';
 
 import { ItemBasic } from '@sharedTypes/Item';
-import ItemsGrid from '../index';
+import RanksGrid from '../index';
 
 test('renders correctly', () => {
   const items: ItemBasic[] = [
@@ -19,6 +19,6 @@ test('renders correctly', () => {
       rank: 1
     }
   ];
-  const component = renderer.create(<ItemsGrid items={items} />);
+  const component = renderer.create(<RanksGrid items={items} />);
   expect(component.toJSON()).toMatchSnapshot();
 });

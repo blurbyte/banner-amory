@@ -5,7 +5,7 @@ import * as React from 'react';
 import { gql } from 'apollo-boost';
 import { Query } from 'react-apollo';
 
-import ItemsGrid from '../ItemsGrid';
+import RanksGrid from '../RanksGrid';
 import Strong from '../Strong';
 import Content from './Content';
 import Headline from './Headline';
@@ -53,7 +53,7 @@ export class SearchResult extends React.Component<SearchResultProps> {
                   {'Items found for '}
                   <Strong>{this.props.searchQuery}</Strong>
                 </Headline>
-                <ItemsGrid items={data.search} />
+                <RanksGrid items={data.search} />
               </>
             );
           }}

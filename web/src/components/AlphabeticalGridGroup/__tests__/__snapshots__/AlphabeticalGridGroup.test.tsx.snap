@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-gqjmRU iCAYQV"
+>
+  <p
+    className="sc-fjdhpX fAGFxv sc-jTzLTM eAGGiO"
+  >
+    x
+  </p>
+  <ul
+    className="sc-jzJRlG bHkJyY"
+  >
+    <li
+      className="sc-htpNat hkrMkj"
+    >
+      <a
+        className="sc-bxivhb jgmcrE"
+        href="/item/xanathous-crown"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <img
+          className="sc-bdVaJa hpZUqN"
+          src="undefinedxanathous-crown.png"
+        />
+        <p
+          className="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
+        >
+          4
+        </p>
+      </a>
+    </li>
+    <li
+      className="sc-htpNat hkrMkj"
+    >
+      <a
+        className="sc-bxivhb jgmcrE"
+        href="/item/xyndra-grimore"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <img
+          className="sc-bdVaJa hpZUqN"
+          src="undefinedxyndra-grimore.png"
+        />
+        <p
+          className="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
+        >
+          6
+        </p>
+      </a>
+    </li>
+  </ul>
+</div>
+`;

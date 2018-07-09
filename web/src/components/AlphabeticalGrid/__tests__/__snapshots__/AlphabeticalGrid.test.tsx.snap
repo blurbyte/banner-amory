@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders items grouped by first name character 1`] = `
+<div
+  className="sc-bwzfXH fsjbry"
+>
+  <div
+    className="sc-jTzLTM gKdRlC"
+  >
+    <p
+      className="sc-cSHVUG fTOKnP sc-jzJRlG dGTYFu"
+    >
+      t
+    </p>
+    <ul
+      className="sc-kAzzGY kHKYvg"
+    >
+      <li
+        className="sc-ifAKCX eAYGcP"
+      >
+        <a
+          className="sc-EHOje jQSOuj"
+          href="/item/taylors-bracelet"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <img
+            className="sc-htpNat fpGAr"
+            src="undefinedtaylors-bracelet.png"
+          />
+          <p
+            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+          >
+            1
+          </p>
+        </a>
+      </li>
+      <li
+        className="sc-ifAKCX eAYGcP"
+      >
+        <a
+          className="sc-EHOje jQSOuj"
+          href="/item/thunder-ball"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <img
+            className="sc-htpNat fpGAr"
+            src="undefinedthunder-ball.png"
+          />
+          <p
+            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+          >
+            2
+          </p>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="sc-jTzLTM ldRjeR"
+  >
+    <p
+      className="sc-cSHVUG fTOKnP sc-jzJRlG dGTYFu"
+    >
+      v
+    </p>
+    <ul
+      className="sc-kAzzGY cMQPDM"
+    >
+      <li
+        className="sc-ifAKCX eAYGcP"
+      >
+        <a
+          className="sc-EHOje jQSOuj"
+          href="/item/vibrant-touch"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <img
+            className="sc-htpNat fpGAr"
+            src="undefinedvibrant-touch.png"
+          />
+          <p
+            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+          >
+            3
+          </p>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

@@ -13,6 +13,7 @@ export type FilterProps = {
   name: keyof FilterType;
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
   checkedValues: FilterType;
+  label?: string;
 };
 
 class Filter extends React.Component<FilterProps> {
@@ -29,11 +30,11 @@ class Filter extends React.Component<FilterProps> {
   };
 
   render() {
-    const { name } = this.props;
+    const { name, label } = this.props;
 
     return (
       <Wrapper>
-        <Legend>{name}</Legend>
+        <Legend>{label ? label : name}</Legend>
         {this.renderChildren()}
       </Wrapper>
     );

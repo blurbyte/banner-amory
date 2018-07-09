@@ -1,8 +1,9 @@
 import * as React from 'react';
 
-import { Filter as FilterType, FilterBonus } from '@sharedTypes/Filter';
+import { Filter as FilterType, FilterBonus, OrderBy } from '@sharedTypes/Filter';
 import Filter from '../Filter';
 import Form from './Form';
+import Group from './Group';
 
 type FiltersFormProps = {
   checkedValues: FilterType;
@@ -16,6 +17,7 @@ class FiltersForm extends React.Component<FiltersFormProps> {
 
     return (
       <Form isExpanded={isExpanded}>
+        <Group>
         <Filter name="part" onChange={this.handleChange} checkedValues={checkedValues}>
           <Filter.Item value={0} label="all" />
           <Filter.Item value={1} />
@@ -44,6 +46,13 @@ class FiltersForm extends React.Component<FiltersFormProps> {
           <Filter.Item value={FilterBonus.FromMarket} label="from market" />
           <Filter.Item value={FilterBonus.Movement} label="movement" />
         </Filter>
+        </Group>
+        <Group>
+        <Filter name="orderBy" label="order by" onChange={this.handleChange} checkedValues={checkedValues}>
+          <Filter.Item value={OrderBy.Rank} label="rank"/>
+          <Filter.Item value={OrderBy.Alphabetically} label="alphabetically" />
+        </Filter>
+        </Group>
       </Form>
     );
   }
@@ -52,7 +61,7 @@ class FiltersForm extends React.Component<FiltersFormProps> {
     const { name, value } = event.target;
 
     // parse input value to int for part and rank
-    const parsedValue = name !== 'bonus' ? parseInt(value, 10) : value;
+    const parsedValue = (name === 'part' || name === 'rank') ? parseInt(value, 10) : value;
     this.props.changeFilter(name, parsedValue);
   };
 }

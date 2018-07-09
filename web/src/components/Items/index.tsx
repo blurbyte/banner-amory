@@ -5,10 +5,10 @@ import * as React from 'react';
 import { gql } from 'apollo-boost';
 import { Query } from 'react-apollo';
 
-import { Filter, FilterBonus } from '@sharedTypes/Filter';
+import { Filter, FilterBonus, OrderBy } from '@sharedTypes/Filter';
 import Filters from '../Filters';
-// import AlphabeticalGrid from '../AlphabeticalGrid';
 import RanksGrid from '../RanksGrid';
+import AlphabeticalGrid from '../AlphabeticalGrid';
 import Content from './Content';
 import Headline from './Headline';
 
@@ -36,18 +36,27 @@ export class Items extends React.Component<ItemsProps, ItemsState> {
     filter: {
       part: 0,
       rank: 0,
-      bonus: FilterBonus.Any
+      bonus: FilterBonus.Any,
+      orderBy: OrderBy.Rank
     }
   };
 
   render() {
     const { filter } = this.state;
 
+    // ordering is done on the client side
+    // only part, rank and bonus are consumed by GraphQL Query
+    const { part, rank, bonus, orderBy } = filter;
+
     return (
       <>
         <Filters changeFilter={this.changeFilter} checkedValues={filter} />
         <Content>
-          <Query query={getItems} variables={{ filter }}>
+          <Query query={getItems} variables={{ filter: {
+            part,
+            rank,
+            bonus
+          } }}>
             {({ loading, error, data }) => {
               if (loading || error) {
                 return null;
@@ -57,8 +66,8 @@ export class Items extends React.Component<ItemsProps, ItemsState> {
                 return <Headline>Iver failed to find matching items</Headline>;
               }
 
-              return <RanksGrid items={data.items} />;
-              // return <AlphabeticalGrid items={data.items} />;
+              // cleint side ordering
+              return orderBy === OrderBy.Rank ? <RanksGrid items={data.items} /> : <AlphabeticalGrid items={data.items} />;
             }}
           </Query>
         </Content>

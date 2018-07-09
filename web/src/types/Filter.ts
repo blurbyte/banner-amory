@@ -7,6 +7,7 @@ export type Filter = {
   part: 0 | Item['gamePart'];
   rank: 0 | Item['rank'];
   bonus: FilterBonus;
+  orderBy: OrderBy;
 };
 
 export enum FilterBonus {
@@ -18,4 +19,9 @@ export enum FilterBonus {
   Chance = 'CHANCE',
   FromMarket = 'FROM_MARKET',
   Movement = 'MOVEMENT'
+}
+
+export enum OrderBy {
+  Rank = 'RANK',
+  Alphabetically = 'ALPHABETICALLY'
 }

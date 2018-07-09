@@ -7,6 +7,7 @@ import { Query } from 'react-apollo';
 
 import { Filter, FilterBonus } from '@sharedTypes/Filter';
 import Filters from '../Filters';
+// import AlphabeticalGrid from '../AlphabeticalGrid';
 import RanksGrid from '../RanksGrid';
 import Content from './Content';
 import Headline from './Headline';
@@ -57,6 +58,7 @@ export class Items extends React.Component<ItemsProps, ItemsState> {
               }
 
               return <RanksGrid items={data.items} />;
+              // return <AlphabeticalGrid items={data.items} />;
             }}
           </Query>
         </Content>

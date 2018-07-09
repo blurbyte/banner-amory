@@ -1,14 +1,15 @@
 import * as React from 'react';
 import * as renderer from 'react-test-renderer';
 
-import { Filter as FilterType, FilterBonus } from '@sharedTypes/Filter';
-import Filter from '../index';
+import { Filter as FilterType, FilterBonus, OrderBy } from '@sharedTypes/Filter';
+import Filter from '..';
 
 test('renders correctly', () => {
   const checkedValues: FilterType = {
     part: 0,
     rank: 0,
-    bonus: FilterBonus.Any
+    bonus: FilterBonus.Any,
+    orderBy: OrderBy.Alphabetically
   };
 
   const component = renderer.create(

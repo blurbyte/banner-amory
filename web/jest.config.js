@@ -10,5 +10,6 @@ module.exports = {
   moduleNameMapper: {
     '^@styles/(.*)': '<rootDir>/src/styles/$1',
     '^@sharedTypes/(.*)': '<rootDir>/src/types/$1'
-  }
+  },
+  setupFiles: ['jest-localstorage-mock']
 }

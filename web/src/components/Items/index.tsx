@@ -23,6 +23,8 @@ export const getItems = gql`
   }
 `;
 
+const ITEMS_FILTERS_KEY = 'items-filters';
+
 type ItemsProps = {
   path?: string;
 };
@@ -31,15 +33,34 @@ type ItemsState = Readonly<{
   filter: Filter;
 }>;
 
+const initialState: ItemsState = {
+  filter: {
+    part: 0,
+    rank: 0,
+    bonus: FilterBonus.Any,
+    orderBy: OrderBy.Rank
+  }
+};
+
 export class Items extends React.Component<ItemsProps, ItemsState> {
-  readonly state: ItemsState = {
-    filter: {
-      part: 0,
-      rank: 0,
-      bonus: FilterBonus.Any,
-      orderBy: OrderBy.Rank
+  readonly state: ItemsState;
+
+  constructor(props: ItemsProps) {
+    super(props);
+
+    const filterFromLocalStorage = localStorage.getItem(ITEMS_FILTERS_KEY);
+
+    // retrieve filters from local storage
+    // or set initial state if they don't exist
+    if (filterFromLocalStorage) {
+      this.state = {
+        ...initialState,
+        filter: JSON.parse(filterFromLocalStorage)
+      };
+    } else {
+      this.state = initialState;
     }
-  };
+  }
 
   render() {
     const { filter } = this.state;
@@ -52,11 +73,16 @@ export class Items extends React.Component<ItemsProps, ItemsState> {
       <>
         <Filters changeFilter={this.changeFilter} checkedValues={filter} />
         <Content>
-          <Query query={getItems} variables={{ filter: {
-            part,
-            rank,
-            bonus
-          } }}>
+          <Query
+            query={getItems}
+            variables={{
+              filter: {
+                part,
+                rank,
+                bonus
+              }
+            }}
+          >
             {({ loading, error, data }) => {
               if (loading || error) {
                 return null;
@@ -67,7 +93,11 @@ export class Items extends React.Component<ItemsProps, ItemsState> {
               }
 
               // cleint side ordering
-              return orderBy === OrderBy.Rank ? <RanksGrid items={data.items} /> : <AlphabeticalGrid items={data.items} />;
+              return orderBy === OrderBy.Rank ? (
+                <RanksGrid items={data.items} />
+              ) : (
+                <AlphabeticalGrid items={data.items} />
+              );
             }}
           </Query>
         </Content>
@@ -84,7 +114,11 @@ export class Items extends React.Component<ItemsProps, ItemsState> {
             ...state.filter,
             [name]: value
           }
-        } as ItemsState)
+        } as ItemsState),
+      () => {
+        // save filters in local storage
+        localStorage.setItem(ITEMS_FILTERS_KEY, JSON.stringify(this.state.filter));
+      }
     );
   };
 }

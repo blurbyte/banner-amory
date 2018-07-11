@@ -9,8 +9,17 @@
   ],
   "scripts": {
     "start": "npm-run-all --parallel start:**",
+    "test": "npm-run-all --sequential test:**",
+    "typecheck": "npm-run-all --sequential typecheck:**",
+    "formatcheck": "npm-run-all --sequential formatcheck:**",
     "start:api": "cd api && yarn start",
-    "start:web": "cd web && yarn start"
+    "start:web": "cd web && yarn start",
+    "test:api": "cd api && yarn test",
+    "test:web": "cd web && yarn test",
+    "typecheck:api": "cd api && yarn typecheck",
+    "typecheck:web": "cd web && yarn typecheck",
+    "formatcheck:api": "cd api && yarn formatcheck",
+    "formatcheck:web": "cd web && yarn formatcheck"
   },
   "dependencies": {
     "npm-run-all": "4.1.3"

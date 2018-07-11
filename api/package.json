@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "start": "node fuse.js",
-    "test": "jest --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "lint": "tslint --format stylish \"src/**/*.ts\"",
     "format": "prettier --write \"src/**/*.ts\"",
+    "formatcheck": "prettier --list-different \"src/**/*.ts\"",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

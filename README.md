@@ -1,5 +1,7 @@
 # Banner Armory [WIP]
 
+[![Build Status](https://travis-ci.org/blurbyte/banner-amory.svg?branch=master)](https://travis-ci.org/blurbyte/banner-amory)
+
 The Banner Sagas' armory.
 
 Check [interactive Invision prototype](https://invis.io/8TL5GIH5SC4)

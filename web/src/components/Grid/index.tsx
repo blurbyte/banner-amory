@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Grid = styled.ul`
+const Grid = styled.div`
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(10, 1fr);

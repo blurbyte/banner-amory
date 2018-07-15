@@ -92,7 +92,7 @@ export class Items extends React.Component<ItemsProps, ItemsState> {
                 return <Headline>Iver failed to find matching items</Headline>;
               }
 
-              // cleint side ordering
+              // client side ordering
               return orderBy === OrderBy.Rank ? (
                 <RanksGrid items={data.items} />
               ) : (

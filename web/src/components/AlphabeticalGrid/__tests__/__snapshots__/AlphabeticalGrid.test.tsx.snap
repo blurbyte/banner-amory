@@ -2,24 +2,24 @@
 
 exports[`renders items grouped by first name character 1`] = `
 <div
-  className="sc-bwzfXH fsjbry"
+  className="sc-bdVaJa iDpojy"
 >
   <div
-    className="sc-jTzLTM gKdRlC"
+    className="sc-VigVT iYppOv"
   >
     <p
-      className="sc-cSHVUG fTOKnP sc-jzJRlG dGTYFu"
+      className="sc-jzJRlG cyaFDf sc-fjdhpX dFoqyJ"
     >
       t
     </p>
     <ul
-      className="sc-kAzzGY kHKYvg"
+      className="sc-cSHVUG cvBfsK"
     >
       <li
-        className="sc-ifAKCX eAYGcP"
+        className="sc-bxivhb fuAhs"
       >
         <a
-          className="sc-EHOje jQSOuj"
+          className="sc-ifAKCX GbWcO"
           href="/item/taylors-bracelet"
           onBlur={[Function]}
           onClick={[Function]}
@@ -28,21 +28,21 @@ exports[`renders items grouped by first name character 1`] = `
           onMouseLeave={[Function]}
         >
           <img
-            className="sc-htpNat fpGAr"
+            className="sc-bwzfXH cxYQpI"
             src="undefinedtaylors-bracelet.png"
           />
           <p
-            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+            className="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
           >
             1
           </p>
         </a>
       </li>
       <li
-        className="sc-ifAKCX eAYGcP"
+        className="sc-bxivhb fuAhs"
       >
         <a
-          className="sc-EHOje jQSOuj"
+          className="sc-ifAKCX GbWcO"
           href="/item/thunder-ball"
           onBlur={[Function]}
           onClick={[Function]}
@@ -51,11 +51,11 @@ exports[`renders items grouped by first name character 1`] = `
           onMouseLeave={[Function]}
         >
           <img
-            className="sc-htpNat fpGAr"
+            className="sc-bwzfXH cxYQpI"
             src="undefinedthunder-ball.png"
           />
           <p
-            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+            className="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
           >
             2
           </p>
@@ -64,21 +64,21 @@ exports[`renders items grouped by first name character 1`] = `
     </ul>
   </div>
   <div
-    className="sc-jTzLTM ldRjeR"
+    className="sc-VigVT cAHWJM"
   >
     <p
-      className="sc-cSHVUG fTOKnP sc-jzJRlG dGTYFu"
+      className="sc-jzJRlG cyaFDf sc-fjdhpX dFoqyJ"
     >
       v
     </p>
     <ul
-      className="sc-kAzzGY cMQPDM"
+      className="sc-cSHVUG dOyjrN"
     >
       <li
-        className="sc-ifAKCX eAYGcP"
+        className="sc-bxivhb fuAhs"
       >
         <a
-          className="sc-EHOje jQSOuj"
+          className="sc-ifAKCX GbWcO"
           href="/item/vibrant-touch"
           onBlur={[Function]}
           onClick={[Function]}
@@ -87,11 +87,11 @@ exports[`renders items grouped by first name character 1`] = `
           onMouseLeave={[Function]}
         >
           <img
-            className="sc-htpNat fpGAr"
+            className="sc-bwzfXH cxYQpI"
             src="undefinedvibrant-touch.png"
           />
           <p
-            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+            className="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
           >
             3
           </p>

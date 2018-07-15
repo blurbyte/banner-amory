@@ -4,7 +4,7 @@ import * as React from 'react';
 
 import { ItemBasic } from '@sharedTypes/Item';
 import groupByFirstChar from './groupByFirstChar';
-import Grid from './Grid';
+import Grid from '../Grid';
 import ItemsGroup from '../GridItemsGroup';
 
 type AlphabeticalGridProps = {

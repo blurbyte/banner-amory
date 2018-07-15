@@ -4,7 +4,7 @@ import * as React from 'react';
 
 import { ItemBasic } from '@sharedTypes/Item';
 import GridItem from '../ItemsGridItem';
-import Grid from '../Grid';
+import Grid from './Grid';
 
 type RanksGridProps = {
   items: ItemBasic[];

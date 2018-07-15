@@ -10,7 +10,7 @@ exports[`renders correctly 1`] = `
   list-style: none;
 }
 
-<ul
+<div
   className="c0"
 />
 `;

@@ -15,7 +15,7 @@ class TierGrid extends React.Component<TierGridProps> {
   render() {
     const { items } = this.props;
     const groupedItems = groupByTier(items);
-    const tiers: Tier[]  = ['S', 'A', 'B', 'C'];
+    const tiers: Tier[] = ['S', 'A', 'B', 'C'];
 
     return (
       <Grid>

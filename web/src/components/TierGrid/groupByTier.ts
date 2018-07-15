@@ -2,9 +2,7 @@
 
 import { ItemWithTier, Tier } from '@sharedTypes/Item';
 
-export type GroupedTierItems = {
-  [tier in Tier]?: ItemWithTier[];
-};
+export type GroupedTierItems = { [tier in Tier]?: ItemWithTier[] };
 
 function groupByTier(items: ItemWithTier[]) {
   return items.reduce(

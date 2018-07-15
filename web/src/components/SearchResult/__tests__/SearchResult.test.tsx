@@ -24,7 +24,7 @@ test('renders loaded item', async () => {
     </MockedProvider>
   );
 
-  await delay(0);
+  await delay(10);
 
   expect(container.firstChild).toMatchSnapshot();
 });
@@ -36,7 +36,7 @@ test('renders info message when no items match search', async () => {
     </MockedProvider>
   );
 
-  await delay(0);
+  await delay(10);
 
   expect(container.firstChild).toMatchSnapshot();
 });

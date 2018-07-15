@@ -36,6 +36,9 @@ export type Item = {
   acquirementGodstone?: string;
   acquirementHero?: string;
   trivia?: string;
+  tier?: Tier;
 };
+
+export type Tier = 'S' | 'A' | 'B' | 'C'
 
 export type ItemBasic = Pick<Item, 'name' | 'slug' | 'gamePart' | 'rank'>;

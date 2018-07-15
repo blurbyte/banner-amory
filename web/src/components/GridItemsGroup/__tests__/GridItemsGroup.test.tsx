@@ -2,16 +2,16 @@ import * as React from 'react';
 import * as renderer from 'react-test-renderer';
 
 import { ItemBasic } from '@sharedTypes/Item';
-import AlphabeticalGridGroup from '../index';
+import GridItemsGroup from '../index';
 
 test('renders correctly', () => {
   type Props = {
-    char: string;
+    label: string;
     items: ItemBasic[];
   };
 
   const props: Props = {
-    char: 'x',
+    label: 'x',
     items: [
       {
         name: 'Xanathous Crown',
@@ -28,6 +28,6 @@ test('renders correctly', () => {
     ]
   };
 
-  const component = renderer.create(<AlphabeticalGridGroup {...props} />);
+  const component = renderer.create(<GridItemsGroup {...props} />);
   expect(component.toJSON()).toMatchSnapshot();
 });

@@ -16,6 +16,6 @@ exports[`renders correctly 1`] = `
 <p
   className="c0 c1"
 >
-  a
+  test
 </p>
 `;

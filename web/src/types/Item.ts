@@ -39,6 +39,6 @@ export type Item = {
   tier?: Tier;
 };
 
-export type Tier = 'S' | 'A' | 'B' | 'C'
+export type Tier = 'S' | 'A' | 'B' | 'C';
 
 export type ItemBasic = Pick<Item, 'name' | 'slug' | 'gamePart' | 'rank'>;

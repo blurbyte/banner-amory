@@ -1,12 +1,12 @@
 import { Item, Tier } from './Item';
 
 // 0 means ALL parts and ranks
-export type Filter = {
+export type Filter = Partial<{
   part: 0 | Item['gamePart'];
   rank: 0 | Item['rank'];
   bonus: FilterBonus;
   tier: FilterTier;
-};
+}>;
 
 export enum FilterBonus {
   Any = 'ANY',
@@ -43,4 +43,5 @@ export type AvailableFilterBonusProperty = Extract<
   | 'chanceDivert'
   | 'acquirementMarketplace'
   | 'movement'
+  | 'tier'
 >;

@@ -116,7 +116,7 @@ export class Item {
   trivia?: string;
 
   @Column({ type: 'char', length: 1, nullable: true })
-  tier?: Tier
+  tier?: Tier;
 }
 
 export type Tier = 'S' | 'A' | 'B' | 'C';

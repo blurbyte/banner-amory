@@ -16,13 +16,16 @@ export const Root = gql`
   "Optional items filter, where 0 means ALL"
   input ItemsFilter {
     "Filter by game part (0, 1, 2)"
-    part: Int!
+    part: Int
 
     "Filter by item rank (0...10)"
-    rank: Int!
+    rank: Int
 
     "Filter by item stat bonus"
-    bonus: FilterBonus!
+    bonus: FilterBonus
+
+    "Filter by item tier (S, A, B, C)"
+    tier: FilterTier
   }
 
   enum FilterBonus {
@@ -34,5 +37,13 @@ export const Root = gql`
     CHANCE
     FROM_MARKET
     MOVEMENT
+  }
+
+  enum FilterTier {
+    ANY
+    S
+    A
+    B
+    C
   }
 `;

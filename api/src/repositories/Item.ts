@@ -16,29 +16,37 @@ export class ItemRepository extends Repository<Item> {
     });
   }
 
-  getFilteredItems({ part, rank, bonus }: Filter) {
+  getFilteredItems({ part, rank, bonus, tier }: Filter) {
     // simple part and rank range checks
-    if (part < 0 || part > 2) {
+    if (part && (part < 0 || part > 2)) {
       throw new Error(`Wrong game part filter value provided: ${part}`);
     }
 
-    if (rank < 0 || rank > 10) {
+    if (rank && (rank < 0 || rank > 10)) {
       throw new Error(`Wrong item rank filter value provided: ${rank}`);
     }
 
     // combine filters
     return this.createQueryBuilder('Item')
       .where(query => {
-        if (part !== 0) {
+        if (part) {
           query.where('Item.gamePart = :part', { part });
         }
 
-        if (rank !== 0) {
+        if (rank) {
           query.andWhere('Item.rank = :rank', { rank });
         }
 
-        if (bonus !== FilterBonus.Any) {
+        if (bonus && bonus !== FilterBonus.Any) {
           query.andWhere(bonusQuery(bonus));
+        }
+
+        if (tier === 'ANY') {
+          query.andWhere('Item.tier is not null');
+        }
+
+        if (tier && tier !== 'ANY') {
+          query.andWhere('Item.tier = :tier', { tier });
         }
       })
       .orderBy('Item.rank', 'ASC')

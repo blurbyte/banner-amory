@@ -6,6 +6,7 @@
     "start": "node fuse.js",
     "test": "jest",
     "test:watch": "jest --watch",
+    "test:update": "yarn test -u",
     "lint": "tslint --format stylish \"src/**/*.ts\"",
     "format": "prettier --write \"src/**/*.ts\"",
     "formatcheck": "prettier --list-different \"src/**/*.ts\"",

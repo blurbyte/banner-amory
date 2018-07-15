@@ -1,10 +1,11 @@
-import { Item } from './Item';
+import { Item, Tier } from './Item';
 
 // 0 means ALL parts and ranks
 export type Filter = {
   part: 0 | Item['gamePart'];
   rank: 0 | Item['rank'];
   bonus: FilterBonus;
+  tier: FilterTier;
 };
 
 export enum FilterBonus {
@@ -17,6 +18,8 @@ export enum FilterBonus {
   FromMarket = 'FROM_MARKET',
   Movement = 'MOVEMENT'
 }
+
+export type FilterTier = 'ANY' | Tier;
 
 // Item properties on which filtering is based
 export type AvailableFilterBonusProperty = Extract<

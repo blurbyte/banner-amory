@@ -81,5 +81,15 @@ export const Item = gql`
     acquirementHero: String
 
     trivia: String
+
+    tier: Tier
+  }
+
+  "Available item tiers"
+  enum Tier {
+    S
+    A
+    B
+    C
   }
 `;

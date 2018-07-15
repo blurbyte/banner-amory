@@ -114,4 +114,9 @@ export class Item {
 
   @Column({ type: 'nvarchar', length: 500, nullable: true })
   trivia?: string;
+
+  @Column({ type: 'char', length: 1, nullable: true })
+  tier?: Tier
 }
+
+export type Tier = 'S' | 'A' | 'B' | 'C';

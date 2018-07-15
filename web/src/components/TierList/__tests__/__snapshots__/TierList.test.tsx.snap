@@ -1,60 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders loaded list of items 1`] = `
-<article
-  class="sc-cSHVUG bcwYBM sc-jzJRlG hOHjtX"
->
-  <h1
-    class="sc-jTzLTM eAGGiO"
-  >
-    Survival Mode Tier List
-  </h1>
-  <ul
-    class="sc-VigVT dFmCvC"
-  >
-    <li
-      class="sc-htpNat hkrMkj"
-    >
-      <a
-        class="sc-bxivhb jgmcrE"
-        href="/item/ariana-grande"
-      >
-        <img
-          class="sc-bdVaJa hpZUqN"
-          src="undefinedariana-grande.png"
-        />
-        <p
-          class="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
-        >
-          10
-        </p>
-      </a>
-    </li>
-    <li
-      class="sc-htpNat hkrMkj"
-    >
-      <a
-        class="sc-bxivhb jgmcrE"
-        href="/item/taylor-swift"
-      >
-        <img
-          class="sc-bdVaJa hpZUqN"
-          src="undefinedtaylor-swift.png"
-        />
-        <p
-          class="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
-        >
-          1
-        </p>
-      </a>
-    </li>
-  </ul>
-</article>
-`;
+exports[`renders loaded list of items 1`] = `null`;
 
 exports[`renders loading state initially 1`] = `
 <article
-  class="sc-cSHVUG bcwYBM sc-jzJRlG hOHjtX"
+  class="sc-kgoBCf bVikLa sc-chPdSV jxLTAR"
 >
   <h1
     class="sc-jTzLTM eAGGiO"

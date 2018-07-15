@@ -9,6 +9,7 @@ exports[`renders correctly 1`] = `
 
 .c0 {
   margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 <article

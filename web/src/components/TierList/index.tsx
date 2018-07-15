@@ -6,7 +6,7 @@ import { gql } from 'apollo-boost';
 import { Query } from 'react-apollo';
 
 import { FilterTier } from '@sharedTypes/Filter';
-import RanksGrid from '../RanksGrid';
+import TierGrid from '../TierGrid';
 import Headline from '../Headline';
 import Content from './Content';
 
@@ -46,7 +46,7 @@ export class TierList extends React.Component<TierListProps> {
               return null;
             }
 
-            return <RanksGrid items={data.items} />;
+            return <TierGrid items={data.items} />;
           }}
         </Query>
       </Content>

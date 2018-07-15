@@ -6,6 +6,7 @@ const Article = BaseContent.withComponent('article');
 
 const Content = styled(Article)`
   margin-top: 5rem;
+  margin-bottom: 5rem;
 `;
 
 export default Content;

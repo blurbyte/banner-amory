@@ -6,13 +6,16 @@ import { transparentize } from 'polished';
 
 import { Item } from '@sharedTypes/Item';
 import { Color } from '@styles/color';
+import { slideIn } from '@styles/animations';
 import { Banner } from '../Icons';
 import Image from '../Image';
 import Stat from './Stat';
 
 const Wrapper = styled.div`
+  opacity: 0;
   display: flex;
   flex-direction: column;
+  animation: ${slideIn} 300ms ease-in forwards 200ms;
 `;
 
 const Stats = styled.div`

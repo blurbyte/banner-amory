@@ -4,11 +4,14 @@ import * as React from 'react';
 import styled from 'styled-components';
 
 import { Item } from '@sharedTypes/Item';
+import { slideIn } from '@styles/animations';
 import Property from '../SingleItemProperty';
 import Strong from '../Strong';
 
 const Wrapper = styled.div`
+  opacity: 0;
   margin-left: 2rem;
+  animation: ${slideIn} 400ms ease-in forwards 600ms;
 `;
 
 const Description = styled.p`

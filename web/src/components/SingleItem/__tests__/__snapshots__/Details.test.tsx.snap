@@ -40,7 +40,10 @@ exports[`renders correctly 1`] = `
 }
 
 .c0 {
+  opacity: 0;
   margin-left: 2rem;
+  -webkit-animation: kSYIal 400ms ease-in forwards 600ms;
+  animation: kSYIal 400ms ease-in forwards 600ms;
 }
 
 .c1 {

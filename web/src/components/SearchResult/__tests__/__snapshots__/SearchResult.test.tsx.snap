@@ -2,14 +2,14 @@
 
 exports[`renders info message when no items match search 1`] = `
 <article
-  class="sc-cSHVUG buhFMj sc-jzJRlG hOHjtX"
+  class="sc-kAzzGY bveUKx sc-cSHVUG hHmWnv"
 >
   <h1
-    class="sc-chPdSV fbRiFJ sc-kAzzGY cYGrVF"
+    class="sc-kgoBCf cOOXiH sc-chPdSV kQHSYF"
   >
     Bolverk failed to find items for 
     <strong
-      class="sc-jTzLTM hPycZy"
+      class="sc-fjdhpX ehLwBl"
     >
       xxx
     </strong>
@@ -19,52 +19,60 @@ exports[`renders info message when no items match search 1`] = `
 
 exports[`renders loaded item 1`] = `
 <article
-  class="sc-cSHVUG buhFMj sc-jzJRlG hOHjtX"
+  class="sc-kAzzGY bveUKx sc-cSHVUG hHmWnv"
 >
   <h1
-    class="sc-chPdSV fbRiFJ sc-kAzzGY cYGrVF"
+    class="sc-kgoBCf cOOXiH sc-chPdSV kQHSYF"
   >
     Items found for 
     <strong
-      class="sc-jTzLTM hPycZy"
+      class="sc-fjdhpX ehLwBl"
     >
       ale
     </strong>
   </h1>
   <ul
-    class="sc-VigVT dFmCvC"
+    class="sc-jTzLTM dkYUzs"
   >
     <li
-      class="sc-htpNat hkrMkj"
+      class="sc-bxivhb fuAhs"
     >
       <a
-        class="sc-bxivhb jgmcrE"
+        class="sc-ifAKCX GbWcO"
         href="/item/alettes-bracelet"
       >
-        <img
-          class="sc-bdVaJa hpZUqN"
-          src="undefinedalettes-bracelet.png"
-        />
+        <div
+          class="sc-bdVaJa dMhIUw"
+        >
+          <img
+            class="sc-bwzfXH iIjYES"
+            src="undefinedalettes-bracelet.png"
+          />
+        </div>
         <p
-          class="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
+          class="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
         >
           1
         </p>
       </a>
     </li>
     <li
-      class="sc-htpNat hkrMkj"
+      class="sc-bxivhb fuAhs"
     >
       <a
-        class="sc-bxivhb jgmcrE"
+        class="sc-ifAKCX GbWcO"
         href="/item/whalebone-needle"
       >
-        <img
-          class="sc-bdVaJa hpZUqN"
-          src="undefinedwhalebone-needle.png"
-        />
+        <div
+          class="sc-bdVaJa dMhIUw"
+        >
+          <img
+            class="sc-bwzfXH iIjYES"
+            src="undefinedwhalebone-needle.png"
+          />
+        </div>
         <p
-          class="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
+          class="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
         >
           1
         </p>
@@ -76,6 +84,6 @@ exports[`renders loaded item 1`] = `
 
 exports[`renders loading state initially 1`] = `
 <article
-  class="sc-cSHVUG buhFMj sc-jzJRlG hOHjtX"
+  class="sc-kAzzGY bveUKx sc-cSHVUG hHmWnv"
 />
 `;

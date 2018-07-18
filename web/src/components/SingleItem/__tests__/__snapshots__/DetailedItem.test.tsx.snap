@@ -11,14 +11,18 @@ Array [
     className="sc-bwzfXH idYqgJ"
   >
     <div
-      className="sc-iwsKbI dRZuUw"
+      className="sc-gZMcBi crAViM"
     >
-      <img
-        className="sc-htpNat fpGAr"
-        src="undefinedalettes-bracelet.png"
-      />
       <div
-        className="sc-gZMcBi gKUIXU"
+        className="sc-htpNat bVIWRD"
+      >
+        <img
+          className="sc-bxivhb kfMzZG"
+          src="undefinedalettes-bracelet.png"
+        />
+      </div>
+      <div
+        className="sc-gqjmRU gcZhru"
       >
         <svg
           viewBox="0 0 50 90"
@@ -30,21 +34,21 @@ Array [
           />
         </svg>
         <div
-          className="sc-gqjmRU ilkWmp"
+          className="sc-VigVT iEHYVi"
         >
           <dl
-            className="sc-bxivhb bIRpqt"
+            className="sc-ifAKCX bzoQiD"
           >
             <dt
-              className="sc-bZQynM jqmTJK sc-EHOje fMyzOX"
+              className="sc-gzVnrw cXGOKy sc-bZQynM gItSTm"
             >
               Strength
             </dt>
             <dd
-              className="sc-gzVnrw fvdkZP"
+              className="sc-htoDjs joOAYR"
             >
               <span
-                className="sc-dnqmqq bVSNKU"
+                className="sc-iwsKbI bTMIFp"
               >
                 +
                 1
@@ -52,18 +56,18 @@ Array [
             </dd>
           </dl>
           <dl
-            className="sc-bxivhb bIRpqt"
+            className="sc-ifAKCX bzoQiD"
           >
             <dt
-              className="sc-bZQynM jqmTJK sc-EHOje fMyzOX"
+              className="sc-gzVnrw cXGOKy sc-bZQynM gItSTm"
             >
               Willpower
             </dt>
             <dd
-              className="sc-gzVnrw fvdkZP"
+              className="sc-htoDjs joOAYR"
             >
               <span
-                className="sc-dnqmqq bVSNKU"
+                className="sc-iwsKbI bTMIFp"
               >
                 +
                 1
@@ -71,18 +75,18 @@ Array [
             </dd>
           </dl>
           <dl
-            className="sc-bxivhb bIRpqt"
+            className="sc-ifAKCX bzoQiD"
           >
             <dt
-              className="sc-bZQynM jqmTJK sc-EHOje fMyzOX"
+              className="sc-gzVnrw cXGOKy sc-bZQynM gItSTm"
             >
               Armor
             </dt>
             <dd
-              className="sc-gzVnrw fvdkZP"
+              className="sc-htoDjs joOAYR"
             >
               <span
-                className="sc-dnqmqq bVSNKU"
+                className="sc-iwsKbI bTMIFp"
               >
                 +
                 1
@@ -93,54 +97,54 @@ Array [
       </div>
     </div>
     <div
-      className="sc-fjdhpX duxcbW"
+      className="sc-jzJRlG eAtAcy"
     >
       <p
-        className="sc-jzJRlG YfsHm"
+        className="sc-cSHVUG kukVAZ"
       >
         Lovingly made by a hunter's wife to keep her daughter safe from harm.
       </p>
       <dl
-        className="sc-bxivhb hbPgPS"
+        className="sc-ifAKCX eUrHGw"
       >
         <dt
-          className="sc-bZQynM heQZOI sc-EHOje fMyzOX"
+          className="sc-gzVnrw jdsdOG sc-bZQynM gItSTm"
         >
           Part
         </dt>
         <dd
-          className="sc-gzVnrw ccpEsE"
+          className="sc-htoDjs hoHbUn"
         >
           The Banner Saga 1
         </dd>
       </dl>
       <dl
-        className="sc-bxivhb hbPgPS"
+        className="sc-ifAKCX eUrHGw"
       >
         <dt
-          className="sc-bZQynM heQZOI sc-EHOje fMyzOX"
+          className="sc-gzVnrw jdsdOG sc-bZQynM gItSTm"
         >
           Rank
         </dt>
         <dd
-          className="sc-gzVnrw ejKTVJ"
+          className="sc-htoDjs gBjpyW"
         >
           1
         </dd>
       </dl>
       <dl
-        className="sc-bxivhb hbPgPS"
+        className="sc-ifAKCX eUrHGw"
       >
         <dt
-          className="sc-bZQynM heQZOI sc-EHOje fMyzOX"
+          className="sc-gzVnrw jdsdOG sc-bZQynM gItSTm"
         >
           How to get
         </dt>
         <dd
-          className="sc-gzVnrw ccpEsE"
+          className="sc-htoDjs hoHbUn"
         >
           <strong
-            className="sc-jTzLTM hPycZy"
+            className="sc-fjdhpX ehLwBl"
           >
             Alette
           </strong>

@@ -2,14 +2,24 @@
 
 exports[`renders correctly 1`] = `
 .c1 {
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.c2 {
   max-width: 100%;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  left: 0;
 }
 
-.c4 {
+.c5 {
   margin: 1rem 0;
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -19,7 +29,7 @@ exports[`renders correctly 1`] = `
   align-items: start;
 }
 
-.c6 {
+.c7 {
   font-size: 1.2rem;
   color: rgba(61,38,218,0.5);
   text-transform: uppercase;
@@ -29,12 +39,12 @@ exports[`renders correctly 1`] = `
   letter-spacing: 0.5px;
 }
 
-.c5 {
+.c6 {
   text-align: right;
   line-height: 1.2;
 }
 
-.c7 {
+.c8 {
   color: #3d26da;
   line-height: 1;
   font-size: 1.8rem;
@@ -43,7 +53,7 @@ exports[`renders correctly 1`] = `
   text-align: right;
 }
 
-.c8 {
+.c9 {
   color: #3d26da;
 }
 
@@ -57,14 +67,14 @@ exports[`renders correctly 1`] = `
   flex-direction: column;
 }
 
-.c2 {
+.c3 {
   width: 100%;
   color: rgba(61,38,218,0.1);
   position: relative;
   z-index: 999;
 }
 
-.c3 {
+.c4 {
   position: absolute;
   top: 0;
   left: 0;
@@ -77,12 +87,16 @@ exports[`renders correctly 1`] = `
 <div
   className="c0"
 >
-  <img
-    className="c1"
-    src="undefinedalettes-bracelet.png"
-  />
   <div
-    className="c2"
+    className="c1"
+  >
+    <img
+      className="c2"
+      src="undefinedalettes-bracelet.png"
+    />
+  </div>
+  <div
+    className="c3"
   >
     <svg
       viewBox="0 0 50 90"
@@ -94,21 +108,21 @@ exports[`renders correctly 1`] = `
       />
     </svg>
     <div
-      className="c3"
+      className="c4"
     >
       <dl
-        className="c4"
+        className="c5"
       >
         <dt
-          className="c5 c6"
+          className="c6 c7"
         >
           Strength
         </dt>
         <dd
-          className="c7"
+          className="c8"
         >
           <span
-            className="c8"
+            className="c9"
           >
             +
             1
@@ -116,18 +130,18 @@ exports[`renders correctly 1`] = `
         </dd>
       </dl>
       <dl
-        className="c4"
+        className="c5"
       >
         <dt
-          className="c5 c6"
+          className="c6 c7"
         >
           Willpower
         </dt>
         <dd
-          className="c7"
+          className="c8"
         >
           <span
-            className="c8"
+            className="c9"
           >
             +
             1
@@ -135,18 +149,18 @@ exports[`renders correctly 1`] = `
         </dd>
       </dl>
       <dl
-        className="c4"
+        className="c5"
       >
         <dt
-          className="c5 c6"
+          className="c6 c7"
         >
           Armor
         </dt>
         <dd
-          className="c7"
+          className="c8"
         >
           <span
-            className="c8"
+            className="c9"
           >
             +
             1

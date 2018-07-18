@@ -2,13 +2,13 @@
 
 exports[`renders correctly 1`] = `
 <ul
-  className="sc-VigVT dFmCvC"
+  className="sc-jTzLTM dkYUzs"
 >
   <li
-    className="sc-htpNat hkrMkj"
+    className="sc-bxivhb fuAhs"
   >
     <a
-      className="sc-bxivhb jgmcrE"
+      className="sc-ifAKCX GbWcO"
       href="/item/test-slug"
       onBlur={[Function]}
       onClick={[Function]}
@@ -16,22 +16,26 @@ exports[`renders correctly 1`] = `
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
     >
-      <img
-        className="sc-bdVaJa hpZUqN"
-        src="undefinedtest-slug.png"
-      />
+      <div
+        className="sc-bdVaJa dMhIUw"
+      >
+        <img
+          className="sc-bwzfXH iIjYES"
+          src="undefinedtest-slug.png"
+        />
+      </div>
       <p
-        className="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
+        className="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
       >
         10
       </p>
     </a>
   </li>
   <li
-    className="sc-htpNat hkrMkj"
+    className="sc-bxivhb fuAhs"
   >
     <a
-      className="sc-bxivhb jgmcrE"
+      className="sc-ifAKCX GbWcO"
       href="/item/taylor-swift"
       onBlur={[Function]}
       onClick={[Function]}
@@ -39,12 +43,16 @@ exports[`renders correctly 1`] = `
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
     >
-      <img
-        className="sc-bdVaJa hpZUqN"
-        src="undefinedtaylor-swift.png"
-      />
+      <div
+        className="sc-bdVaJa dMhIUw"
+      >
+        <img
+          className="sc-bwzfXH iIjYES"
+          src="undefinedtaylor-swift.png"
+        />
+      </div>
       <p
-        className="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
+        className="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
       >
         1
       </p>

@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import Square from './Square';
 import Img from './Img';
 
 type ImageProps = {
@@ -10,7 +11,7 @@ class Image extends React.Component<ImageProps> {
   render() {
     const { slug } = this.props;
 
-    return <Img src={`${process.env.STORAGE_URL}${slug}.png`} />;
+    return <Square><Img src={`${process.env.STORAGE_URL}${slug}.png`} /></Square>;
   }
 }
 

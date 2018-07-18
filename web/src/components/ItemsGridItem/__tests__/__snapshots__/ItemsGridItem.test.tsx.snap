@@ -2,33 +2,33 @@
 
 exports[`hides and shows overlay based on mouse entering and leaving Item wrapper 1`] = `
 <li
-  class="sc-htpNat hkrMkj"
+  class="sc-bxivhb fuAhs"
 >
   <a
-    class="sc-bxivhb jgmcrE"
+    class="sc-ifAKCX GbWcO"
     href="/item/ariana-grande"
   >
     <div
-      class="sc-bwzfXH iGzFrz"
+      class="sc-htpNat enMeJG"
     >
       <section
-        class="sc-htoDjs cjfxrJ"
+        class="sc-dnqmqq hVFvkw"
       >
         <h3
-          class="sc-ifAKCX cWwXgL"
+          class="sc-EHOje jLcawZ"
         >
           Ariana Grande
         </h3>
         <p
-          class="sc-dnqmqq dAPyYY sc-EHOje RRuYV"
+          class="sc-iwsKbI jESQb sc-bZQynM geAaEl"
         >
           10
         </p>
         <div
-          class="sc-bZQynM chyZNK"
+          class="sc-gzVnrw hbRlsB"
         >
           <p
-            class="sc-gzVnrw izdpJq sc-EHOje RRuYV"
+            class="sc-htoDjs gGoPmJ sc-bZQynM geAaEl"
           >
             2
           </p>
@@ -45,14 +45,18 @@ exports[`hides and shows overlay based on mouse entering and leaving Item wrappe
       </section>
     </div>
     <div
-      class="sc-gZMcBi fFNkhP"
+      class="sc-gqjmRU dnuGoN"
     />
-    <img
-      class="sc-bdVaJa hpZUqN"
-      src="undefinedariana-grande.png"
-    />
+    <div
+      class="sc-bdVaJa dMhIUw"
+    >
+      <img
+        class="sc-bwzfXH iIjYES"
+        src="undefinedariana-grande.png"
+      />
+    </div>
     <p
-      class="sc-iwsKbI jrVOTo sc-EHOje RRuYV fade-out-exit fade-out-exit-active"
+      class="sc-gZMcBi iufjnt sc-bZQynM geAaEl fade-out-exit fade-out-exit-active"
     >
       10
     </p>
@@ -62,18 +66,22 @@ exports[`hides and shows overlay based on mouse entering and leaving Item wrappe
 
 exports[`hides and shows overlay based on mouse entering and leaving Item wrapper 2`] = `
 <li
-  class="sc-htpNat hkrMkj"
+  class="sc-bxivhb fuAhs"
 >
   <a
-    class="sc-bxivhb jgmcrE"
+    class="sc-ifAKCX GbWcO"
     href="/item/ariana-grande"
   >
-    <img
-      class="sc-bdVaJa hpZUqN"
-      src="undefinedariana-grande.png"
-    />
+    <div
+      class="sc-bdVaJa dMhIUw"
+    >
+      <img
+        class="sc-bwzfXH iIjYES"
+        src="undefinedariana-grande.png"
+      />
+    </div>
     <p
-      class="sc-iwsKbI jrVOTo sc-EHOje RRuYV fade-out-enter fade-out-enter-active"
+      class="sc-gZMcBi iufjnt sc-bZQynM geAaEl fade-out-enter fade-out-enter-active"
     >
       10
     </p>

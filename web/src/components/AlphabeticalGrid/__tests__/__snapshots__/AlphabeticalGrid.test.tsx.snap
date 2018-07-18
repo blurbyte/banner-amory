@@ -5,21 +5,21 @@ exports[`renders items grouped by first name character 1`] = `
   className="sc-bdVaJa iDpojy"
 >
   <div
-    className="sc-VigVT iYppOv"
+    className="sc-jTzLTM gKdRlC"
   >
     <p
-      className="sc-jzJRlG cyaFDf sc-fjdhpX dFoqyJ"
+      className="sc-cSHVUG fTOKnP sc-jzJRlG dGTYFu"
     >
       t
     </p>
     <ul
-      className="sc-cSHVUG cvBfsK"
+      className="sc-kAzzGY kHKYvg"
     >
       <li
-        className="sc-bxivhb fuAhs"
+        className="sc-ifAKCX eAYGcP"
       >
         <a
-          className="sc-ifAKCX GbWcO"
+          className="sc-EHOje jQSOuj"
           href="/item/taylors-bracelet"
           onBlur={[Function]}
           onClick={[Function]}
@@ -27,22 +27,26 @@ exports[`renders items grouped by first name character 1`] = `
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
         >
-          <img
-            className="sc-bwzfXH cxYQpI"
-            src="undefinedtaylors-bracelet.png"
-          />
+          <div
+            className="sc-bwzfXH elpSZb"
+          >
+            <img
+              className="sc-htpNat kvsjSp"
+              src="undefinedtaylors-bracelet.png"
+            />
+          </div>
           <p
-            className="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
+            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
           >
             1
           </p>
         </a>
       </li>
       <li
-        className="sc-bxivhb fuAhs"
+        className="sc-ifAKCX eAYGcP"
       >
         <a
-          className="sc-ifAKCX GbWcO"
+          className="sc-EHOje jQSOuj"
           href="/item/thunder-ball"
           onBlur={[Function]}
           onClick={[Function]}
@@ -50,12 +54,16 @@ exports[`renders items grouped by first name character 1`] = `
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
         >
-          <img
-            className="sc-bwzfXH cxYQpI"
-            src="undefinedthunder-ball.png"
-          />
+          <div
+            className="sc-bwzfXH elpSZb"
+          >
+            <img
+              className="sc-htpNat kvsjSp"
+              src="undefinedthunder-ball.png"
+            />
+          </div>
           <p
-            className="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
+            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
           >
             2
           </p>
@@ -64,21 +72,21 @@ exports[`renders items grouped by first name character 1`] = `
     </ul>
   </div>
   <div
-    className="sc-VigVT cAHWJM"
+    className="sc-jTzLTM ldRjeR"
   >
     <p
-      className="sc-jzJRlG cyaFDf sc-fjdhpX dFoqyJ"
+      className="sc-cSHVUG fTOKnP sc-jzJRlG dGTYFu"
     >
       v
     </p>
     <ul
-      className="sc-cSHVUG dOyjrN"
+      className="sc-kAzzGY cMQPDM"
     >
       <li
-        className="sc-bxivhb fuAhs"
+        className="sc-ifAKCX eAYGcP"
       >
         <a
-          className="sc-ifAKCX GbWcO"
+          className="sc-EHOje jQSOuj"
           href="/item/vibrant-touch"
           onBlur={[Function]}
           onClick={[Function]}
@@ -86,12 +94,16 @@ exports[`renders items grouped by first name character 1`] = `
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
         >
-          <img
-            className="sc-bwzfXH cxYQpI"
-            src="undefinedvibrant-touch.png"
-          />
+          <div
+            className="sc-bwzfXH elpSZb"
+          >
+            <img
+              className="sc-htpNat kvsjSp"
+              src="undefinedvibrant-touch.png"
+            />
+          </div>
           <p
-            className="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
+            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
           >
             3
           </p>

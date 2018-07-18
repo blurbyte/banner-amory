@@ -4,10 +4,10 @@ exports[`renders loaded list of items 1`] = `null`;
 
 exports[`renders loading state initially 1`] = `
 <article
-  class="sc-kgoBCf bVikLa sc-chPdSV jxLTAR"
+  class="sc-kGXeez IPRMP sc-kgoBCf kUQHCU"
 >
   <h1
-    class="sc-jTzLTM eAGGiO"
+    class="sc-fjdhpX dFoqyJ"
   >
     Survival Mode Tier List
   </h1>

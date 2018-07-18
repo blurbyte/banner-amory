@@ -2,21 +2,21 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="sc-gqjmRU iCAYQV"
+  className="sc-VigVT iYppOv"
 >
   <p
-    className="sc-fjdhpX fAGFxv sc-jTzLTM eAGGiO"
+    className="sc-jzJRlG cyaFDf sc-fjdhpX dFoqyJ"
   >
     x
   </p>
   <ul
-    className="sc-jzJRlG bHkJyY"
+    className="sc-cSHVUG cvBfsK"
   >
     <li
-      className="sc-htpNat hkrMkj"
+      className="sc-bxivhb fuAhs"
     >
       <a
-        className="sc-bxivhb jgmcrE"
+        className="sc-ifAKCX GbWcO"
         href="/item/xanathous-crown"
         onBlur={[Function]}
         onClick={[Function]}
@@ -24,22 +24,26 @@ exports[`renders correctly 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
       >
-        <img
-          className="sc-bdVaJa hpZUqN"
-          src="undefinedxanathous-crown.png"
-        />
+        <div
+          className="sc-bdVaJa dMhIUw"
+        >
+          <img
+            className="sc-bwzfXH iIjYES"
+            src="undefinedxanathous-crown.png"
+          />
+        </div>
         <p
-          className="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
+          className="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
         >
           4
         </p>
       </a>
     </li>
     <li
-      className="sc-htpNat hkrMkj"
+      className="sc-bxivhb fuAhs"
     >
       <a
-        className="sc-bxivhb jgmcrE"
+        className="sc-ifAKCX GbWcO"
         href="/item/xyndra-grimore"
         onBlur={[Function]}
         onClick={[Function]}
@@ -47,12 +51,16 @@ exports[`renders correctly 1`] = `
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
       >
-        <img
-          className="sc-bdVaJa hpZUqN"
-          src="undefinedxyndra-grimore.png"
-        />
+        <div
+          className="sc-bdVaJa dMhIUw"
+        >
+          <img
+            className="sc-bwzfXH iIjYES"
+            src="undefinedxyndra-grimore.png"
+          />
+        </div>
         <p
-          className="sc-iwsKbI jrVOTo sc-EHOje RRuYV"
+          className="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
         >
           6
         </p>

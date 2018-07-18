@@ -11,14 +11,18 @@ exports[`renders loaded item 1`] = `
     class="sc-ifAKCX eMgKLG"
   >
     <div
-      class="sc-VigVT iIEVIh"
+      class="sc-jTzLTM iNxaQE"
     >
-      <img
-        class="sc-EHOje dPoLsW"
-        src="undefinedundefined.png"
-      />
       <div
-        class="sc-jTzLTM keEysV"
+        class="sc-EHOje fzKOsK"
+      >
+        <img
+          class="sc-bZQynM ZxRt"
+          src="undefinedundefined.png"
+        />
+      </div>
+      <div
+        class="sc-fjdhpX cojkTh"
       >
         <svg
           viewBox="0 0 50 90"
@@ -30,49 +34,49 @@ exports[`renders loaded item 1`] = `
           />
         </svg>
         <div
-          class="sc-fjdhpX gicDWd"
+          class="sc-jzJRlG cagTCt"
         />
       </div>
     </div>
     <div
-      class="sc-kAzzGY iCCnRv"
+      class="sc-chPdSV kwYEAP"
     >
       <dl
-        class="sc-bZQynM hthShY"
+        class="sc-gzVnrw dVbZom"
       >
         <dt
-          class="sc-dnqmqq fnHENU sc-htoDjs keabGb"
+          class="sc-iwsKbI jicUlL sc-dnqmqq eIqxId"
         >
           Part
         </dt>
         <dd
-          class="sc-iwsKbI eABNGt"
+          class="sc-gZMcBi geMyLs"
         >
           The Banner Saga undefined
         </dd>
       </dl>
       <dl
-        class="sc-bZQynM hthShY"
+        class="sc-gzVnrw dVbZom"
       >
         <dt
-          class="sc-dnqmqq fnHENU sc-htoDjs keabGb"
+          class="sc-iwsKbI jicUlL sc-dnqmqq eIqxId"
         >
           Rank
         </dt>
         <dd
-          class="sc-iwsKbI iDWMOg"
+          class="sc-gZMcBi jWGNPi"
         />
       </dl>
       <dl
-        class="sc-bZQynM hthShY"
+        class="sc-gzVnrw dVbZom"
       >
         <dt
-          class="sc-dnqmqq fnHENU sc-htoDjs keabGb"
+          class="sc-iwsKbI jicUlL sc-dnqmqq eIqxId"
         >
           How to get
         </dt>
         <dd
-          class="sc-iwsKbI eABNGt"
+          class="sc-gZMcBi geMyLs"
         >
           Unknown
         </dd>

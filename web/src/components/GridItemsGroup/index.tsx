@@ -24,7 +24,7 @@ class GridItemsGroup extends React.Component<GridItemsGroupProps> {
     const maxColumns = numberOfItems > MAX_ITEMS_PER_ROW ? MAX_ITEMS_PER_ROW : numberOfItems;
 
     return (
-      <Wrapper columns={maxColumns}>
+      <Wrapper columns={maxColumns} animationDelay={200}>
         <Label>{label}</Label>
         <List columns={maxColumns}>
           {items.map(item => <GridItem key={item.slug} {...item} />)}

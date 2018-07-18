@@ -24,7 +24,7 @@ const Wrapper = styled.section`
   height: 100%;
   background: ${Color.Blue};
   opacity: 0;
-  animation: ${slideIn} 0.25s ease-in forwards 0.15s;
+  animation: ${slideIn} 250ms ease-in forwards 150ms;
 `;
 
 const Rank = styled(BaseRank)`

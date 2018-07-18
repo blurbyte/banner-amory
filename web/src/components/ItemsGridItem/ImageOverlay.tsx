@@ -21,7 +21,7 @@ const ImageOverlay = styled.div`
   height: 100%;
   opacity: 0;
   background: ${transparentize(0.6, Color.Blue)};
-  animation: ${fadeIn} 0.2s ease-in forwards 0.2s;
+  animation: ${fadeIn} 200ms ease-in forwards 200ms;
 `;
 
 export default ImageOverlay;

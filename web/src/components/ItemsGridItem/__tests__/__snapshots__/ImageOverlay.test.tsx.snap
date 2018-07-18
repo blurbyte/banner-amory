@@ -10,8 +10,8 @@ exports[`renders correctly 1`] = `
   height: 100%;
   opacity: 0;
   background: rgba(61,38,218,0.4);
-  -webkit-animation: eMLfYp 0.2s ease-in forwards 0.2s;
-  animation: eMLfYp 0.2s ease-in forwards 0.2s;
+  -webkit-animation: eMLfYp 200ms ease-in forwards 200ms;
+  animation: eMLfYp 200ms ease-in forwards 200ms;
 }
 
 <div

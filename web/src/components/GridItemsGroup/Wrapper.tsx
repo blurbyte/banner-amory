@@ -20,7 +20,7 @@ const Wrapper = styled.div<WrapperProps>`
   display: grid;
   grid-column: span ${props => props.columns};
   opacity: 0;
-  animation: ${slideIn} 0.2s ease-in forwards ${props => props.animationDelay}ms;
+  animation: ${slideIn} 300ms ease-in forwards ${props => props.animationDelay}ms;
 `;
 
 export default Wrapper;

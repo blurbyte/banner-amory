@@ -5,7 +5,7 @@ exports[`renders items grouped by first name character 1`] = `
   className="sc-bdVaJa iDpojy"
 >
   <div
-    className="sc-jTzLTM gKdRlC"
+    className="sc-jTzLTM eCryeh"
   >
     <p
       className="sc-cSHVUG fTOKnP sc-jzJRlG dGTYFu"
@@ -72,7 +72,7 @@ exports[`renders items grouped by first name character 1`] = `
     </ul>
   </div>
   <div
-    className="sc-jTzLTM ldRjeR"
+    className="sc-jTzLTM bdjbSg"
   >
     <p
       className="sc-cSHVUG fTOKnP sc-jzJRlG dGTYFu"

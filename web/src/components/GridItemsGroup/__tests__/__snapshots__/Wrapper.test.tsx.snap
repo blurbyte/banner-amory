@@ -4,6 +4,9 @@ exports[`renders correctly 1`] = `
 .c0 {
   display: grid;
   grid-column: span 4;
+  opacity: 0;
+  -webkit-animation: kSYIal 300ms ease-in forwards ms;
+  animation: kSYIal 300ms ease-in forwards ms;
 }
 
 <div

@@ -1,26 +1,18 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 
-const slideIn = keyframes`
-  from {
-    transform: translateY(-1.2rem);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-`;
+import { slideIn } from '@styles/animations';
 
 type WrapperProps = {
   columns: number;
-  animationDelay: number;
+  animationDelay?: number;
 };
 
 const Wrapper = styled.div<WrapperProps>`
   display: grid;
   grid-column: span ${props => props.columns};
   opacity: 0;
-  animation: ${slideIn} 300ms ease-in forwards ${props => props.animationDelay}ms;
+  animation: ${slideIn} 300ms ease-in forwards
+    ${props => (props.animationDelay ? props.animationDelay : 0)}ms;
 `;
 
 export default Wrapper;

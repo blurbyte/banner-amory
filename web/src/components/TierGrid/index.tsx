@@ -22,7 +22,14 @@ class TierGrid extends React.Component<TierGridProps> {
     return (
       <Grid>
         {tiers.map((tier, index) => {
-          return <ItemsGroup key={`${tier}-items`} label={tier} items={groupedItems[tier]!} animationDelay={index * ANIMATION_DELAY_BASE_MS} />;
+          return (
+            <ItemsGroup
+              key={`${tier}-items`}
+              label={tier}
+              items={groupedItems[tier]!}
+              animationDelay={index * ANIMATION_DELAY_BASE_MS}
+            />
+          );
         })}
       </Grid>
     );

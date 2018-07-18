@@ -11,7 +11,11 @@ class Image extends React.Component<ImageProps> {
   render() {
     const { slug } = this.props;
 
-    return <Square><Img src={`${process.env.STORAGE_URL}${slug}.png`} /></Square>;
+    return (
+      <Square>
+        <Img src={`${process.env.STORAGE_URL}${slug}.png`} />
+      </Square>
+    );
   }
 }
 

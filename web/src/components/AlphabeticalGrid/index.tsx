@@ -22,7 +22,14 @@ class AlphabeticalGrid extends React.Component<AlphabeticalGridProps> {
     return (
       <Grid>
         {characters.map((char, index) => {
-          return <ItemsGroup key={`${char}-items`} label={char} items={groupedItems[char]} animationDelay={index * ANIMATION_DELAY_BASE_MS} />;
+          return (
+            <ItemsGroup
+              key={`${char}-items`}
+              label={char}
+              items={groupedItems[char]}
+              animationDelay={index * ANIMATION_DELAY_BASE_MS}
+            />
+          );
         })}
       </Grid>
     );

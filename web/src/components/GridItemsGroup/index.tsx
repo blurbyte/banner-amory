@@ -12,7 +12,7 @@ const MAX_ITEMS_PER_ROW = 10; // number of columns in base Grid
 
 type GridItemsGroupDefaultProps = {
   animationDelay: number;
-}
+};
 
 type GridItemsGroupProps = Partial<GridItemsGroupDefaultProps> & {
   label: string;
@@ -23,7 +23,7 @@ type GridItemsGroupProps = Partial<GridItemsGroupDefaultProps> & {
 class GridItemsGroup extends React.Component<GridItemsGroupProps> {
   static defaultProps: GridItemsGroupDefaultProps = {
     animationDelay: 200
-  }
+  };
 
   render() {
     const { label, items, animationDelay } = this.props;

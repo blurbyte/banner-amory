@@ -3,6 +3,9 @@
 exports[`renders correctly 1`] = `
 .c0 {
   background: rgba(61,38,218,0.1);
+  opacity: 0;
+  -webkit-animation: eMLfYp 800ms linear forwards 200ms;
+  animation: eMLfYp 800ms linear forwards 200ms;
 }
 
 <div

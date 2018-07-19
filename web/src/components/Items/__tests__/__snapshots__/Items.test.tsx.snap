@@ -2,7 +2,7 @@
 
 exports[`renders info message when no items match filters 1`] = `
 <div
-  class="sc-htoDjs knrzKg"
+  class="sc-htoDjs iWKKVN"
 >
   <section
     class="sc-gZMcBi jSOgIT sc-iwsKbI bLAQRm"
@@ -355,7 +355,7 @@ exports[`renders info message when no items match filters 1`] = `
 
 exports[`renders loaded list of items 1`] = `
 <div
-  class="sc-htoDjs knrzKg"
+  class="sc-htoDjs iWKKVN"
 >
   <section
     class="sc-gZMcBi jSOgIT sc-iwsKbI bLAQRm"
@@ -708,7 +708,7 @@ exports[`renders loaded list of items 1`] = `
 
 exports[`renders loading state initially 1`] = `
 <div
-  class="sc-htoDjs knrzKg"
+  class="sc-htoDjs iWKKVN"
 >
   <section
     class="sc-gZMcBi jSOgIT sc-iwsKbI bLAQRm"

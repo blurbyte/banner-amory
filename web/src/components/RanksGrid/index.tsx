@@ -3,8 +3,12 @@
 import * as React from 'react';
 
 import { ItemBasic } from '@sharedTypes/Item';
-import GridItem from '../ItemsGridItem';
-import Grid from './Grid';
+import itemsByRow from './itemsByRow';
+import Grid from '../Grid';
+import ItemsGroup from '../GridItemsGroup';
+
+const MAX_ITEMS_PER_ROW = 10; // number of columns in base Grid
+const ANIMATION_DELAY_BASE_MS = 150;
 
 type RanksGridProps = {
   items: ItemBasic[];
@@ -13,8 +17,21 @@ type RanksGridProps = {
 class RanksGrid extends React.Component<RanksGridProps> {
   render() {
     const { items } = this.props;
+    const groupedItems = itemsByRow(items, MAX_ITEMS_PER_ROW);
 
-    return <Grid>{items.map(item => <GridItem key={item.slug} {...item} />)}</Grid>;
+    return (
+      <Grid>
+        {groupedItems.map((_rows, index) => {
+          return (
+            <ItemsGroup
+              key={`${index}-row`}
+              items={groupedItems[index]}
+              animationDelay={index * ANIMATION_DELAY_BASE_MS}
+            />
+          );
+        })}
+      </Grid>
+    );
   }
 }
 

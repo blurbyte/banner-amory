@@ -15,8 +15,8 @@ type GridItemsGroupDefaultProps = {
 };
 
 type GridItemsGroupProps = Partial<GridItemsGroupDefaultProps> & {
-  label: string;
   items: ItemBasic[];
+  label?: string;
   key?: string;
 };
 
@@ -33,7 +33,7 @@ class GridItemsGroup extends React.Component<GridItemsGroupProps> {
 
     return (
       <Wrapper columns={maxColumns} animationDelay={animationDelay!}>
-        <Label>{label}</Label>
+        {label && <Label>{label}</Label>}
         <List columns={maxColumns}>
           {items.map(item => <GridItem key={item.slug} {...item} />)}
         </List>

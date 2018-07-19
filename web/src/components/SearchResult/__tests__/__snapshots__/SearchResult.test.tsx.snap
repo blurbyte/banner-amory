@@ -2,14 +2,14 @@
 
 exports[`renders info message when no items match search 1`] = `
 <article
-  class="sc-kAzzGY bveUKx sc-cSHVUG hHmWnv"
+  class="sc-kpOJdX kpuLte sc-kGXeez dADNLS"
 >
   <h1
-    class="sc-kgoBCf cOOXiH sc-chPdSV kQHSYF"
+    class="sc-dxgOiQ fUWDgC sc-fjdhpX dFoqyJ"
   >
     Bolverk failed to find items for 
     <strong
-      class="sc-fjdhpX ehLwBl"
+      class="sc-chPdSV flxTt"
     >
       xxx
     </strong>
@@ -19,71 +19,79 @@ exports[`renders info message when no items match search 1`] = `
 
 exports[`renders loaded item 1`] = `
 <article
-  class="sc-kAzzGY bveUKx sc-cSHVUG hHmWnv"
+  class="sc-kpOJdX kpuLte sc-kGXeez dADNLS"
 >
   <h1
-    class="sc-kgoBCf cOOXiH sc-chPdSV kQHSYF"
+    class="sc-dxgOiQ fUWDgC sc-fjdhpX dFoqyJ"
   >
     Items found for 
     <strong
-      class="sc-fjdhpX ehLwBl"
+      class="sc-chPdSV flxTt"
     >
       ale
     </strong>
   </h1>
-  <ul
-    class="sc-jTzLTM dkYUzs"
+  <div
+    class="sc-bdVaJa iDpojy"
   >
-    <li
-      class="sc-bxivhb fuAhs"
+    <div
+      class="sc-jTzLTM gazHih"
     >
-      <a
-        class="sc-ifAKCX GbWcO"
-        href="/item/alettes-bracelet"
+      <ul
+        class="sc-kAzzGY kHKYvg"
       >
-        <div
-          class="sc-bdVaJa dMhIUw"
+        <li
+          class="sc-ifAKCX eAYGcP"
         >
-          <img
-            class="sc-bwzfXH iIjYES"
-            src="undefinedalettes-bracelet.png"
-          />
-        </div>
-        <p
-          class="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
+          <a
+            class="sc-EHOje jQSOuj"
+            href="/item/alettes-bracelet"
+          >
+            <div
+              class="sc-bwzfXH elpSZb"
+            >
+              <img
+                class="sc-htpNat kvsjSp"
+                src="undefinedalettes-bracelet.png"
+              />
+            </div>
+            <p
+              class="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+            >
+              1
+            </p>
+          </a>
+        </li>
+        <li
+          class="sc-ifAKCX eAYGcP"
         >
-          1
-        </p>
-      </a>
-    </li>
-    <li
-      class="sc-bxivhb fuAhs"
-    >
-      <a
-        class="sc-ifAKCX GbWcO"
-        href="/item/whalebone-needle"
-      >
-        <div
-          class="sc-bdVaJa dMhIUw"
-        >
-          <img
-            class="sc-bwzfXH iIjYES"
-            src="undefinedwhalebone-needle.png"
-          />
-        </div>
-        <p
-          class="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
-        >
-          1
-        </p>
-      </a>
-    </li>
-  </ul>
+          <a
+            class="sc-EHOje jQSOuj"
+            href="/item/whalebone-needle"
+          >
+            <div
+              class="sc-bwzfXH elpSZb"
+            >
+              <img
+                class="sc-htpNat kvsjSp"
+                src="undefinedwhalebone-needle.png"
+              />
+            </div>
+            <p
+              class="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+            >
+              1
+            </p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </article>
 `;
 
 exports[`renders loading state initially 1`] = `
 <article
-  class="sc-kAzzGY bveUKx sc-cSHVUG hHmWnv"
+  class="sc-kpOJdX kpuLte sc-kGXeez dADNLS"
 />
 `;

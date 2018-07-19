@@ -1,62 +1,151 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<ul
-  className="sc-jTzLTM dkYUzs"
+<div
+  className="sc-bdVaJa iDpojy"
 >
-  <li
-    className="sc-bxivhb fuAhs"
+  <div
+    className="sc-jTzLTM bPjKff"
   >
-    <a
-      className="sc-ifAKCX GbWcO"
-      href="/item/test-slug"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
+    <ul
+      className="sc-kAzzGY hbkHGG"
     >
-      <div
-        className="sc-bdVaJa dMhIUw"
+      <li
+        className="sc-ifAKCX eAYGcP"
       >
-        <img
-          className="sc-bwzfXH iIjYES"
-          src="undefinedtest-slug.png"
-        />
-      </div>
-      <p
-        className="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
+        <a
+          className="sc-EHOje jQSOuj"
+          href="/item/taylors-bracelet"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <div
+            className="sc-bwzfXH elpSZb"
+          >
+            <img
+              className="sc-htpNat kvsjSp"
+              src="undefinedtaylors-bracelet.png"
+            />
+          </div>
+          <p
+            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+          >
+            1
+          </p>
+        </a>
+      </li>
+      <li
+        className="sc-ifAKCX eAYGcP"
       >
-        10
-      </p>
-    </a>
-  </li>
-  <li
-    className="sc-bxivhb fuAhs"
-  >
-    <a
-      className="sc-ifAKCX GbWcO"
-      href="/item/taylor-swift"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-    >
-      <div
-        className="sc-bdVaJa dMhIUw"
+        <a
+          className="sc-EHOje jQSOuj"
+          href="/item/thunder-ball"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <div
+            className="sc-bwzfXH elpSZb"
+          >
+            <img
+              className="sc-htpNat kvsjSp"
+              src="undefinedthunder-ball.png"
+            />
+          </div>
+          <p
+            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+          >
+            2
+          </p>
+        </a>
+      </li>
+      <li
+        className="sc-ifAKCX eAYGcP"
       >
-        <img
-          className="sc-bwzfXH iIjYES"
-          src="undefinedtaylor-swift.png"
-        />
-      </div>
-      <p
-        className="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
+        <a
+          className="sc-EHOje jQSOuj"
+          href="/item/vibrant-touch"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <div
+            className="sc-bwzfXH elpSZb"
+          >
+            <img
+              className="sc-htpNat kvsjSp"
+              src="undefinedvibrant-touch.png"
+            />
+          </div>
+          <p
+            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+          >
+            3
+          </p>
+        </a>
+      </li>
+      <li
+        className="sc-ifAKCX eAYGcP"
       >
-        1
-      </p>
-    </a>
-  </li>
-</ul>
+        <a
+          className="sc-EHOje jQSOuj"
+          href="/item/ariana-grande"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <div
+            className="sc-bwzfXH elpSZb"
+          >
+            <img
+              className="sc-htpNat kvsjSp"
+              src="undefinedariana-grande.png"
+            />
+          </div>
+          <p
+            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+          >
+            3
+          </p>
+        </a>
+      </li>
+      <li
+        className="sc-ifAKCX eAYGcP"
+      >
+        <a
+          className="sc-EHOje jQSOuj"
+          href="/item/katy-perry"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <div
+            className="sc-bwzfXH elpSZb"
+          >
+            <img
+              className="sc-htpNat kvsjSp"
+              src="undefinedkaty-perry.png"
+            />
+          </div>
+          <p
+            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+          >
+            4
+          </p>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
 `;

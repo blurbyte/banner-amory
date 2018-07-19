@@ -48,22 +48,26 @@ export const groupedItems: ItemBasic[][] = [
       rank: 2
     }
   ],
-  [{
-    name: 'Vibrant Touch',
-    slug: 'vibrant-touch',
-    gamePart: 2,
-    rank: 3
-  },
-  {
-    name: 'Ariana Grande',
-    slug: 'ariana-grande',
-    gamePart: 2,
-    rank: 3
-  }],
-  [{
-    name: 'Katy Perry',
-    slug: 'katy-perry',
-    gamePart: 2,
-    rank: 4
-  }]
+  [
+    {
+      name: 'Vibrant Touch',
+      slug: 'vibrant-touch',
+      gamePart: 2,
+      rank: 3
+    },
+    {
+      name: 'Ariana Grande',
+      slug: 'ariana-grande',
+      gamePart: 2,
+      rank: 3
+    }
+  ],
+  [
+    {
+      name: 'Katy Perry',
+      slug: 'katy-perry',
+      gamePart: 2,
+      rank: 4
+    }
+  ]
 ];

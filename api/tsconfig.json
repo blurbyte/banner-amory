@@ -16,7 +16,7 @@
       "esnext.asynciterable"
     ],
     "types": [
-      "node", "lodash", "body-parser", "express", "graphql", "cors", "node-fetch", "ws", "jest"
+      "node", "lodash", "express", "graphql", "jest"
     ]
   },
   "include": [

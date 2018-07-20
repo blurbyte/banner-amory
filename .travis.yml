@@ -4,7 +4,7 @@ node_js:
 install:
   - yarn install
 script:
-  - yarn test -- --runInBand --no-cache
+  - yarn test --runInBand --no-cache
   - yarn typecheck
   - yarn formatcheck
 cache: yarn

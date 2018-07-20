@@ -15,7 +15,7 @@
     "start:api": "cd api && yarn start",
     "start:web": "cd web && yarn start",
     "test:api": "cd api && yarn test",
-    "test:web": "cd web && yarn test",
+    "test:web": "cd web && yarn test --runInBand --no-cache",
     "typecheck:api": "cd api && yarn typecheck",
     "typecheck:web": "cd web && yarn typecheck",
     "formatcheck:api": "cd api && yarn formatcheck",

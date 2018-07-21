@@ -11,7 +11,7 @@ import Strong from '../Strong';
 const Wrapper = styled.div`
   opacity: 0;
   margin-left: 2rem;
-  animation: ${slideIn} 400ms ease-in forwards 600ms;
+  animation: ${slideIn()} 400ms ease-in forwards 600ms;
 `;
 
 const Description = styled.p`

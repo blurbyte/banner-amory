@@ -15,7 +15,7 @@ const Wrapper = styled.div`
   opacity: 0;
   display: flex;
   flex-direction: column;
-  animation: ${slideIn} 300ms ease-in forwards 200ms;
+  animation: ${slideIn()} 300ms ease-in forwards 200ms;
 `;
 
 const Stats = styled.div`

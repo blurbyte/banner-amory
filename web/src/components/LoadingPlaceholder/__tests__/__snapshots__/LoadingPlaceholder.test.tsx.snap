@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when hidden 1`] = `
+<div
+  className="sc-bdVaJa iRgTQi"
+>
+  <div
+    className="sc-bwzfXH jqVWXS"
+  >
+    CssTransition
+    CssTransition
+  </div>
+</div>
+`;
+
+exports[`renders correctly when visible 1`] = `
+<div
+  className="sc-bdVaJa iRgTQi"
+>
+  <div
+    className="sc-bwzfXH jqVWXS"
+  >
+    CssTransition
+    CssTransition
+  </div>
+</div>
+`;

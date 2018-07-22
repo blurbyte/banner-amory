@@ -5,7 +5,7 @@ exports[`renders correctly 1`] = `
   className="sc-bdVaJa iDpojy"
 >
   <div
-    className="sc-jTzLTM bPjKff"
+    className="sc-jTzLTM iXjhGz"
   >
     <ul
       className="sc-kAzzGY hbkHGG"
@@ -31,7 +31,7 @@ exports[`renders correctly 1`] = `
             />
           </div>
           <p
-            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+            className="sc-gqjmRU dFgNyw sc-gzVnrw dJHat"
           >
             1
           </p>
@@ -58,7 +58,7 @@ exports[`renders correctly 1`] = `
             />
           </div>
           <p
-            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+            className="sc-gqjmRU dFgNyw sc-gzVnrw dJHat"
           >
             2
           </p>
@@ -85,7 +85,7 @@ exports[`renders correctly 1`] = `
             />
           </div>
           <p
-            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+            className="sc-gqjmRU dFgNyw sc-gzVnrw dJHat"
           >
             3
           </p>
@@ -112,7 +112,7 @@ exports[`renders correctly 1`] = `
             />
           </div>
           <p
-            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+            className="sc-gqjmRU dFgNyw sc-gzVnrw dJHat"
           >
             3
           </p>
@@ -139,7 +139,7 @@ exports[`renders correctly 1`] = `
             />
           </div>
           <p
-            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+            className="sc-gqjmRU dFgNyw sc-gzVnrw dJHat"
           >
             4
           </p>

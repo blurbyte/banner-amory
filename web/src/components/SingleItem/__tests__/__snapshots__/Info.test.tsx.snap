@@ -66,8 +66,8 @@ exports[`renders correctly 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-animation: kSYIal 300ms ease-in forwards 200ms;
-  animation: kSYIal 300ms ease-in forwards 200ms;
+  -webkit-animation: abQtS 300ms ease-in forwards 200ms;
+  animation: abQtS 300ms ease-in forwards 200ms;
 }
 
 .c3 {

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c0 {
+  color: rgba(61,38,218,0.1);
+}
+
+<div
+  className="c0"
+>
+  <svg
+    viewBox="0 0 50 90"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M50.005 90L25.003 67.452 0 90V0h50.005v90z"
+      fill="currentColor"
+    />
+  </svg>
+</div>
+`;

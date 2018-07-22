@@ -35,7 +35,7 @@ exports[`renders loaded item 1`] = `
     class="sc-bdVaJa iDpojy"
   >
     <div
-      class="sc-jTzLTM gazHih"
+      class="sc-jTzLTM fdcbAh"
     >
       <ul
         class="sc-kAzzGY kHKYvg"
@@ -56,7 +56,7 @@ exports[`renders loaded item 1`] = `
               />
             </div>
             <p
-              class="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+              class="sc-gqjmRU dFgNyw sc-gzVnrw dJHat"
             >
               1
             </p>
@@ -78,7 +78,7 @@ exports[`renders loaded item 1`] = `
               />
             </div>
             <p
-              class="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+              class="sc-gqjmRU dFgNyw sc-gzVnrw dJHat"
             >
               1
             </p>

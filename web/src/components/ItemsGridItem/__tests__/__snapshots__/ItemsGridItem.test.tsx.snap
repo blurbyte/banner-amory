@@ -56,7 +56,7 @@ exports[`hides and shows overlay based on mouse entering and leaving Item wrappe
       />
     </div>
     <p
-      class="sc-gZMcBi iufjnt sc-bZQynM geAaEl fade-out-exit fade-out-exit-active"
+      class="sc-gZMcBi hwidfF sc-bZQynM geAaEl fade-out-exit fade-out-exit-active"
     >
       10
     </p>
@@ -81,7 +81,7 @@ exports[`hides and shows overlay based on mouse entering and leaving Item wrappe
       />
     </div>
     <p
-      class="sc-gZMcBi iufjnt sc-bZQynM geAaEl fade-out-enter fade-out-enter-active"
+      class="sc-gZMcBi hwidfF sc-bZQynM geAaEl fade-out-enter fade-out-enter-active"
     >
       10
     </p>

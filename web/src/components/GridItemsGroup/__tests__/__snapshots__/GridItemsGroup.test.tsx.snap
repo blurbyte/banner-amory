@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="sc-VigVT fAGIbZ"
+  className="sc-VigVT cReqnd"
 >
   <p
     className="sc-jzJRlG cyaFDf sc-fjdhpX dFoqyJ"
@@ -33,7 +33,7 @@ exports[`renders correctly 1`] = `
           />
         </div>
         <p
-          className="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
+          className="sc-gZMcBi hwidfF sc-bZQynM geAaEl"
         >
           4
         </p>
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
           />
         </div>
         <p
-          className="sc-gZMcBi iufjnt sc-bZQynM geAaEl"
+          className="sc-gZMcBi hwidfF sc-bZQynM geAaEl"
         >
           6
         </p>

@@ -5,7 +5,7 @@ exports[`renders items grouped by first name character 1`] = `
   className="sc-bdVaJa iDpojy"
 >
   <div
-    className="sc-jTzLTM gazHih"
+    className="sc-jTzLTM fdcbAh"
   >
     <p
       className="sc-cSHVUG fTOKnP sc-jzJRlG dGTYFu"
@@ -36,7 +36,7 @@ exports[`renders items grouped by first name character 1`] = `
             />
           </div>
           <p
-            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+            className="sc-gqjmRU dFgNyw sc-gzVnrw dJHat"
           >
             1
           </p>
@@ -63,7 +63,7 @@ exports[`renders items grouped by first name character 1`] = `
             />
           </div>
           <p
-            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+            className="sc-gqjmRU dFgNyw sc-gzVnrw dJHat"
           >
             2
           </p>
@@ -72,7 +72,7 @@ exports[`renders items grouped by first name character 1`] = `
     </ul>
   </div>
   <div
-    className="sc-jTzLTM dIwzWF"
+    className="sc-jTzLTM eLotcg"
   >
     <p
       className="sc-cSHVUG fTOKnP sc-jzJRlG dGTYFu"
@@ -103,7 +103,7 @@ exports[`renders items grouped by first name character 1`] = `
             />
           </div>
           <p
-            className="sc-gqjmRU hyXOOH sc-gzVnrw dJHat"
+            className="sc-gqjmRU dFgNyw sc-gzVnrw dJHat"
           >
             3
           </p>

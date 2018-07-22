@@ -1,4 +1,4 @@
-import '../../../__mocks__/ShallowReactTransitionGroup.mock';
+import '../../__mocks__/ShallowReactTransitionGroup.mock';
 import * as React from 'react';
 import * as renderer from 'react-test-renderer';
 

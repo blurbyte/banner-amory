@@ -84,7 +84,11 @@ export class Items extends React.Component<ItemsProps, ItemsState> {
             }}
           >
             {({ loading, error, data }) => {
-              if (loading || error) {
+              if (loading) {
+                return null;
+              }
+
+              if (error) {
                 return null;
               }
 

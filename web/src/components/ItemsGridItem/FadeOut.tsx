@@ -9,7 +9,7 @@ const Transition = styled(CSSTransition)`
 
   &.fade-out-exit-active {
     opacity: 0;
-    transition: opacity 0.25s ease-in 0.15s;
+    transition: opacity 250ms ease-in 150ms;
   }
 `;
 

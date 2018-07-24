@@ -1,11 +1,10 @@
-import '../../__mocks__/ReactTransitionGroup.mock';
 import * as React from 'react';
 import * as renderer from 'react-test-renderer';
 import 'jest-styled-components';
 
-import BannerTransition from '../BannerTransition';
+import AnimatedBanner from '../AnimatedBanner';
 
 test('renders correctly', () => {
-  const component = renderer.create(<BannerTransition in />);
+  const component = renderer.create(<AnimatedBanner />);
   expect(component.toJSON()).toMatchSnapshot();
 });

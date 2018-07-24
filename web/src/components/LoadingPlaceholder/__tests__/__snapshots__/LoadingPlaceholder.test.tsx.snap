@@ -1,6 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`renders correctly after 200ms has passed 1`] = `null`;
+
+exports[`renders correctly after 800ms has passed 1`] = `
 <div
   className="sc-bdVaJa fHTHQS"
 >
@@ -72,3 +74,5 @@ exports[`renders correctly 1`] = `
   </div>
 </div>
 `;
+
+exports[`renders correctly with no delay 1`] = `null`;

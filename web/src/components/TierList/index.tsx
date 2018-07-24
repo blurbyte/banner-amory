@@ -6,6 +6,7 @@ import { gql } from 'apollo-boost';
 import { Query } from 'react-apollo';
 
 import { FilterTier } from '@sharedTypes/Filter';
+import LoadingPlaceholder from '../LoadingPlaceholder';
 import TierGrid from '../TierGrid';
 import Headline from '../Headline';
 import Content from './Content';
@@ -29,10 +30,13 @@ type TierListProps = {
 };
 
 export class TierList extends React.Component<TierListProps> {
+  state = {
+    toggle: true
+  };
+
   render() {
     return (
       <Content>
-        <Headline>Survival Mode Tier List</Headline>
         <Query
           query={getItemsWithTier}
           variables={{
@@ -42,11 +46,20 @@ export class TierList extends React.Component<TierListProps> {
           }}
         >
           {({ loading, error, data }) => {
-            if (loading || error) {
+            if (loading) {
+              return <LoadingPlaceholder />;
+            }
+
+            if (error) {
               return null;
             }
 
-            return <TierGrid items={data.items} />;
+            return (
+              <>
+                <Headline>Survival Mode Tier List</Headline>
+                <TierGrid items={data.items} />
+              </>
+            );
           }}
         </Query>
       </Content>

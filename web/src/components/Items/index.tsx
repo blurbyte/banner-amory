@@ -6,6 +6,7 @@ import { gql } from 'apollo-boost';
 import { Query } from 'react-apollo';
 
 import { Filter, FilterBonus, OrderBy } from '@sharedTypes/Filter';
+import LoadingPlaceholder from '../LoadingPlaceholder';
 import Filters from '../Filters';
 import RanksGrid from '../RanksGrid';
 import AlphabeticalGrid from '../AlphabeticalGrid';
@@ -85,7 +86,7 @@ export class Items extends React.Component<ItemsProps, ItemsState> {
           >
             {({ loading, error, data }) => {
               if (loading) {
-                return null;
+                return <LoadingPlaceholder />;
               }
 
               if (error) {

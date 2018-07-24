@@ -5,6 +5,7 @@ import * as React from 'react';
 import { gql } from 'apollo-boost';
 import { Query } from 'react-apollo';
 
+import LoadingPlaceholder from '../LoadingPlaceholder';
 import RanksGrid from '../RanksGrid';
 import Strong from '../Strong';
 import Content from './Content';
@@ -34,7 +35,11 @@ export class SearchResult extends React.Component<SearchResultProps> {
       <Content>
         <Query query={searchItems} variables={{ query: searchQuery }}>
           {({ loading, error, data }) => {
-            if (loading || error) {
+            if (loading) {
+              return <LoadingPlaceholder />;
+            }
+
+            if (error) {
               return null;
             }
 

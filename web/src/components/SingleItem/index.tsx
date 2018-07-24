@@ -5,6 +5,7 @@ import { gql } from 'apollo-boost';
 import { Query } from 'react-apollo';
 
 import { Item } from '@sharedTypes/Item';
+import LoadingPlaceholder from '../LoadingPlaceholder';
 import Content from './Content';
 import DetailedItem from './DetailedItem';
 
@@ -64,7 +65,10 @@ export class SingleItem extends React.Component<SingleItemProps> {
       <Content>
         <Query query={getSingleItem} variables={{ slug }}>
           {({ loading, error, data }) => {
-            if (loading || error) {
+            if (loading) {
+              return <LoadingPlaceholder />;
+            }
+            if (error) {
               return null;
             }
 

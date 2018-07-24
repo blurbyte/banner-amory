@@ -2,58 +2,58 @@
 
 exports[`renders info message when no items match filters 1`] = `
 <div
-  class="sc-htoDjs iWKKVN"
+  class="sc-gqjmRU hGMAtw"
 >
   <section
-    class="sc-gZMcBi jSOgIT sc-iwsKbI bLAQRm"
+    class="sc-fjdhpX gQrTXH sc-jTzLTM jufxiL"
   >
     <h2
-      class="sc-gqjmRU bKnThq"
+      class="sc-jzJRlG gtuBZc"
     >
       Filter & Sort
     </h2>
     <form
-      class="sc-bZQynM limeOb"
+      class="sc-iwsKbI igNujX"
     >
       <div
-        class="sc-gzVnrw bCpyne"
+        class="sc-gZMcBi kNVead"
       >
         <div
-          class="sc-htpNat jeiAyX"
+          class="sc-bZQynM iXimDC"
         >
           <p
-            class="sc-EHOje euXMrm sc-ifAKCX bVJDvB"
+            class="sc-dnqmqq dNaxBS sc-htoDjs keabGb"
           >
             part
           </p>
           <label
-            class="sc-bdVaJa gsvaU"
+            class="sc-ifAKCX ckynyX"
           >
             all
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="part"
               type="radio"
               value="0"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             1
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="part"
               type="radio"
               value="1"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             2
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="part"
               type="radio"
               value="2"
@@ -61,129 +61,129 @@ exports[`renders info message when no items match filters 1`] = `
           </label>
         </div>
         <div
-          class="sc-htpNat jeiAyX"
+          class="sc-bZQynM iXimDC"
         >
           <p
-            class="sc-EHOje euXMrm sc-ifAKCX bVJDvB"
+            class="sc-dnqmqq dNaxBS sc-htoDjs keabGb"
           >
             rank
           </p>
           <label
-            class="sc-bdVaJa gsvaU"
+            class="sc-ifAKCX ckynyX"
           >
             all
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="0"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             1
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="1"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             2
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="2"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             3
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="3"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             4
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="4"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             5
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="5"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             6
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="6"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             7
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="7"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             8
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="8"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             9
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="9"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             10
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="10"
@@ -191,96 +191,96 @@ exports[`renders info message when no items match filters 1`] = `
           </label>
         </div>
         <div
-          class="sc-htpNat jeiAyX"
+          class="sc-bZQynM iXimDC"
         >
           <p
-            class="sc-EHOje euXMrm sc-ifAKCX bVJDvB"
+            class="sc-dnqmqq dNaxBS sc-htoDjs keabGb"
           >
             bonus
           </p>
           <label
-            class="sc-bdVaJa gsvaU"
+            class="sc-ifAKCX ckynyX"
           >
             any
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="ANY"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             main stat
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="MAIN_STAT"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             talent
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="TALENT"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             per turn
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="PER_TURN"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             on rest
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="ON_REST"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             chance
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="CHANCE"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             from market
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="FROM_MARKET"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             movement
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="MOVEMENT"
@@ -289,33 +289,33 @@ exports[`renders info message when no items match filters 1`] = `
         </div>
       </div>
       <div
-        class="sc-gzVnrw bCpyne"
+        class="sc-gZMcBi kNVead"
       >
         <div
-          class="sc-htpNat jeiAyX"
+          class="sc-bZQynM iXimDC"
         >
           <p
-            class="sc-EHOje euXMrm sc-ifAKCX bVJDvB"
+            class="sc-dnqmqq dNaxBS sc-htoDjs keabGb"
           >
             order by
           </p>
           <label
-            class="sc-bdVaJa gsvaU"
+            class="sc-ifAKCX ckynyX"
           >
             rank
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="orderBy"
               type="radio"
               value="RANK"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             alphabetically
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="orderBy"
               type="radio"
               value="ALPHABETICALLY"
@@ -325,11 +325,11 @@ exports[`renders info message when no items match filters 1`] = `
       </div>
     </form>
     <div
-      class="sc-jTzLTM hfOqBS"
+      class="sc-kAzzGY hUysIp"
     >
       <button
         aria-label="Toggle filters"
-        class="sc-VigVT dbnLjr"
+        class="sc-cSHVUG kFCgmV"
         type="button"
       >
         <svg
@@ -355,58 +355,58 @@ exports[`renders info message when no items match filters 1`] = `
 
 exports[`renders loaded list of items 1`] = `
 <div
-  class="sc-htoDjs iWKKVN"
+  class="sc-gqjmRU hGMAtw"
 >
   <section
-    class="sc-gZMcBi jSOgIT sc-iwsKbI bLAQRm"
+    class="sc-fjdhpX gQrTXH sc-jTzLTM jufxiL"
   >
     <h2
-      class="sc-gqjmRU bKnThq"
+      class="sc-jzJRlG gtuBZc"
     >
       Filter & Sort
     </h2>
     <form
-      class="sc-bZQynM limeOb"
+      class="sc-iwsKbI igNujX"
     >
       <div
-        class="sc-gzVnrw bCpyne"
+        class="sc-gZMcBi kNVead"
       >
         <div
-          class="sc-htpNat jeiAyX"
+          class="sc-bZQynM iXimDC"
         >
           <p
-            class="sc-EHOje euXMrm sc-ifAKCX bVJDvB"
+            class="sc-dnqmqq dNaxBS sc-htoDjs keabGb"
           >
             part
           </p>
           <label
-            class="sc-bdVaJa gsvaU"
+            class="sc-ifAKCX ckynyX"
           >
             all
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="part"
               type="radio"
               value="0"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             1
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="part"
               type="radio"
               value="1"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             2
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="part"
               type="radio"
               value="2"
@@ -414,129 +414,129 @@ exports[`renders loaded list of items 1`] = `
           </label>
         </div>
         <div
-          class="sc-htpNat jeiAyX"
+          class="sc-bZQynM iXimDC"
         >
           <p
-            class="sc-EHOje euXMrm sc-ifAKCX bVJDvB"
+            class="sc-dnqmqq dNaxBS sc-htoDjs keabGb"
           >
             rank
           </p>
           <label
-            class="sc-bdVaJa gsvaU"
+            class="sc-ifAKCX ckynyX"
           >
             all
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="0"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             1
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="1"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             2
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="2"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             3
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="3"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             4
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="4"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             5
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="5"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             6
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="6"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             7
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="7"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             8
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="8"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             9
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="9"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             10
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="10"
@@ -544,96 +544,96 @@ exports[`renders loaded list of items 1`] = `
           </label>
         </div>
         <div
-          class="sc-htpNat jeiAyX"
+          class="sc-bZQynM iXimDC"
         >
           <p
-            class="sc-EHOje euXMrm sc-ifAKCX bVJDvB"
+            class="sc-dnqmqq dNaxBS sc-htoDjs keabGb"
           >
             bonus
           </p>
           <label
-            class="sc-bdVaJa gsvaU"
+            class="sc-ifAKCX ckynyX"
           >
             any
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="ANY"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             main stat
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="MAIN_STAT"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             talent
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="TALENT"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             per turn
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="PER_TURN"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             on rest
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="ON_REST"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             chance
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="CHANCE"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             from market
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="FROM_MARKET"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             movement
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="MOVEMENT"
@@ -642,33 +642,33 @@ exports[`renders loaded list of items 1`] = `
         </div>
       </div>
       <div
-        class="sc-gzVnrw bCpyne"
+        class="sc-gZMcBi kNVead"
       >
         <div
-          class="sc-htpNat jeiAyX"
+          class="sc-bZQynM iXimDC"
         >
           <p
-            class="sc-EHOje euXMrm sc-ifAKCX bVJDvB"
+            class="sc-dnqmqq dNaxBS sc-htoDjs keabGb"
           >
             order by
           </p>
           <label
-            class="sc-bdVaJa gsvaU"
+            class="sc-ifAKCX ckynyX"
           >
             rank
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="orderBy"
               type="radio"
               value="RANK"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             alphabetically
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="orderBy"
               type="radio"
               value="ALPHABETICALLY"
@@ -678,11 +678,11 @@ exports[`renders loaded list of items 1`] = `
       </div>
     </form>
     <div
-      class="sc-jTzLTM hfOqBS"
+      class="sc-kAzzGY hUysIp"
     >
       <button
         aria-label="Toggle filters"
-        class="sc-VigVT dbnLjr"
+        class="sc-cSHVUG kFCgmV"
         type="button"
       >
         <svg
@@ -708,58 +708,58 @@ exports[`renders loaded list of items 1`] = `
 
 exports[`renders loading state initially 1`] = `
 <div
-  class="sc-htoDjs iWKKVN"
+  class="sc-gqjmRU hGMAtw"
 >
   <section
-    class="sc-gZMcBi jSOgIT sc-iwsKbI bLAQRm"
+    class="sc-fjdhpX gQrTXH sc-jTzLTM jufxiL"
   >
     <h2
-      class="sc-gqjmRU bKnThq"
+      class="sc-jzJRlG gtuBZc"
     >
       Filter & Sort
     </h2>
     <form
-      class="sc-bZQynM limeOb"
+      class="sc-iwsKbI igNujX"
     >
       <div
-        class="sc-gzVnrw bCpyne"
+        class="sc-gZMcBi kNVead"
       >
         <div
-          class="sc-htpNat jeiAyX"
+          class="sc-bZQynM iXimDC"
         >
           <p
-            class="sc-EHOje euXMrm sc-ifAKCX bVJDvB"
+            class="sc-dnqmqq dNaxBS sc-htoDjs keabGb"
           >
             part
           </p>
           <label
-            class="sc-bdVaJa gsvaU"
+            class="sc-ifAKCX ckynyX"
           >
             all
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="part"
               type="radio"
               value="0"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             1
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="part"
               type="radio"
               value="1"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             2
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="part"
               type="radio"
               value="2"
@@ -767,129 +767,129 @@ exports[`renders loading state initially 1`] = `
           </label>
         </div>
         <div
-          class="sc-htpNat jeiAyX"
+          class="sc-bZQynM iXimDC"
         >
           <p
-            class="sc-EHOje euXMrm sc-ifAKCX bVJDvB"
+            class="sc-dnqmqq dNaxBS sc-htoDjs keabGb"
           >
             rank
           </p>
           <label
-            class="sc-bdVaJa gsvaU"
+            class="sc-ifAKCX ckynyX"
           >
             all
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="0"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             1
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="1"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             2
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="2"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             3
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="3"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             4
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="4"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             5
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="5"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             6
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="6"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             7
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="7"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             8
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="8"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             9
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="9"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             10
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="rank"
               type="radio"
               value="10"
@@ -897,96 +897,96 @@ exports[`renders loading state initially 1`] = `
           </label>
         </div>
         <div
-          class="sc-htpNat jeiAyX"
+          class="sc-bZQynM iXimDC"
         >
           <p
-            class="sc-EHOje euXMrm sc-ifAKCX bVJDvB"
+            class="sc-dnqmqq dNaxBS sc-htoDjs keabGb"
           >
             bonus
           </p>
           <label
-            class="sc-bdVaJa gsvaU"
+            class="sc-ifAKCX ckynyX"
           >
             any
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="ANY"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             main stat
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="MAIN_STAT"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             talent
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="TALENT"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             per turn
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="PER_TURN"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             on rest
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="ON_REST"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             chance
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="CHANCE"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             from market
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="FROM_MARKET"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             movement
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="bonus"
               type="radio"
               value="MOVEMENT"
@@ -995,33 +995,33 @@ exports[`renders loading state initially 1`] = `
         </div>
       </div>
       <div
-        class="sc-gzVnrw bCpyne"
+        class="sc-gZMcBi kNVead"
       >
         <div
-          class="sc-htpNat jeiAyX"
+          class="sc-bZQynM iXimDC"
         >
           <p
-            class="sc-EHOje euXMrm sc-ifAKCX bVJDvB"
+            class="sc-dnqmqq dNaxBS sc-htoDjs keabGb"
           >
             order by
           </p>
           <label
-            class="sc-bdVaJa gsvaU"
+            class="sc-ifAKCX ckynyX"
           >
             rank
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="orderBy"
               type="radio"
               value="RANK"
             />
           </label>
           <label
-            class="sc-bdVaJa bJrhxk"
+            class="sc-ifAKCX jQUZgj"
           >
             alphabetically
             <input
-              class="sc-bwzfXH kxRMuH"
+              class="sc-EHOje dYDBqm"
               name="orderBy"
               type="radio"
               value="ALPHABETICALLY"
@@ -1031,11 +1031,11 @@ exports[`renders loading state initially 1`] = `
       </div>
     </form>
     <div
-      class="sc-jTzLTM hfOqBS"
+      class="sc-kAzzGY hUysIp"
     >
       <button
         aria-label="Toggle filters"
-        class="sc-VigVT dbnLjr"
+        class="sc-cSHVUG kFCgmV"
         type="button"
       >
         <svg

@@ -3,6 +3,9 @@
 exports[`renders correctly 1`] = `
 .c0 {
   color: rgba(61,38,218,0.1);
+  opacity: 0;
+  -webkit-animation: gACzi 400ms ease-in forwards;
+  animation: gACzi 400ms ease-in forwards;
 }
 
 <div

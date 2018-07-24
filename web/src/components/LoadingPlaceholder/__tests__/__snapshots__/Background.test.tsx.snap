@@ -2,9 +2,15 @@
 
 exports[`renders correctly 1`] = `
 .c0 {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 29rem;
-  margin-top: 5rem;
+  min-height: 29rem;
+  height: 100%;
+  overflow: hidden;
+  background: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -13,7 +19,6 @@ exports[`renders correctly 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  overflow: hidden;
 }
 
 <div

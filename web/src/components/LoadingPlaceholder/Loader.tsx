@@ -1,21 +1,19 @@
 import * as React from 'react';
 
+import Background from './Background';
 import Frame from './Frame';
-import BannerTransition from './BannerTransition';
-import SwordTransition from './SwordTransition';
+import Banner from './AnimatedBanner';
+import Sword from './AnimatedSword';
 
-type LoaderProps = {
-  isVisible: boolean;
-};
-
-class Loader extends React.Component<LoaderProps> {
+class Loader extends React.Component {
   render() {
-    const { isVisible } = this.props;
     return (
-      <Frame>
-        <BannerTransition in={isVisible} />
-        <SwordTransition in={isVisible} />
-      </Frame>
+      <Background>
+        <Frame>
+          <Banner />
+          <Sword />
+        </Frame>
+      </Background>
     );
   }
 }

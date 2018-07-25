@@ -5,3 +5,5 @@ export { default as Shield } from './Shield';
 export { default as Magnifier } from './Magnifier';
 export { default as SimpleArrow } from './SimpleArrow';
 export { default as Sword } from './Sword';
+export { default as Cross } from './Cross';
+export { default as PaperPlane } from './PaperPlane';

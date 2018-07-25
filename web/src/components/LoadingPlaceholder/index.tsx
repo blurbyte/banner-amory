@@ -14,7 +14,7 @@ class LoadingPlaceholder extends React.Component<{}, LoadingPlaceholderState> {
     showLoader: false
   };
 
-  delay = setTimeout(() => {
+  private delay = setTimeout(() => {
     this.setState({ showLoader: true });
   }, 600);
 

@@ -8,7 +8,7 @@ import { Query } from 'react-apollo';
 import { FilterTier } from '@sharedTypes/Filter';
 import LoadingPlaceholder from '../LoadingPlaceholder';
 import TierGrid from '../TierGrid';
-import Headline from '../Headline';
+import Headline from '../AnimatedHeadline';
 import Content from './Content';
 
 export const getItemsWithTier = gql`

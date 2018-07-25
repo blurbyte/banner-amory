@@ -4,6 +4,7 @@
 import * as React from 'react';
 import { gql } from 'apollo-boost';
 import { Query } from 'react-apollo';
+import { Helmet } from 'react-helmet';
 
 import { FilterTier } from '@sharedTypes/Filter';
 import LoadingPlaceholder from '../LoadingPlaceholder';
@@ -37,6 +38,9 @@ export class TierList extends React.Component<TierListProps> {
   render() {
     return (
       <Content>
+        <Helmet>
+          <title>Tier List</title>
+        </Helmet>
         <Query
           query={getItemsWithTier}
           variables={{

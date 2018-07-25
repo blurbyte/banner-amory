@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Helmet } from 'react-helmet';
 
 import { Item as ItemProps } from '@sharedTypes/Item';
 import Headline from '../AnimatedHeadline';
@@ -49,6 +50,9 @@ class DetailedItem extends React.Component<ItemProps> {
     } = this.props;
     return (
       <>
+        <Helmet>
+          <title>{name}</title>
+        </Helmet>
         <Headline>{name}</Headline>
         <Layout>
           <Info

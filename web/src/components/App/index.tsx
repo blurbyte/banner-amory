@@ -3,6 +3,7 @@ import '@styles/global';
 
 import * as React from 'react';
 import { Router } from '@reach/router';
+import { Helmet } from 'react-helmet';
 
 import Header from '../Header';
 import Items from '../Items';
@@ -14,6 +15,7 @@ class App extends React.Component {
   render() {
     return (
       <>
+        <Helmet defaultTitle="Banner Armory" titleTemplate="Banner Armory | %s" />
         <Header />
         <Router>
           <Items path="/" />

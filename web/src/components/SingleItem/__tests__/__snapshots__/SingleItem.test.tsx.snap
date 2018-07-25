@@ -2,27 +2,27 @@
 
 exports[`renders loaded item 1`] = `
 <article
-  class="sc-bZQynM cljiXd sc-EHOje eEqhSv"
+  class="sc-bZQynM ixsySS sc-EHOje eEqhSv"
 >
   <h1
-    class="sc-gzVnrw jvnair"
+    class="sc-htoDjs gOpjtr sc-gzVnrw jvnair"
   />
   <div
-    class="sc-htoDjs esqoLI"
+    class="sc-dnqmqq JYYyv"
   >
     <div
-      class="sc-kAzzGY bVjVWQ"
+      class="sc-chPdSV mViak"
     >
       <div
-        class="sc-dnqmqq cgCOfU"
+        class="sc-iwsKbI jKZyIR"
       >
         <img
-          class="sc-iwsKbI eriBaZ"
+          class="sc-gZMcBi jCDeqn"
           src="undefinedundefined.png"
         />
       </div>
       <div
-        class="sc-chPdSV iXyezA"
+        class="sc-kgoBCf htaaBs"
       >
         <svg
           viewBox="0 0 50 90"
@@ -34,49 +34,49 @@ exports[`renders loaded item 1`] = `
           />
         </svg>
         <div
-          class="sc-kgoBCf imhLaG"
+          class="sc-kGXeez jLhjWO"
         />
       </div>
     </div>
     <div
-      class="sc-dxgOiQ gCfPZU"
+      class="sc-ckVGcZ dWJoAd"
     >
       <dl
-        class="sc-gZMcBi hGgHLN"
+        class="sc-gqjmRU jnylhH"
       >
         <dt
-          class="sc-jTzLTM fARSRu sc-VigVT jqbPjw"
+          class="sc-fjdhpX ihCkWK sc-jTzLTM bqOOPj"
         >
           Part
         </dt>
         <dd
-          class="sc-fjdhpX gOwGGF"
+          class="sc-jzJRlG dGiCBE"
         >
           The Banner Saga undefined
         </dd>
       </dl>
       <dl
-        class="sc-gZMcBi hGgHLN"
+        class="sc-gqjmRU jnylhH"
       >
         <dt
-          class="sc-jTzLTM fARSRu sc-VigVT jqbPjw"
+          class="sc-fjdhpX ihCkWK sc-jTzLTM bqOOPj"
         >
           Rank
         </dt>
         <dd
-          class="sc-fjdhpX erkHjK"
+          class="sc-jzJRlG WvRGw"
         />
       </dl>
       <dl
-        class="sc-gZMcBi hGgHLN"
+        class="sc-gqjmRU jnylhH"
       >
         <dt
-          class="sc-jTzLTM fARSRu sc-VigVT jqbPjw"
+          class="sc-fjdhpX ihCkWK sc-jTzLTM bqOOPj"
         >
           How to get
         </dt>
         <dd
-          class="sc-fjdhpX gOwGGF"
+          class="sc-jzJRlG dGiCBE"
         >
           Unknown
         </dd>
@@ -88,6 +88,6 @@ exports[`renders loaded item 1`] = `
 
 exports[`renders loading state initially 1`] = `
 <article
-  class="sc-bZQynM cljiXd sc-EHOje eEqhSv"
+  class="sc-bZQynM ixsySS sc-EHOje eEqhSv"
 />
 `;

@@ -8,7 +8,6 @@ exports[`renders correctly 1`] = `
 }
 
 .c0 {
-  position: relative;
   margin-top: 5rem;
   margin-bottom: 5rem;
 }

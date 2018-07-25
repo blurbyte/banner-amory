@@ -2,10 +2,10 @@
 
 exports[`renders info message when no items match search 1`] = `
 <article
-  class="sc-eNQAEJ flhrNj sc-jKJlTe coILZW"
+  class="sc-eNQAEJ fryMWS sc-jKJlTe coILZW"
 >
   <h1
-    class="sc-hMqMXs czcoUc sc-chPdSV kQHSYF"
+    class="sc-kEYyzF imlCuc sc-hMqMXs jsJYwJ sc-chPdSV kQHSYF"
   >
     Bolverk failed to find items for 
     <strong
@@ -19,10 +19,10 @@ exports[`renders info message when no items match search 1`] = `
 
 exports[`renders loaded item 1`] = `
 <article
-  class="sc-eNQAEJ flhrNj sc-jKJlTe coILZW"
+  class="sc-eNQAEJ fryMWS sc-jKJlTe coILZW"
 >
   <h1
-    class="sc-hMqMXs czcoUc sc-chPdSV kQHSYF"
+    class="sc-kEYyzF imlCuc sc-hMqMXs jsJYwJ sc-chPdSV kQHSYF"
   >
     Items found for 
     <strong
@@ -92,6 +92,6 @@ exports[`renders loaded item 1`] = `
 
 exports[`renders loading state initially 1`] = `
 <article
-  class="sc-eNQAEJ flhrNj sc-jKJlTe coILZW"
+  class="sc-eNQAEJ fryMWS sc-jKJlTe coILZW"
 />
 `;

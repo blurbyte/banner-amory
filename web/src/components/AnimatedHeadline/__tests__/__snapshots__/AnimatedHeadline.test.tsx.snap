@@ -1,23 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-.c2 {
+.c1 {
   font-size: 3rem;
   font-weight: 600;
   margin: 0;
   margin-bottom: 1.2rem;
 }
 
-.c1 {
+.c0 {
   -webkit-animation: eMLfYp 400ms ease-in forwards;
   animation: eMLfYp 400ms ease-in forwards;
 }
 
-.c0 {
-  font-weight: 400;
-}
-
 <h1
-  className="c0 c1 c2"
+  className="c0 c1"
 />
 `;

@@ -3,26 +3,26 @@
 exports[`renders correctly 1`] = `
 Array [
   <h1
-    className="sc-bdVaJa krEtey"
+    className="sc-bwzfXH cgiPFg sc-bdVaJa krEtey"
   >
     Alette's Bracelet
   </h1>,
   <div
-    className="sc-bwzfXH idYqgJ"
+    className="sc-htpNat fTHudk"
   >
     <div
-      className="sc-gZMcBi bRgQnQ"
+      className="sc-gqjmRU iCmtpl"
     >
       <div
-        className="sc-htpNat bVIWRD"
+        className="sc-bxivhb hMUPsM"
       >
         <img
-          className="sc-bxivhb kfMzZG"
+          className="sc-ifAKCX dKwlvE"
           src="undefinedalettes-bracelet.png"
         />
       </div>
       <div
-        className="sc-gqjmRU gcZhru"
+        className="sc-VigVT cxulEs"
       >
         <svg
           viewBox="0 0 50 90"
@@ -34,21 +34,21 @@ Array [
           />
         </svg>
         <div
-          className="sc-VigVT iEHYVi"
+          className="sc-jTzLTM cFrlBg"
         >
           <dl
-            className="sc-ifAKCX bzoQiD"
+            className="sc-EHOje cGzteA"
           >
             <dt
-              className="sc-gzVnrw cXGOKy sc-bZQynM gItSTm"
+              className="sc-htoDjs iwPGiT sc-gzVnrw dBHQgL"
             >
               Strength
             </dt>
             <dd
-              className="sc-htoDjs joOAYR"
+              className="sc-dnqmqq iHimWC"
             >
               <span
-                className="sc-iwsKbI bTMIFp"
+                className="sc-gZMcBi kSuIwq"
               >
                 +
                 1
@@ -56,18 +56,18 @@ Array [
             </dd>
           </dl>
           <dl
-            className="sc-ifAKCX bzoQiD"
+            className="sc-EHOje cGzteA"
           >
             <dt
-              className="sc-gzVnrw cXGOKy sc-bZQynM gItSTm"
+              className="sc-htoDjs iwPGiT sc-gzVnrw dBHQgL"
             >
               Willpower
             </dt>
             <dd
-              className="sc-htoDjs joOAYR"
+              className="sc-dnqmqq iHimWC"
             >
               <span
-                className="sc-iwsKbI bTMIFp"
+                className="sc-gZMcBi kSuIwq"
               >
                 +
                 1
@@ -75,18 +75,18 @@ Array [
             </dd>
           </dl>
           <dl
-            className="sc-ifAKCX bzoQiD"
+            className="sc-EHOje cGzteA"
           >
             <dt
-              className="sc-gzVnrw cXGOKy sc-bZQynM gItSTm"
+              className="sc-htoDjs iwPGiT sc-gzVnrw dBHQgL"
             >
               Armor
             </dt>
             <dd
-              className="sc-htoDjs joOAYR"
+              className="sc-dnqmqq iHimWC"
             >
               <span
-                className="sc-iwsKbI bTMIFp"
+                className="sc-gZMcBi kSuIwq"
               >
                 +
                 1
@@ -97,54 +97,54 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jzJRlG kPvGAm"
+      className="sc-cSHVUG bOtudu"
     >
       <p
-        className="sc-cSHVUG kukVAZ"
+        className="sc-kAzzGY iHAUGK"
       >
         Lovingly made by a hunter's wife to keep her daughter safe from harm.
       </p>
       <dl
-        className="sc-ifAKCX eUrHGw"
+        className="sc-EHOje eKjpuR"
       >
         <dt
-          className="sc-gzVnrw jdsdOG sc-bZQynM gItSTm"
+          className="sc-htoDjs foKTTs sc-gzVnrw dBHQgL"
         >
           Part
         </dt>
         <dd
-          className="sc-htoDjs hoHbUn"
+          className="sc-dnqmqq iXQNhl"
         >
           The Banner Saga 1
         </dd>
       </dl>
       <dl
-        className="sc-ifAKCX eUrHGw"
+        className="sc-EHOje eKjpuR"
       >
         <dt
-          className="sc-gzVnrw jdsdOG sc-bZQynM gItSTm"
+          className="sc-htoDjs foKTTs sc-gzVnrw dBHQgL"
         >
           Rank
         </dt>
         <dd
-          className="sc-htoDjs gBjpyW"
+          className="sc-dnqmqq bTKoEE"
         >
           1
         </dd>
       </dl>
       <dl
-        className="sc-ifAKCX eUrHGw"
+        className="sc-EHOje eKjpuR"
       >
         <dt
-          className="sc-gzVnrw jdsdOG sc-bZQynM gItSTm"
+          className="sc-htoDjs foKTTs sc-gzVnrw dBHQgL"
         >
           How to get
         </dt>
         <dd
-          className="sc-htoDjs hoHbUn"
+          className="sc-dnqmqq iXQNhl"
         >
           <strong
-            className="sc-fjdhpX ehLwBl"
+            className="sc-jzJRlG gZZLXP"
           >
             Alette
           </strong>

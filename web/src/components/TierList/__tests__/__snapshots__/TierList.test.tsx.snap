@@ -4,6 +4,6 @@ exports[`renders loaded list of items 1`] = `null`;
 
 exports[`renders loading state initially 1`] = `
 <article
-  class="sc-jKJlTe uAOLS sc-ckVGcZ bQpgqZ"
+  class="sc-eNQAEJ fryMWS sc-jKJlTe coILZW"
 />
 `;

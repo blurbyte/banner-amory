@@ -4,7 +4,7 @@ exports[`renders correctly after 200ms has passed 1`] = `null`;
 
 exports[`renders correctly after 800ms has passed 1`] = `
 <div
-  className="sc-bdVaJa fHTHQS"
+  className="sc-bdVaJa jnWXwc"
 >
   <div
     className="sc-bwzfXH jqVWXS"

@@ -83,6 +83,9 @@ export const Item = gql`
     trivia: String
 
     tier: Tier
+
+    "Users' comments about item"
+    comments: [Comment]
   }
 
   "Available item tiers"

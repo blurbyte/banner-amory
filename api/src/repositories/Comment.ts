@@ -2,7 +2,7 @@
 
 import { EntityRepository, Repository } from 'typeorm';
 
-import { Comment } from '../entities/Comment';
+import { Comment, AddCommentInput } from '../entities/Comment';
 import { Item } from '../entities/Item';
 
 @EntityRepository(Comment)
@@ -16,5 +16,11 @@ export class CommentRepository extends Repository<Comment> {
         createdAt: 'DESC'
       }
     });
+  }
+
+  addComment({ itemId, userName, message }: AddCommentInput) {
+    return this.save({
+      itemId, userName, message
+    })
   }
 }

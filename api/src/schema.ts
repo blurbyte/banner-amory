@@ -12,11 +12,18 @@ import { Comment } from './types/Comment';
 import { rootQueries } from './queries/root';
 import { itemQueries } from './queries/item';
 
+import { rootMutations } from './mutations/root';
+
 // merged types
 const typeDefs = [scalarsTypeDefs, Root, Item, Comment];
 
 // merged resolvers
-const resolvers = merge({}, scalarsResolvers, rootQueries, itemQueries);
+const resolvers = merge(
+  // queries
+  {}, scalarsResolvers, rootQueries, itemQueries,
+  // mutations
+  rootMutations
+);
 
 const schema = makeExecutableSchema({
   typeDefs,

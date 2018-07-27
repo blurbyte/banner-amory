@@ -13,6 +13,11 @@ export const Root = gql`
     search(query: String!): [Item]
   }
 
+  "Root mutation"
+  type Mutation {
+    addComment(input: AddCommentInput!): Comment
+  }
+
   "Optional items filter, where 0 means ALL"
   input ItemsFilter {
     "Filter by game part (0, 1, 2)"
@@ -45,5 +50,17 @@ export const Root = gql`
     A
     B
     C
+  }
+
+  "Comment added by user"
+  input AddCommentInput {
+    "Id of related item"
+    itemId: Int!
+
+    "Author of a comment"
+    userName: String!
+
+    "Comment content"
+    message: String!
   }
 `;

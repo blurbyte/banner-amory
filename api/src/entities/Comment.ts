@@ -15,3 +15,5 @@ export class Comment {
 
   @CreateDateColumn() createdAt: Date;
 }
+
+export type AddCommentInput = Pick<Comment, 'itemId' | 'userName' | 'message'>;

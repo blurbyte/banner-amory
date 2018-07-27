@@ -20,7 +20,10 @@ const typeDefs = [scalarsTypeDefs, Root, Item, Comment];
 // merged resolvers
 const resolvers = merge(
   // queries
-  {}, scalarsResolvers, rootQueries, itemQueries,
+  {},
+  scalarsResolvers,
+  rootQueries,
+  itemQueries,
   // mutations
   rootMutations
 );

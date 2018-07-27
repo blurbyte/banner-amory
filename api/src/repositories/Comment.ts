@@ -20,7 +20,9 @@ export class CommentRepository extends Repository<Comment> {
 
   addComment({ itemId, userName, message }: AddCommentInput) {
     return this.save({
-      itemId, userName, message
-    })
+      itemId,
+      userName,
+      message
+    });
   }
 }

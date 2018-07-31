@@ -4,7 +4,7 @@ import { find, filter } from 'lodash';
 
 import schema from '../schema';
 import { testItem1, testItem2 } from './mocks';
-import { ItemQueryArgs, SearchQueryArgs } from '../queries/root';
+import { ItemQueryArgs, SearchQueryArgs } from '../queries/item';
 
 // arrange
 addMockFunctionsToSchema({
@@ -64,7 +64,7 @@ const searchItems = `
   }
 `;
 
-describe('Root queries', () => {
+describe('Item queries', () => {
   it('should get list of items', async () => {
     // act
     const result = await graphql(schema, getAllItems);

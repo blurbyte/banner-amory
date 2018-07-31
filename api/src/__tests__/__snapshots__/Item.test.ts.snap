@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Root queries should get list of items 1`] = `
+exports[`Item queries should get list of items 1`] = `
 Object {
   "data": Object {
     "items": Array [
@@ -29,7 +29,7 @@ Object {
 }
 `;
 
-exports[`Root queries should get list of items based on search query 1`] = `
+exports[`Item queries should get list of items based on search query 1`] = `
 Object {
   "data": Object {
     "search": Array [
@@ -43,7 +43,7 @@ Object {
 }
 `;
 
-exports[`Root queries should get single item 1`] = `
+exports[`Item queries should get single item 1`] = `
 Object {
   "data": Object {
     "item": Object {
@@ -55,7 +55,7 @@ Object {
 }
 `;
 
-exports[`Root queries should return empty array if search query doesn't match 1`] = `
+exports[`Item queries should return empty array if search query doesn't match 1`] = `
 Object {
   "data": Object {
     "search": Array [],
@@ -63,7 +63,7 @@ Object {
 }
 `;
 
-exports[`Root queries should return null if wrong slug got passed 1`] = `
+exports[`Item queries should return null if wrong slug got passed 1`] = `
 Object {
   "data": Object {
     "item": null,

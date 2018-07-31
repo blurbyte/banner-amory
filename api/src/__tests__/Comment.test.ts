@@ -18,7 +18,7 @@ addMockFunctionsToSchema({
         const comment: Comment = {
           ...input,
           id: 1,
-          createdAt: new Date(moment('2018-01-09T20:54:00').format())
+          createdAt: moment('2018-09-09T20:54:00+00:00').toDate()
         };
         return comment;
       }
@@ -49,7 +49,6 @@ describe('Comment mutations', () => {
     };
     const result = await graphql(schema, addComment, null, null, params);
 
-    // assert
     expect(result).toMatchSnapshot();
   });
 });

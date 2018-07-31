@@ -4,7 +4,8 @@ import { find, filter } from 'lodash';
 
 import schema from '../schema';
 import { testItem1, testItem2 } from './mocks';
-import { ItemQueryArgs, SearchQueryArgs } from '../queries/item';
+import { ItemQueryArgs } from '../queries/item/item';
+import { SearchQueryArgs } from '../queries/item/search';
 
 // arrange
 addMockFunctionsToSchema({

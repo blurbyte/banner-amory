@@ -16,13 +16,13 @@ export const Comment = gql`
 
   # Comment added by user
   input AddCommentInput {
-     # Id of related item
+    # Id of related item
     itemId: Int!
 
     # Author of a comment
     userName: String!
 
-     # Comment content
+    # Comment content
     message: String!
   }
 

@@ -8,12 +8,12 @@ type AddCommentMutationArgs = {
   input: AddCommentInput;
 };
 
-export const rootMutations = {
+export const commentMutations = {
   Mutation: {
     addComment: async (_root: any, { input }: AddCommentMutationArgs) => {
       const { userName, message } = input;
 
-      // validation
+      // simple validation
       if (userName.length < 1 || userName.length > 30) {
         throw new UserInputError(
           `Wrong provided userName length, should be between 1 and 30 characters, instead of ${

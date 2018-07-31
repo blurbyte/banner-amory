@@ -1,5 +1,6 @@
 import { graphql } from 'graphql';
 import { addMockFunctionsToSchema } from 'apollo-server';
+import * as moment from 'moment-timezone';
 
 import schema from '../schema';
 import { Comment } from '../entities/Comment';
@@ -17,7 +18,7 @@ addMockFunctionsToSchema({
         const comment: Comment = {
           ...input,
           id: 1,
-          createdAt: new Date('2018-01-09T00:00:29.75')
+          createdAt: moment('2018-01-09T00:00:29.75').toDate()
         };
         return comment;
       }

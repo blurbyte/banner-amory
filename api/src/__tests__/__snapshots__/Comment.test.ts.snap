@@ -4,7 +4,7 @@ exports[`Comment mutations should add a new comment 1`] = `
 Object {
   "data": Object {
     "addComment": Object {
-      "createdAt": 1515452429750,
+      "createdAt": 1515527640000,
       "id": 1,
       "message": "Where there is love there is life",
       "userName": "ghandi",

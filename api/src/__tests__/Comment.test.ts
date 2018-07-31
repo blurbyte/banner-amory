@@ -18,7 +18,7 @@ addMockFunctionsToSchema({
         const comment: Comment = {
           ...input,
           id: 1,
-          createdAt: moment('2018-01-09T00:00:29.75').toDate()
+          createdAt: new Date(moment('2018-01-09T20:54:00').format())
         };
         return comment;
       }

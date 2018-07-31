@@ -4,7 +4,7 @@ import { getCustomRepository } from 'typeorm';
 import { CommentRepository } from '../../repositories/Comment';
 import { AddCommentInput } from '../../entities/Comment';
 
-type AddCommentMutationArgs = {
+export type AddCommentMutationArgs = {
   input: AddCommentInput;
 };
 

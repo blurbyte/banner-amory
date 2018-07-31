@@ -76,8 +76,8 @@ describe('Item queries', () => {
 
   it('should get single item', async () => {
     // act
-    let params = { slug: 'alettes-bracelet' };
-    let result = await graphql(schema, getSingleItem, null, null, params);
+    const params = { slug: 'alettes-bracelet' };
+    const result = await graphql(schema, getSingleItem, null, null, params);
 
     // assert
     expect(result).toMatchSnapshot();
@@ -85,8 +85,8 @@ describe('Item queries', () => {
 
   it('should return null if wrong slug got passed', async () => {
     // act
-    let params = { slug: 'wrong-one' };
-    let result = await graphql(schema, getSingleItem, null, null, params);
+    const params = { slug: 'wrong-one' };
+    const result = await graphql(schema, getSingleItem, null, null, params);
 
     // assert
     expect(result).toMatchSnapshot();
@@ -94,8 +94,8 @@ describe('Item queries', () => {
 
   it('should get list of items based on search query', async () => {
     // act
-    let params = { query: 'ale' };
-    let result = await graphql(schema, searchItems, null, null, params);
+    const params = { query: 'ale' };
+    const result = await graphql(schema, searchItems, null, null, params);
 
     // assert
     expect(result).toMatchSnapshot();
@@ -103,8 +103,8 @@ describe('Item queries', () => {
 
   it("should return empty array if search query doesn't match", async () => {
     // act
-    let params = { query: 'ariana grande' };
-    let result = await graphql(schema, searchItems, null, null, params);
+    const params = { query: 'ariana grande' };
+    const result = await graphql(schema, searchItems, null, null, params);
 
     // assert
     expect(result).toMatchSnapshot();

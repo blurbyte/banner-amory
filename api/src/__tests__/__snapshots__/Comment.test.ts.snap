@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment mutations should add a new comment 1`] = `
+Object {
+  "data": Object {
+    "addComment": Object {
+      "createdAt": 1515452429750,
+      "id": 1,
+      "message": "Where there is love there is life",
+      "userName": "ghandi",
+    },
+  },
+}
+`;

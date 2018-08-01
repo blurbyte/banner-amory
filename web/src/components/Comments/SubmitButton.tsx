@@ -6,7 +6,7 @@ import Button from '../Button';
 class SubmitButton extends React.Component {
   render() {
     return (
-      <Button type="submit" icon={PaperPlane} aria-label="Comment">Comment</Button>
+      <Button type="submit" icon={PaperPlane} aria-label="Submit comment">Comment</Button>
     );
   }
 }

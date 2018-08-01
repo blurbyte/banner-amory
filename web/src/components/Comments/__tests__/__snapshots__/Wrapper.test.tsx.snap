@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 .c0 {
-  margin-top: 5rem;
+  margin-top: 4rem;
   opacity: 0;
   -webkit-animation: abQtS 400ms ease-in forwards 1000ms;
   animation: abQtS 400ms ease-in forwards 1000ms;

@@ -10,7 +10,7 @@ import Strong from '../Strong';
 import Comments from '../Comments';
 
 const Wrapper = styled.div`
-  margin-left: 2rem;
+  margin-left: 3rem;
 `;
 
 const Properties = styled.div`

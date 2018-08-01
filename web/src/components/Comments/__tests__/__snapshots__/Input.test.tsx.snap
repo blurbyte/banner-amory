@@ -34,12 +34,15 @@ exports[`renders correctly 1`] = `
 }
 
 .c0 {
-  width: 25rem;
-  background: rgba(61,38,218,0.1);
-  padding-right: 6rem;
+  padding-left: 0;
 }
 
 <input
+  autoCapitalize="off"
+  autoComplete="off"
+  autoCorrect="off"
   className="c0 c1"
+  spellCheck={false}
+  type="text"
 />
 `;

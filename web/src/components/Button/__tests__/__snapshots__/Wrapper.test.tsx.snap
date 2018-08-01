@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 100%;
+  height: 5rem;
+  width: 15rem;
+  background: rgba(61,38,218,0.1);
+  padding: 1.4rem 1rem 0 1rem;
+  border: 0;
+  outline: 0;
+  border-top: 4px solid transparent;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 700;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+.c0:focus {
+  border-top: 4px solid #3d26da;
+}
+
+<button
+  className="c0"
+/>
+`;

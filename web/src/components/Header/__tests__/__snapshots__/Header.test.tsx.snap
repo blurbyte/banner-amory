@@ -2,14 +2,14 @@
 
 exports[`renders correctly 1`] = `
 <header
-  class="sc-bZQynM gttsZM"
+  class="sc-gzVnrw jmrvlu"
 >
   <div
-    class="sc-htoDjs follUR sc-gzVnrw kxMSbM"
+    class="sc-dnqmqq hdjipo sc-htoDjs bzhlwg"
     role="banner"
   >
     <svg
-      class="sc-dnqmqq kQFtoj"
+      class="sc-iwsKbI dccXho"
       height="90"
       viewBox="0 0 66 90"
       width="66"
@@ -29,14 +29,14 @@ exports[`renders correctly 1`] = `
       />
     </svg>
     <nav
-      class="sc-iwsKbI cfmNlW"
+      class="sc-gZMcBi gleaqt"
     >
       <div
-        class="sc-EHOje MhrNb"
+        class="sc-bZQynM bwNawS"
         role="link"
       >
         <span
-          class="sc-ifAKCX iRPLLB"
+          class="sc-EHOje hKNAYW"
         >
           <svg
             height="50"
@@ -55,18 +55,18 @@ exports[`renders correctly 1`] = `
           </svg>
         </span>
         <a
-          class="sc-bxivhb fmEfqD"
+          class="sc-ifAKCX cYjwRN"
           href="/"
         >
           Items
         </a>
       </div>
       <div
-        class="sc-EHOje MhrNb"
+        class="sc-bZQynM bwNawS"
         role="link"
       >
         <span
-          class="sc-ifAKCX iRPLLB"
+          class="sc-EHOje hKNAYW"
         >
           <svg
             height="50"
@@ -85,7 +85,7 @@ exports[`renders correctly 1`] = `
           </svg>
         </span>
         <a
-          class="sc-bxivhb fmEfqD"
+          class="sc-ifAKCX cYjwRN"
           href="/tierlist"
         >
           Tier List
@@ -99,13 +99,13 @@ exports[`renders correctly 1`] = `
         autocapitalize="off"
         autocomplete="off"
         autocorrect="off"
-        class="sc-bwzfXH gRqsFw"
+        class="sc-htpNat iePBsF sc-bwzfXH bPLioj"
         placeholder="Search items"
         spellcheck="false"
         type="search"
       />
       <button
-        class="sc-htpNat cFCNXP"
+        class="sc-bxivhb iJpYls"
         type="submit"
       >
         <svg

@@ -8,13 +8,13 @@ exports[`submits search correctly 1`] = `
     autocapitalize="off"
     autocomplete="off"
     autocorrect="off"
-    class="sc-bwzfXH gRqsFw"
+    class="sc-htpNat iePBsF sc-bwzfXH bPLioj"
     placeholder="Search items"
     spellcheck="false"
     type="search"
   />
   <button
-    class="sc-htpNat cFCNXP"
+    class="sc-bxivhb iJpYls"
     type="submit"
   >
     <svg />

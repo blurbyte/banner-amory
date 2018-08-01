@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-.c1 {
+.c0 {
   line-height: 1;
   border: none;
   outline: none;
@@ -13,33 +13,27 @@ exports[`renders correctly 1`] = `
   transition: border-top 0.15s linear 0.15s;
 }
 
-.c1::-webkit-input-placeholder {
+.c0::-webkit-input-placeholder {
   color: rgba(61,38,218,0.5);
 }
 
-.c1::-moz-placeholder {
+.c0::-moz-placeholder {
   color: rgba(61,38,218,0.5);
 }
 
-.c1:-ms-input-placeholder {
+.c0:-ms-input-placeholder {
   color: rgba(61,38,218,0.5);
 }
 
-.c1::placeholder {
+.c0::placeholder {
   color: rgba(61,38,218,0.5);
 }
 
-.c1:focus {
+.c0:focus {
   border-top: 4px solid #3d26da;
 }
 
-.c0 {
-  width: 25rem;
-  background: rgba(61,38,218,0.1);
-  padding-right: 6rem;
-}
-
 <input
-  className="c0 c1"
+  className="c0"
 />
 `;

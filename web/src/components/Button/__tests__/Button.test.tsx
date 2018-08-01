@@ -10,6 +10,10 @@ test('renders correctly', () => {
 
 test('renders correctly with icon', () => {
   const Icon = () => <>Icon</>;
-  const component = renderer.create(<Button type="submit" icon={Icon}>Submit</Button>);
+  const component = renderer.create(
+    <Button type="submit" icon={Icon}>
+      Submit
+    </Button>
+  );
   expect(component.toJSON()).toMatchSnapshot();
 });

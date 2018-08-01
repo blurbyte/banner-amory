@@ -6,13 +6,20 @@ type ButtonProps = {
   children: React.ReactNode;
   icon?: React.ComponentType<any>;
   type?: string;
-}
+};
 
 class Button extends React.Component<ButtonProps> {
   render() {
     const { children, icon: InjectedIcon, type } = this.props;
     return (
-    <Wrapper type={type}>{InjectedIcon && <Icon><InjectedIcon /></Icon>}{children}</Wrapper>
+      <Wrapper type={type}>
+        {InjectedIcon && (
+          <Icon>
+            <InjectedIcon />
+          </Icon>
+        )}
+        {children}
+      </Wrapper>
     );
   }
 }

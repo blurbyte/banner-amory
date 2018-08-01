@@ -9,16 +9,18 @@ import DiscardButton from './DiscardButton';
 
 class Comments extends React.Component {
   render() {
-    return <Wrapper>
+    return (
+      <Wrapper>
         <Form>
-          <Input placeholder="Name"/>
+          <Input placeholder="Name" />
           <Input placeholder="Comment about this item..." />
           <Actions>
             <DiscardButton />
             <SubmitButton />
           </Actions>
         </Form>
-      </Wrapper>;
+      </Wrapper>
+    );
   }
 }
 

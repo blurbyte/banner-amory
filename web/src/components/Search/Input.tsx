@@ -2,26 +2,12 @@ import styled from 'styled-components';
 import { transparentize } from 'polished';
 
 import { Color } from '@styles/color';
+import BaseInput from '../Input';
 
-const Input = styled.input`
-  line-height: 1;
-  border: none;
-  outline: none;
+const Input = styled(BaseInput)`
   width: 25rem;
-  height: 5rem;
   background: ${transparentize(0.9, Color.Blue)};
-  line-height: 1;
-  padding: 1.6rem 6rem 0 1rem;
-  border-top: 4px solid transparent;
-  transition: border-top 0.15s linear 0.15s;
-
-  ::placeholder {
-    color: ${transparentize(0.5, Color.Blue)};
-  }
-
-  &:focus {
-    border-top: 4px solid ${Color.Blue};
-  }
+  padding-right: 6rem;
 `;
 
 export default Input;

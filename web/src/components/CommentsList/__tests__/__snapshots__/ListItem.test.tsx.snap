@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c0 {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  height: 3rem;
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+
+.c1 {
+  font-weight: 600;
+  padding-right: 1rem;
+}
+
+.c2 {
+  font-weight: 400;
+}
+
+<li
+  className="c0"
+>
+  <span
+    className="c1"
+  >
+    Taylor Swift
+  </span>
+  <span
+    className="c2"
+  >
+    Hello, lets have a message here!
+  </span>
+</li>
+`;

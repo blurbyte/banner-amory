@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<ul
+  className="sc-bdVaJa kRDQbv"
+>
+  <li
+    className="sc-bwzfXH hkazQv"
+  >
+    <span
+      className="sc-htpNat gAMvjR"
+    >
+      legend27
+    </span>
+    <span
+      className="sc-bxivhb ijKRfN"
+    >
+      This item is just amazing, probably one of the best!
+    </span>
+  </li>
+  <li
+    className="sc-bwzfXH hkazQv"
+  >
+    <span
+      className="sc-htpNat gAMvjR"
+    >
+      ArianaGrande
+    </span>
+    <span
+      className="sc-bxivhb ijKRfN"
+    >
+      Dunno what you talking about, looks legit 2 me
+    </span>
+  </li>
+  <li
+    className="sc-bwzfXH hkazQv"
+  >
+    <span
+      className="sc-htpNat gAMvjR"
+    >
+      taylorswift
+    </span>
+    <span
+      className="sc-bxivhb ijKRfN"
+    >
+      Don’t understand how is it tier1 #trash
+    </span>
+  </li>
+</ul>
+`;

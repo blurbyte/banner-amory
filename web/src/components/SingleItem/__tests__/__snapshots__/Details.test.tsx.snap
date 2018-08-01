@@ -39,6 +39,32 @@ exports[`renders correctly 1`] = `
   font-weight: 600;
 }
 
+.c17 {
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0;
+  list-style: 0;
+}
+
+.c18 {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  height: 3rem;
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+
+.c19 {
+  font-weight: 600;
+  padding-right: 1rem;
+}
+
+.c20 {
+  font-weight: 400;
+}
+
 .c9 {
   margin-top: 5rem;
   opacity: 0;
@@ -302,6 +328,52 @@ exports[`renders correctly 1`] = `
         </button>
       </div>
     </form>
+    <ul
+      className="c17"
+    >
+      <li
+        className="c18"
+      >
+        <span
+          className="c19"
+        >
+          legend27
+        </span>
+        <span
+          className="c20"
+        >
+          This item is just amazing, probably one of the best!
+        </span>
+      </li>
+      <li
+        className="c18"
+      >
+        <span
+          className="c19"
+        >
+          ArianaGrande
+        </span>
+        <span
+          className="c20"
+        >
+          Dunno what you talking about, looks legit 2 me
+        </span>
+      </li>
+      <li
+        className="c18"
+      >
+        <span
+          className="c19"
+        >
+          taylorswift
+        </span>
+        <span
+          className="c20"
+        >
+          Don’t understand how is it tier1 #trash
+        </span>
+      </li>
+    </ul>
   </div>
 </div>
 `;

@@ -39,10 +39,10 @@ exports[`renders loaded item 1`] = `
       </div>
     </div>
     <div
-      class="sc-eHgmQL bRXEGD"
+      class="sc-cMljjf iUcUgE"
     >
       <div
-        class="sc-cvbbAY dRdzua"
+        class="sc-jAaTju gNAKiw"
       >
         <dl
           class="sc-gqjmRU jnylhH"
@@ -86,16 +86,16 @@ exports[`renders loaded item 1`] = `
         </dl>
       </div>
       <div
-        class="sc-ckVGcZ drdIAe"
+        class="sc-kEYyzF ezUoQQ"
       >
         <form
-          class="sc-eNQAEJ bYXaZq"
+          class="sc-iAyFgw jmFRgY"
         >
           <input
             autocapitalize="off"
             autocomplete="off"
             autocorrect="off"
-            class="sc-kEYyzF ipDGqN sc-hMqMXs caTRhS"
+            class="sc-eHgmQL gdavUD sc-hSdWYo kmuXeE"
             placeholder="Name"
             spellcheck="false"
             type="text"
@@ -104,17 +104,17 @@ exports[`renders loaded item 1`] = `
             autocapitalize="off"
             autocomplete="off"
             autocorrect="off"
-            class="sc-kEYyzF ipDGqN sc-hMqMXs caTRhS"
+            class="sc-eHgmQL gdavUD sc-hSdWYo kmuXeE"
             placeholder="Comment about this item..."
             spellcheck="false"
             type="text"
           />
           <div
-            class="sc-jKJlTe icaWRz"
+            class="sc-kkGfuU dBioqA"
           >
             <button
               aria-label="Discard comment"
-              class="sc-hSdWYo eQhjdT"
+              class="sc-brqgnP OvNsg"
               type="button"
             >
               <svg
@@ -130,11 +130,11 @@ exports[`renders loaded item 1`] = `
               </svg>
             </button>
             <button
-              class="sc-kkGfuU jPWoqg"
+              class="sc-cvbbAY dlhBHJ"
               type="submit"
             >
               <div
-                class="sc-iAyFgw kMbVTm"
+                class="sc-jWBwVP bVCCxC"
               >
                 <svg
                   height="38"
@@ -156,6 +156,52 @@ exports[`renders loaded item 1`] = `
             </button>
           </div>
         </form>
+        <ul
+          class="sc-ckVGcZ cYFBtV"
+        >
+          <li
+            class="sc-jKJlTe gKdOuS"
+          >
+            <span
+              class="sc-eNQAEJ hPmEhD"
+            >
+              legend27
+            </span>
+            <span
+              class="sc-hMqMXs czcoUc"
+            >
+              This item is just amazing, probably one of the best!
+            </span>
+          </li>
+          <li
+            class="sc-jKJlTe gKdOuS"
+          >
+            <span
+              class="sc-eNQAEJ hPmEhD"
+            >
+              ArianaGrande
+            </span>
+            <span
+              class="sc-hMqMXs czcoUc"
+            >
+              Dunno what you talking about, looks legit 2 me
+            </span>
+          </li>
+          <li
+            class="sc-jKJlTe gKdOuS"
+          >
+            <span
+              class="sc-eNQAEJ hPmEhD"
+            >
+              taylorswift
+            </span>
+            <span
+              class="sc-hMqMXs czcoUc"
+            >
+              Don’t understand how is it tier1 #trash
+            </span>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

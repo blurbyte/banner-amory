@@ -2,16 +2,16 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="sc-bdVaJa eFqoeI"
+  className="sc-ifAKCX kMRQgB"
 >
   <form
-    className="sc-htpNat fZvQts"
+    className="sc-bZQynM fYiQKi"
   >
     <input
       autoCapitalize="off"
       autoComplete="off"
       autoCorrect="off"
-      className="sc-ifAKCX clakYz sc-bxivhb eoTiRp"
+      className="sc-htoDjs fkEDQx sc-gzVnrw fcwgoW"
       placeholder="Name"
       spellCheck={false}
       type="text"
@@ -20,17 +20,17 @@ exports[`renders correctly 1`] = `
       autoCapitalize="off"
       autoComplete="off"
       autoCorrect="off"
-      className="sc-ifAKCX clakYz sc-bxivhb eoTiRp"
+      className="sc-htoDjs fkEDQx sc-gzVnrw fcwgoW"
       placeholder="Comment about this item..."
       spellCheck={false}
       type="text"
     />
     <div
-      className="sc-bwzfXH gsQgfM"
+      className="sc-EHOje bhFNne"
     >
       <button
         aria-label="Discard comment"
-        className="sc-gzVnrw cEgOFs"
+        className="sc-gZMcBi fotqmX"
         type="button"
       >
         <svg
@@ -46,11 +46,11 @@ exports[`renders correctly 1`] = `
         </svg>
       </button>
       <button
-        className="sc-EHOje elNWAq"
+        className="sc-dnqmqq dPxAQK"
         type="submit"
       >
         <div
-          className="sc-bZQynM lekWFL"
+          className="sc-iwsKbI cDLwaF"
         >
           <svg
             height="38"
@@ -72,5 +72,51 @@ exports[`renders correctly 1`] = `
       </button>
     </div>
   </form>
+  <ul
+    className="sc-bdVaJa kRDQbv"
+  >
+    <li
+      className="sc-bwzfXH hkazQv"
+    >
+      <span
+        className="sc-htpNat gAMvjR"
+      >
+        legend27
+      </span>
+      <span
+        className="sc-bxivhb ijKRfN"
+      >
+        This item is just amazing, probably one of the best!
+      </span>
+    </li>
+    <li
+      className="sc-bwzfXH hkazQv"
+    >
+      <span
+        className="sc-htpNat gAMvjR"
+      >
+        ArianaGrande
+      </span>
+      <span
+        className="sc-bxivhb ijKRfN"
+      >
+        Dunno what you talking about, looks legit 2 me
+      </span>
+    </li>
+    <li
+      className="sc-bwzfXH hkazQv"
+    >
+      <span
+        className="sc-htpNat gAMvjR"
+      >
+        taylorswift
+      </span>
+      <span
+        className="sc-bxivhb ijKRfN"
+      >
+        Don’t understand how is it tier1 #trash
+      </span>
+    </li>
+  </ul>
 </div>
 `;

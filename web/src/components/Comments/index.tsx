@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import CommentsList from '../CommentsList';
 import Wrapper from './Wrapper';
 import Actions from './Actions';
 import Form from './Form';
@@ -19,6 +20,7 @@ class Comments extends React.Component {
             <SubmitButton />
           </Actions>
         </Form>
+        <CommentsList />
       </Wrapper>
     );
   }

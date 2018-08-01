@@ -97,13 +97,13 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jKJlTe fopKEC"
+      className="sc-kkGfuU gxBVgH"
     >
       <div
-        className="sc-eNQAEJ dsXeQR"
+        className="sc-iAyFgw hxQxZG"
       >
         <p
-          className="sc-hMqMXs hVpGFy"
+          className="sc-hSdWYo brXffs"
         >
           Lovingly made by a hunter's wife to keep her daughter safe from harm.
         </p>
@@ -156,16 +156,16 @@ Array [
         </dl>
       </div>
       <div
-        className="sc-cSHVUG irnxUS"
+        className="sc-kGXeez bTPMsS"
       >
         <form
-          className="sc-chPdSV RPhhE"
+          className="sc-dxgOiQ bMAANQ"
         >
           <input
             autoCapitalize="off"
             autoComplete="off"
             autoCorrect="off"
-            className="sc-kGXeez cLqoGC sc-kgoBCf elMYl"
+            className="sc-jKJlTe eEZknr sc-ckVGcZ dQHGlx"
             placeholder="Name"
             spellCheck={false}
             type="text"
@@ -174,17 +174,17 @@ Array [
             autoCapitalize="off"
             autoComplete="off"
             autoCorrect="off"
-            className="sc-kGXeez cLqoGC sc-kgoBCf elMYl"
+            className="sc-jKJlTe eEZknr sc-ckVGcZ dQHGlx"
             placeholder="Comment about this item..."
             spellCheck={false}
             type="text"
           />
           <div
-            className="sc-kAzzGY iSfnGf"
+            className="sc-kpOJdX dhzOwp"
           >
             <button
               aria-label="Discard comment"
-              className="sc-ckVGcZ jFwQDY"
+              className="sc-kEYyzF hHLpeL"
               type="button"
             >
               <svg
@@ -200,11 +200,11 @@ Array [
               </svg>
             </button>
             <button
-              className="sc-kpOJdX kSdPDq"
+              className="sc-eNQAEJ hBBEha"
               type="submit"
             >
               <div
-                className="sc-dxgOiQ iLOKHQ"
+                className="sc-hMqMXs dYHNEB"
               >
                 <svg
                   height="38"
@@ -226,6 +226,52 @@ Array [
             </button>
           </div>
         </form>
+        <ul
+          className="sc-cSHVUG kJzjkY"
+        >
+          <li
+            className="sc-kAzzGY ikpMQX"
+          >
+            <span
+              className="sc-chPdSV cnLoJV"
+            >
+              legend27
+            </span>
+            <span
+              className="sc-kgoBCf cOOXiH"
+            >
+              This item is just amazing, probably one of the best!
+            </span>
+          </li>
+          <li
+            className="sc-kAzzGY ikpMQX"
+          >
+            <span
+              className="sc-chPdSV cnLoJV"
+            >
+              ArianaGrande
+            </span>
+            <span
+              className="sc-kgoBCf cOOXiH"
+            >
+              Dunno what you talking about, looks legit 2 me
+            </span>
+          </li>
+          <li
+            className="sc-kAzzGY ikpMQX"
+          >
+            <span
+              className="sc-chPdSV cnLoJV"
+            >
+              taylorswift
+            </span>
+            <span
+              className="sc-kgoBCf cOOXiH"
+            >
+              Don’t understand how is it tier1 #trash
+            </span>
+          </li>
+        </ul>
       </div>
     </div>
   </div>,

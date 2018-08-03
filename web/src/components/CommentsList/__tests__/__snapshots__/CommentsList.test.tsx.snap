@@ -1,6 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`renders correctly when there are multiple comments 1`] = `
+<ul
+  className="sc-bdVaJa kRDQbv"
+>
+  <li
+    className="sc-bwzfXH hkazQv"
+  >
+    <span
+      className="sc-htpNat gAMvjR"
+    >
+      ghandi
+    </span>
+    <span
+      className="sc-bxivhb ijKRfN"
+    >
+      Where there is love there is life
+    </span>
+  </li>
+  <li
+    className="sc-bwzfXH hkazQv"
+  >
+    <span
+      className="sc-htpNat gAMvjR"
+    >
+      Ariana Grande
+    </span>
+    <span
+      className="sc-bxivhb ijKRfN"
+    >
+      So true!
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`renders correctly when there is only one comment 1`] = `
 <ul
   className="sc-bdVaJa kRDQbv"
 >
@@ -15,35 +50,7 @@ exports[`renders correctly 1`] = `
     <span
       className="sc-bxivhb ijKRfN"
     >
-      This item is just amazing, probably one of the best!
-    </span>
-  </li>
-  <li
-    className="sc-bwzfXH hkazQv"
-  >
-    <span
-      className="sc-htpNat gAMvjR"
-    >
-      ArianaGrande
-    </span>
-    <span
-      className="sc-bxivhb ijKRfN"
-    >
-      Dunno what you talking about, looks legit 2 me
-    </span>
-  </li>
-  <li
-    className="sc-bwzfXH hkazQv"
-  >
-    <span
-      className="sc-htpNat gAMvjR"
-    >
-      taylorswift
-    </span>
-    <span
-      className="sc-bxivhb ijKRfN"
-    >
-      Don’t understand how is it tier1 #trash
+      This Taylor Swift song is amzaing
     </span>
   </li>
 </ul>

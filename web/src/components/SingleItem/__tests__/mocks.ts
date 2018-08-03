@@ -12,7 +12,13 @@ export const testItem: Item = {
   statStrength: 1,
   statWillpower: 1,
   statArmor: 1,
-  acquirementHero: 'Alette'
+  acquirementHero: 'Alette',
+  comments: [
+    {
+      userName: 'legend27',
+      message: 'Too good for my taste'
+    }
+  ]
 };
 
 export const singleItemMock: MockedResponse[] = [

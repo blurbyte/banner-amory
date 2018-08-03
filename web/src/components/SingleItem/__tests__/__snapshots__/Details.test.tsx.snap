@@ -342,35 +342,7 @@ exports[`renders correctly 1`] = `
         <span
           className="c20"
         >
-          This item is just amazing, probably one of the best!
-        </span>
-      </li>
-      <li
-        className="c18"
-      >
-        <span
-          className="c19"
-        >
-          ArianaGrande
-        </span>
-        <span
-          className="c20"
-        >
-          Dunno what you talking about, looks legit 2 me
-        </span>
-      </li>
-      <li
-        className="c18"
-      >
-        <span
-          className="c19"
-        >
-          taylorswift
-        </span>
-        <span
-          className="c20"
-        >
-          Don’t understand how is it tier1 #trash
+          Too good for my taste
         </span>
       </li>
     </ul>

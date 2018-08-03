@@ -49,6 +49,10 @@ export const getSingleItem = gql`
       acquirementGodstone
       acquirementHero
       trivia
+      comments {
+        userName
+        message
+      }
     }
   }
 `;

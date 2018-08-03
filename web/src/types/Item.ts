@@ -1,8 +1,11 @@
+import { Comment } from './Comment';
+
 export type Item = {
   name: string;
   slug: string;
   gamePart: 1 | 2;
   rank: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10;
+  comments: Comment[];
   description?: string;
   price?: number;
   statStrength?: number;

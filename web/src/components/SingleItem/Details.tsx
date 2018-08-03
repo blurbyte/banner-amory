@@ -37,6 +37,7 @@ type DetailsProps = Pick<
   | 'acquirementGodstone'
   | 'acquirementHero'
   | 'trivia'
+  | 'comments'
 >;
 
 class Details extends React.Component<DetailsProps> {
@@ -50,7 +51,8 @@ class Details extends React.Component<DetailsProps> {
       acquirementQuest,
       acquirementGodstone,
       acquirementHero,
-      trivia
+      trivia,
+      comments
     } = this.props;
     return (
       <Wrapper>
@@ -104,7 +106,7 @@ class Details extends React.Component<DetailsProps> {
             </Property>
           )}
         </Properties>
-        <Comments />
+        <Comments comments={comments} />
       </Wrapper>
     );
   }

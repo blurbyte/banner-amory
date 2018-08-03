@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import { Comment } from '@sharedTypes/Comment';
 import CommentsList from '../CommentsList';
 import Wrapper from './Wrapper';
 import Actions from './Actions';
@@ -7,9 +8,15 @@ import Form from './Form';
 import Input from './Input';
 import SubmitButton from './SubmitButton';
 import DiscardButton from './DiscardButton';
+import NoComments from './NoComments';
 
-class Comments extends React.Component {
+type CommentsProps = {
+  comments: Comment[];
+};
+
+class Comments extends React.Component<CommentsProps> {
   render() {
+    const { comments } = this.props;
     return (
       <Wrapper>
         <Form>
@@ -20,7 +27,11 @@ class Comments extends React.Component {
             <SubmitButton />
           </Actions>
         </Form>
-        <CommentsList />
+        {comments.length ? (
+          <CommentsList comments={comments} />
+        ) : (
+          <NoComments>There are no comments here yet.</NoComments>
+        )}
       </Wrapper>
     );
   }

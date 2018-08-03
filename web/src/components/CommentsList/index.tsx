@@ -1,21 +1,25 @@
 import * as React from 'react';
 
+import { Comment } from '@sharedTypes/Comment';
 import List from './List';
 import ListItem from './ListItem';
 
-class CommentsList extends React.Component {
+type CommentsListProps = {
+  comments: Comment[];
+};
+
+class CommentsList extends React.Component<CommentsListProps> {
   render() {
+    const { comments } = this.props;
     return (
       <List>
-        <ListItem
-          userName="legend27"
-          message="This item is just amazing, probably one of the best!"
-        />
-        <ListItem
-          userName="ArianaGrande"
-          message="Dunno what you talking about, looks legit 2 me"
-        />
-        <ListItem userName="taylorswift" message="Don’t understand how is it tier1 #trash" />
+        {comments.map((comment, index) => (
+          <ListItem
+            key={`${comment.userName}-${index}`}
+            userName={comment.userName}
+            message={comment.message}
+          />
+        ))}
       </List>
     );
   }

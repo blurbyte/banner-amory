@@ -46,7 +46,8 @@ class DetailedItem extends React.Component<ItemProps> {
       knockback,
       defy,
       extraRange,
-      extraStrengthOnAttack
+      extraStrengthOnAttack,
+      comments
     } = this.props;
     return (
       <>
@@ -96,7 +97,8 @@ class DetailedItem extends React.Component<ItemProps> {
               acquirementQuest,
               acquirementGodstone,
               acquirementHero,
-              trivia
+              trivia,
+              comments
             }}
           />
         </Layout>

@@ -7,15 +7,16 @@ import Wrapper from './Wrapper';
 import NoComments from './NoComments';
 
 type CommentsProps = {
+  itemId: number;
   comments: Comment[];
 };
 
 class Comments extends React.Component<CommentsProps> {
   render() {
-    const { comments } = this.props;
+    const { itemId, comments } = this.props;
     return (
       <Wrapper>
-        <AddComment />
+        <AddComment itemId={itemId} />
         {comments.length ? (
           <CommentsList comments={comments} />
         ) : (

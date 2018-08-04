@@ -10,6 +10,7 @@ import Details from './Details';
 class DetailedItem extends React.Component<ItemProps> {
   render() {
     const {
+      id,
       name,
       slug,
       description,
@@ -89,6 +90,7 @@ class DetailedItem extends React.Component<ItemProps> {
           />
           <Details
             {...{
+              id,
               description,
               gamePart,
               rank,

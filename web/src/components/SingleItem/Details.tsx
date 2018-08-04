@@ -28,6 +28,7 @@ const Description = styled.p`
 
 type DetailsProps = Pick<
   Item,
+  | 'id'
   | 'description'
   | 'gamePart'
   | 'rank'
@@ -43,6 +44,7 @@ type DetailsProps = Pick<
 class Details extends React.Component<DetailsProps> {
   render() {
     const {
+      id,
       description,
       gamePart,
       rank,
@@ -106,7 +108,7 @@ class Details extends React.Component<DetailsProps> {
             </Property>
           )}
         </Properties>
-        <Comments comments={comments} />
+        <Comments itemId={id} comments={comments} />
       </Wrapper>
     );
   }

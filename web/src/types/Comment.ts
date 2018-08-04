@@ -3,3 +3,9 @@ export type Comment = {
   userName: string;
   message: string;
 };
+
+export type AddCommentInput = {
+  itemId: number;
+  userName: string;
+  message: string;
+};

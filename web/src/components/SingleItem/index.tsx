@@ -12,6 +12,7 @@ import DetailedItem from './DetailedItem';
 export const getSingleItem = gql`
   query getSingleItem($slug: String!) {
     item(slug: $slug) {
+      id
       name
       slug
       gamePart

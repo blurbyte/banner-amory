@@ -1,60 +1,33 @@
 import * as React from 'react';
+import { gql } from 'apollo-boost';
+import { Mutation } from 'react-apollo';
 
-import Form from './Form';
-import Input from './Input';
-import Actions from './Actions';
-import DiscardButton from './DiscardButton';
-import SubmitButton from './SubmitButton';
+import Form from '../AddCommentForm';
 
-const initialState = {
-  userName: '',
-  message: ''
+const addSingleComment = gql`
+  mutation addComment($input: AddCommentInput!) {
+    addComment(input: $input) {
+      id
+      userName
+      message
+    }
+  }
+`;
+
+type AddCommentProps = {
+  itemId: number;
 };
 
-type AddCommentState = Readonly<typeof initialState>;
-
-class AddComment extends React.Component<{}, AddCommentState> {
-  readonly state = initialState;
-
+class AddComment extends React.Component<AddCommentProps> {
   render() {
+    const { itemId } = this.props;
+
     return (
-      <Form>
-        <Input
-          placeholder="Name"
-          name="userName"
-          value={this.state.userName}
-          onChange={this.handleInputChange}
-        />
-        <Input
-          placeholder="Comment about this item..."
-          name="message"
-          value={this.state.message}
-          onChange={this.handleInputChange}
-        />
-        {showActions(this.state) && <Actions>
-          <DiscardButton onClick={this.discardComment} />
-          <SubmitButton />
-        </Actions>}
-      </Form>
+      <Mutation mutation={addSingleComment}>
+        {addComment => <Form itemId={itemId} addComment={addComment} />}
+      </Mutation>
     );
   }
-
-  private handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = event.target;
-
-    this.setState({
-      [name]: value
-    } as AddCommentState);
-  };
-
-  private discardComment = () => {
-    console.log('discard comment');
-    this.setState(initialState);
-  };
-}
-
-function showActions(state: AddCommentState) {
-  return state.userName !== '' && state.message !== '';
 }
 
 export default AddComment;

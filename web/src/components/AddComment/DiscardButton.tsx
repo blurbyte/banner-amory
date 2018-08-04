@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { Color } from '@styles/color';
 import { Cross } from '../Icons';
 
-const Wrapper = styled.button`
+const Button = styled.button`
   width: 3.4rem;
   height: 3.4rem;
   outline: 0;
@@ -14,14 +14,19 @@ const Wrapper = styled.button`
   margin-right: 2rem;
 `;
 
-class CloseButton extends React.Component {
+type DiscardButtonProps = {
+  onClick: () => void;
+};
+
+class DiscardButton extends React.Component<DiscardButtonProps> {
   render() {
+    const { onClick } = this.props;
     return (
-      <Wrapper type="button" aria-label="Discard comment">
+      <Button type="button" onClick={onClick} aria-label="Discard comment">
         <Cross />
-      </Wrapper>
+      </Button>
     );
   }
 }
 
-export default CloseButton;
+export default DiscardButton;

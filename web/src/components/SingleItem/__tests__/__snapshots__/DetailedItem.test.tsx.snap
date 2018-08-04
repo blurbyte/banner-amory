@@ -156,16 +156,16 @@ Array [
         </dl>
       </div>
       <div
-        className="sc-kGXeez KsLze"
+        className="sc-kEYyzF hzMfFD"
       >
         <form
-          className="sc-dxgOiQ bMAANQ"
+          className="sc-cSHVUG eLSiSa"
         >
           <input
             autoCapitalize="off"
             autoComplete="off"
             autoCorrect="off"
-            className="sc-jKJlTe eEZknr sc-ckVGcZ dQHGlx"
+            className="sc-chPdSV eqUoNA sc-kAzzGY aBujD"
             placeholder="Name"
             spellCheck={false}
             type="text"
@@ -174,17 +174,17 @@ Array [
             autoCapitalize="off"
             autoComplete="off"
             autoCorrect="off"
-            className="sc-jKJlTe eEZknr sc-ckVGcZ dQHGlx"
+            className="sc-chPdSV eqUoNA sc-kAzzGY aBujD"
             placeholder="Comment about this item..."
             spellCheck={false}
             type="text"
           />
           <div
-            className="sc-kpOJdX dhzOwp"
+            className="sc-kgoBCf ddKjdP"
           >
             <button
               aria-label="Discard comment"
-              className="sc-kEYyzF hHLpeL"
+              className="sc-kGXeez leeTOn"
               type="button"
             >
               <svg
@@ -200,11 +200,11 @@ Array [
               </svg>
             </button>
             <button
-              className="sc-eNQAEJ hBBEha"
+              className="sc-kpOJdX kSdPDq"
               type="submit"
             >
               <div
-                className="sc-hMqMXs dYHNEB"
+                className="sc-dxgOiQ iLOKHQ"
               >
                 <svg
                   height="38"
@@ -227,18 +227,18 @@ Array [
           </div>
         </form>
         <ul
-          className="sc-cSHVUG kJzjkY"
+          className="sc-ckVGcZ cYFBtV"
         >
           <li
-            className="sc-kAzzGY ikpMQX"
+            className="sc-jKJlTe gKdOuS"
           >
             <span
-              className="sc-chPdSV cnLoJV"
+              className="sc-eNQAEJ hPmEhD"
             >
               legend27
             </span>
             <span
-              className="sc-kgoBCf cOOXiH"
+              className="sc-hMqMXs czcoUc"
             >
               Too good for my taste
             </span>

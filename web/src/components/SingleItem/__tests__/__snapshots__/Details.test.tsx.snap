@@ -39,56 +39,6 @@ exports[`renders correctly 1`] = `
   font-weight: 600;
 }
 
-.c17 {
-  margin: 0;
-  margin-top: 1rem;
-  padding: 0;
-  list-style: 0;
-}
-
-.c18 {
-  display: grid;
-  grid-template-columns: 15rem 1fr;
-  height: 3rem;
-  -webkit-align-items: end;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: end;
-}
-
-.c19 {
-  font-weight: 600;
-  padding-right: 1rem;
-}
-
-.c20 {
-  font-weight: 400;
-}
-
-.c9 {
-  margin-top: 4rem;
-  opacity: 0;
-  -webkit-animation: abQtS 400ms ease-in forwards 1000ms;
-  animation: abQtS 400ms ease-in forwards 1000ms;
-  border-top: 1px solid #3d26da;
-}
-
-.c13 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-align-items: flex-end;
-  -webkit-box-align: flex-end;
-  -ms-flex-align: flex-end;
-  align-items: flex-end;
-  width: 100%;
-}
-
 .c10 {
   display: grid;
   grid-template-columns: 15rem 1fr 25rem;
@@ -131,6 +81,32 @@ exports[`renders correctly 1`] = `
   padding-left: 0;
 }
 
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.c14 {
+  width: 3.4rem;
+  height: 3.4rem;
+  outline: 0;
+  border: 0;
+  color: #d92f29;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
 .c15 {
   position: relative;
   display: -webkit-box;
@@ -170,14 +146,38 @@ exports[`renders correctly 1`] = `
   left: -2rem;
 }
 
-.c14 {
-  width: 3.4rem;
-  height: 3.4rem;
-  outline: 0;
-  border: 0;
-  color: #d92f29;
-  cursor: pointer;
-  margin-right: 2rem;
+.c17 {
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0;
+  list-style: 0;
+}
+
+.c18 {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  height: 3rem;
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+
+.c19 {
+  font-weight: 600;
+  padding-right: 1rem;
+}
+
+.c20 {
+  font-weight: 400;
+}
+
+.c9 {
+  margin-top: 4rem;
+  opacity: 0;
+  -webkit-animation: abQtS 400ms ease-in forwards 1000ms;
+  animation: abQtS 400ms ease-in forwards 1000ms;
+  border-top: 1px solid #3d26da;
 }
 
 .c0 {

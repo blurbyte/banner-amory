@@ -2,16 +2,16 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="sc-ifAKCX bfYiIt"
+  className="sc-gZMcBi jDRBlW"
 >
   <form
-    className="sc-bZQynM fYiQKi"
+    className="sc-bdVaJa fyQqOy"
   >
     <input
       autoCapitalize="off"
       autoComplete="off"
       autoCorrect="off"
-      className="sc-htoDjs fkEDQx sc-gzVnrw fcwgoW"
+      className="sc-htpNat epXOEy sc-bwzfXH bPLioj"
       placeholder="Name"
       spellCheck={false}
       type="text"
@@ -20,17 +20,17 @@ exports[`renders correctly 1`] = `
       autoCapitalize="off"
       autoComplete="off"
       autoCorrect="off"
-      className="sc-htoDjs fkEDQx sc-gzVnrw fcwgoW"
+      className="sc-htpNat epXOEy sc-bwzfXH bPLioj"
       placeholder="Comment about this item..."
       spellCheck={false}
       type="text"
     />
     <div
-      className="sc-EHOje bhFNne"
+      className="sc-bxivhb kCGQgL"
     >
       <button
         aria-label="Discard comment"
-        className="sc-gZMcBi fotqmX"
+        className="sc-ifAKCX jcDTlJ"
         type="button"
       >
         <svg
@@ -46,11 +46,11 @@ exports[`renders correctly 1`] = `
         </svg>
       </button>
       <button
-        className="sc-dnqmqq dPxAQK"
+        className="sc-EHOje elNWAq"
         type="submit"
       >
         <div
-          className="sc-iwsKbI cDLwaF"
+          className="sc-bZQynM lekWFL"
         >
           <svg
             height="38"
@@ -73,32 +73,32 @@ exports[`renders correctly 1`] = `
     </div>
   </form>
   <ul
-    className="sc-bdVaJa kRDQbv"
+    className="sc-gzVnrw dooAse"
   >
     <li
-      className="sc-bwzfXH hkazQv"
+      className="sc-htoDjs hiQaFW"
     >
       <span
-        className="sc-htpNat gAMvjR"
+        className="sc-dnqmqq icGvMt"
       >
         legend27
       </span>
       <span
-        className="sc-bxivhb ijKRfN"
+        className="sc-iwsKbI uTWQM"
       >
         This Taylor Swift song is amzaing
       </span>
     </li>
     <li
-      className="sc-bwzfXH hkazQv"
+      className="sc-htoDjs hiQaFW"
     >
       <span
-        className="sc-htpNat gAMvjR"
+        className="sc-dnqmqq icGvMt"
       >
         taylorSwift
       </span>
       <span
-        className="sc-bxivhb ijKRfN"
+        className="sc-iwsKbI uTWQM"
       >
         really appreciated
       </span>
@@ -109,16 +109,16 @@ exports[`renders correctly 1`] = `
 
 exports[`renders correctly when there are no comments 1`] = `
 <div
-  className="sc-ifAKCX bfYiIt"
+  className="sc-gZMcBi jDRBlW"
 >
   <form
-    className="sc-bZQynM fYiQKi"
+    className="sc-bdVaJa fyQqOy"
   >
     <input
       autoCapitalize="off"
       autoComplete="off"
       autoCorrect="off"
-      className="sc-htoDjs fkEDQx sc-gzVnrw fcwgoW"
+      className="sc-htpNat epXOEy sc-bwzfXH bPLioj"
       placeholder="Name"
       spellCheck={false}
       type="text"
@@ -127,17 +127,17 @@ exports[`renders correctly when there are no comments 1`] = `
       autoCapitalize="off"
       autoComplete="off"
       autoCorrect="off"
-      className="sc-htoDjs fkEDQx sc-gzVnrw fcwgoW"
+      className="sc-htpNat epXOEy sc-bwzfXH bPLioj"
       placeholder="Comment about this item..."
       spellCheck={false}
       type="text"
     />
     <div
-      className="sc-EHOje bhFNne"
+      className="sc-bxivhb kCGQgL"
     >
       <button
         aria-label="Discard comment"
-        className="sc-gZMcBi fotqmX"
+        className="sc-ifAKCX jcDTlJ"
         type="button"
       >
         <svg
@@ -153,11 +153,11 @@ exports[`renders correctly when there are no comments 1`] = `
         </svg>
       </button>
       <button
-        className="sc-dnqmqq dPxAQK"
+        className="sc-EHOje elNWAq"
         type="submit"
       >
         <div
-          className="sc-iwsKbI cDLwaF"
+          className="sc-bZQynM lekWFL"
         >
           <svg
             height="38"

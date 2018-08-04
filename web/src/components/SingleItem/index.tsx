@@ -50,6 +50,7 @@ export const getSingleItem = gql`
       acquirementHero
       trivia
       comments {
+        id
         userName
         message
       }

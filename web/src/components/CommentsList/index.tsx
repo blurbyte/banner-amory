@@ -13,9 +13,9 @@ class CommentsList extends React.Component<CommentsListProps> {
     const { comments } = this.props;
     return (
       <List>
-        {comments.map((comment, index) => (
+        {comments.map(comment => (
           <ListItem
-            key={`${comment.userName}-${index}`}
+            key={`${comment.userName}-${comment.id}`}
             userName={comment.userName}
             message={comment.message}
           />

@@ -15,6 +15,7 @@ export const testItem: Item = {
   acquirementHero: 'Alette',
   comments: [
     {
+      id: 1,
       userName: 'legend27',
       message: 'Too good for my taste'
     }

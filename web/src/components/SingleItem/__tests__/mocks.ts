@@ -4,6 +4,7 @@ import { Item } from '@sharedTypes/Item';
 import { getSingleItem } from '../index';
 
 export const testItem: Item = {
+  id: 1,
   name: "Alette's Bracelet",
   slug: 'alettes-bracelet',
   gamePart: 1,

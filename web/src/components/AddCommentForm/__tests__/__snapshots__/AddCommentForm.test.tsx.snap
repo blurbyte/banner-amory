@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<form
+  className="sc-bdVaJa fyQqOy"
+  onSubmit={[Function]}
+>
+  <input
+    autoCapitalize="off"
+    autoComplete="off"
+    autoCorrect="off"
+    className="sc-htpNat epXOEy sc-bwzfXH bPLioj"
+    name="userName"
+    onChange={[Function]}
+    placeholder="Name"
+    spellCheck={false}
+    type="text"
+    value=""
+  />
+  <input
+    autoCapitalize="off"
+    autoComplete="off"
+    autoCorrect="off"
+    className="sc-htpNat epXOEy sc-bwzfXH bPLioj"
+    name="message"
+    onChange={[Function]}
+    placeholder="Comment about this item..."
+    spellCheck={false}
+    type="text"
+    value=""
+  />
+</form>
+`;
